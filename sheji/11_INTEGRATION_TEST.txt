@@ -1,0 +1,17 @@
+### 11_INTEGRATION_TEST.txt（集成测试）
+
+```txt
+关键内容:
+- 冒烟测试（端到端）
+- 显存泄漏检测
+- 数值梯度检查
+- 确定性验证（相同种子=相同结果）
+- 48小时压力测试模拟
+
+测试用例:
+- test_imports()
+- test_memory_budget()
+- test_gradient_flow()
+- test_determinism()
+- test_48h_stability()
+```

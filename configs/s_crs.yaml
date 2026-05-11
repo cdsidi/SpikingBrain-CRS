@@ -1,0 +1,40 @@
+# SpikingBrain-CRS 完整超参（fangan.md §2.2）
+model: s_crs
+dataset: lc25000
+
+# 模型结构
+d_model: 160
+d_k: 32
+num_heads: 5
+window_size: 256
+d_ff: 512
+blank_ratio: 0.3
+num_layers: 2
+num_classes: 5
+spiking_k: 2.0
+
+# 训练
+batch_size: 4
+grad_accum_steps: 4
+lr: 1.0e-4
+max_grad_norm: 1.0
+epochs: 20
+seed: 42
+
+# 优化器
+optimizer: adamw
+weight_decay: 0.01
+lr_scheduler: cosine
+
+# FSRS
+fsrs:
+  request_retention: 0.9
+  desired_retention: 0.9
+  sm2_initial_interval: 1
+  sm2_easiness_factor: 2.5
+  w: [0.4, 0.6, 2.4, 5.8, 4.9, 0.8, 1.6, 0.2, 1.3, 0.14,
+      0.94, 2.18, 0.05, 0.34, 1.26, 0.29, 2.61, 0.11, 0.31]
+
+# 硬件
+device: cpu
+enable_amp: false

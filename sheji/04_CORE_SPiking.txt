@@ -1,0 +1,451 @@
+### 04_CORE_SPIKING.txt（脉冲核心组件）
+
+```txt
+================================================================================
+文档: 04_CORE_SPIKING.txt
+标题: 脉冲神经网络核心组件 - GLA/SWA/SpikingFFN实现
+依赖: 02_ARCHITECTURE.txt (Layer 1接口)
+================================================================================
+
+【数学基础】
+
+1. GLA (Gated Linear Attention) 状态更新:
+   S_t = diag(g_t) ⊙ S_{t-1} + k_t ⊙ v_t
+   
+   其中:
+   - g_t = σ(W_g · x_t) ∈ [0,1]^d_k  (门控向量)
+   - k_t, v_t = W_k·x_t, W_v·x_t     (键值投影)
+   - ⊙ 表示逐元素乘法
+   
+   输出: o_t = q_t · S_t, 其中 q_t = W_q·x_t
+
+2. 自适应阈值脉冲编码:
+   V_th = mean(|x|) / k
+   
+   s_int = round(x / V_th) ∈ [-8, 8]  (限制范围)
+   
+   三进制解码: s_t = sign(s_int) if |s_int| > t else 0, t ∈ [0, max(|s_int|)]
+
+3. 复杂度对比:
+   - 标准自注意力: O(n²·d)
+   - GLA: O(n·d_k²)  (线性于序列长度)
+   - SWA: O(n·w·d)   (w为固定窗口)
+
+【组件1: GatedLinearAttention】
+
+```python
+class GatedLinearAttention(nn.Module):
+    """
+    门控线性注意力，复杂度O(n·d_k²)
+    生物对应: 丘脑-皮层门控回路，感觉信息筛选
+    """
+    
+    def __init__(
+        self,
+        d_model: int = 384,
+        d_k: int = 64,
+        num_heads: int = 6,
+        modality: str = 'pathology',
+        dropout: float = 0.1
+    ):
+        super().__init__()
+        assert d_model % num_heads == 0, "d_model必须可被num_heads整除"
+        
+        self.d_model = d_model
+        self.d_k = d_k
+        self.num_heads = num_heads
+        self.d_head = d_k // num_heads  # 每头维度
+        
+        # 投影层
+        self.proj_q = nn.Linear(d_model, d_k, bias=False)
+        self.proj_k = nn.Linear(d_model, d_k, bias=False)
+        self.proj_v = nn.Linear(d_model, d_k, bias=False)
+        
+        # 门控层（关键创新）
+        self.gate = nn.Linear(d_model, d_k, bias=True)
+        
+        # 医学特化初始化
+        if modality == 'pathology':
+            # 病理图像需要更强的特征筛选
+            nn.init.xavier_uniform_(self.gate.weight, gain=1.5)
+            nn.init.constant_(self.gate.bias, -0.5)  # 初始偏负，更稀疏
+        elif modality == 'ecg':
+            # 心电需要保留时序连续性
+            nn.init.xavier_uniform_(self.gate.weight, gain=1.0)
+            nn.init.constant_(self.gate.bias, 0.0)
+        
+        self.proj_out = nn.Linear(d_k, d_model, bias=False)
+        self.norm = nn.LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
+        
+        # 状态初始化（用于Recursion）
+        self.register_buffer('state_init', torch.zeros(1, 1, d_k))
+        
+    def forward(
+        self,
+        x: torch.Tensor,
+        state: Optional[torch.Tensor] = None,
+        return_gate: bool = False
+    ) -> Union[Tuple[torch.Tensor, torch.Tensor], Tuple[torch.Tensor, torch.Tensor, torch.Tensor]]:
+        """
+        Args:
+            x: [batch, seq_len, d_model], 输入序列
+            state: [batch, seq_len, d_k]或None，递归状态
+            
+        Returns:
+            output: [batch, seq_len, d_model]
+            new_state: [batch, seq_len, d_k]，用于下一时间步
+            gate (可选): [batch, seq_len, d_k]，门控激活值
+        """
+        batch, seq_len, _ = x.shape
+        
+        residual = x
+        x = self.norm(x)
+        
+        # 投影到d_k空间
+        q = self.proj_q(x)  # [B, L, d_k]
+        k = self.proj_k(x)
+        v = self.proj_v(x)
+        
+        # 门控: 模拟精讲阶段的注意力聚焦
+        g = torch.sigmoid(self.gate(x))  # [B, L, d_k]
+        
+        # 状态更新: S_t = g * S_{t-1} + k * v
+        if state is None:
+            state = self.state_init.expand(batch, seq_len, self.d_k)
+        
+        # 逐位置更新（模拟递归，但并行计算）
+        # 实际实现使用cumsum技巧优化
+        kv = k * v  # [B, L, d_k]
+        
+        # 门控累积: G_i = prod_{j=1}^{i} g_j
+        log_g = torch.log(g + 1e-10)
+        cumsum_log_g = torch.cumsum(log_g, dim=1)
+        G = torch.exp(cumsum_log_g)  # [B, L, d_k]
+        
+        # 加权累积和
+        weighted_kv = kv * G
+        S = torch.cumsum(weighted_kv, dim=1) / (G + 1e-10)  # [B, L, d_k]
+        
+        # 输出: o_t = q_t · S_t
+        # 这里S是历史累积，需要与q交互
+        output = torch.matmul(q.unsqueeze(2), S.unsqueeze(-1)).squeeze(-1)  # [B, L, d_k]
+        
+        output = self.proj_out(output)
+        output = self.dropout(output)
+        
+        if return_gate:
+            return output + residual, S, g
+        return output + residual, S
+    
+    def extra_repr(self) -> str:
+        return f'd_model={self.d_model}, d_k={self.d_k}, heads={self.num_heads}'
+```
+
+【组件2: SlidingWindowAttention】
+
+```python
+class SlidingWindowAttention(nn.Module):
+    """
+    滑动窗口注意力，复杂度O(n·w·d)
+    生物对应: 局部感受野，细节特征提取
+    """
+    
+    def __init__(
+        self,
+        d_model: int = 384,
+        window_size: int = 256,
+        num_heads: int = 6,
+        dropout: float = 0.1
+    ):
+        super().__init__()
+        self.d_model = d_model
+        self.window_size = window_size
+        self.num_heads = num_heads
+        self.d_head = d_model // num_heads
+        
+        self.qkv_proj = nn.Linear(d_model, d_model * 3, bias=False)
+        self.out_proj = nn.Linear(d_model, d_model, bias=False)
+        self.norm = nn.LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
+        
+        # 预计算掩码（节省重复计算）
+        self.register_buffer('causal_mask', None)
+        self.register_buffer('window_mask', None)
+        
+    def _get_masks(self, seq_len: int, device: torch.device) -> torch.Tensor:
+        """生成因果+窗口联合掩码"""
+        if self.causal_mask is None or self.causal_mask.shape[0] < seq_len:
+            # 因果掩码（上三角为True，需mask）
+            causal = torch.triu(torch.ones(seq_len, seq_len, device=device), diagonal=1).bool()
+            
+            # 窗口掩码（只保留前window_size个位置）
+            window = torch.arange(seq_len, device=device)[None, :] < \
+                     torch.arange(seq_len, device=device)[:, None] - self.window_size
+            
+            self.register_buffer('causal_mask', causal)
+            self.register_buffer('window_mask', window)
+        
+        return self.causal_mask[:seq_len, :seq_len] | self.window_mask[:seq_len, :seq_len]
+    
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        batch, seq_len, _ = x.shape
+        
+        residual = x
+        x = self.norm(x)
+        
+        # QKV投影
+        qkv = self.qkv_proj(x)
+        q, k, v = qkv.chunk(3, dim=-1)
+        
+        # 多头reshape
+        q = q.view(batch, seq_len, self.num_heads, self.d_head).transpose(1, 2)
+        k = k.view(batch, seq_len, self.num_heads, self.d_head).transpose(1, 2)
+        v = v.view(batch, seq_len, self.num_heads, self.d_head).transpose(1, 2)
+        # [B, H, L, d_head]
+        
+        # 缩放点积注意力
+        scores = torch.matmul(q, k.transpose(-2, -1)) / (self.d_head ** 0.5)
+        
+        # 应用掩码
+        mask = self._get_masks(seq_len, x.device)
+        scores = scores.masked_fill(mask.unsqueeze(0).unsqueeze(0), float('-inf'))
+        
+        attn = F.softmax(scores, dim=-1)
+        attn = self.dropout(attn)
+        
+        output = torch.matmul(attn, v)  # [B, H, L, d_head]
+        output = output.transpose(1, 2).contiguous().view(batch, seq_len, self.d_model)
+        
+        output = self.out_proj(output)
+        
+        return output + residual
+```
+
+【组件3: AdaptiveThresholdSpiking】
+
+```python
+class AdaptiveThresholdSpiking(nn.Module):
+    """
+    自适应阈值脉冲编码，支持三进制编码
+    生物对应: 神经元动作电位阈值适应
+    """
+    
+    def __init__(
+        self,
+        k_base: float = 2.0,
+        k_medical: Optional[Dict[str, float]] = None,
+        max_count: int = 8,
+        encoding: Literal['binary', 'ternary', 'bitwise'] = 'ternary'
+    ):
+        super().__init__()
+        self.k_base = k_base
+        self.k_medical = k_medical or {}
+        self.max_count = max_count
+        self.encoding = encoding
+        
+        # 统计收集（用于分析）
+        self.register_buffer('threshold_history', torch.zeros(1000))
+        self.register_buffer('threshold_ptr', torch.zeros(1, dtype=torch.long))
+        
+    def forward(
+        self,
+        x: torch.Tensor,
+        modality: Optional[str] = None
+    ) -> Tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
+        """
+        Args:
+            x: [..., dim], 输入激活值
+            
+        Returns:
+            spike_output: [..., dim], 脉冲解码后的输出（用于后续层）
+            spike_integer: [..., dim], 整数脉冲计数（用于稀疏度分析）
+            threshold: [...], 自适应阈值（标量或逐通道）
+        """
+        # 选择k值（医学特化）
+        k = self.k_medical.get(modality, self.k_base) if modality else self.k_base
+        
+        # 自适应阈值: V_th = mean(|x|) / k
+        # 按最后一个维度（特征维度）计算
+        V_th = torch.mean(torch.abs(x), dim=-1, keepdim=True) / k
+        
+        # 整数脉冲计数（四舍五入）
+        s_int = torch.round(x / (V_th + 1e-10))
+        
+        # 限制范围（稳定性）
+        s_int = torch.clamp(s_int, -self.max_count, self.max_count)
+        
+        # 记录阈值历史（分析用）
+        if self.training and self.threshold_ptr < len(self.threshold_history):
+            self.threshold_history[self.threshold_ptr] = V_th.mean().detach()
+            self.threshold_ptr += 1
+        
+        # 解码回连续值（用于后续层）
+        # 简化：直接乘以阈值（实际可更复杂）
+        x_out = s_int * V_th
+        
+        return x_out, s_int, V_th.squeeze(-1)
+    
+    def get_sparsity(self, spike_integer: torch.Tensor) -> float:
+        """计算当前稀疏度"""
+        return (spike_integer == 0).float().mean().item()
+    
+    def encode_spike_train(
+        self,
+        spike_integer: torch.Tensor,
+        max_bits: Optional[int] = None
+    ) -> torch.Tensor:
+        """
+        将整数脉冲展开为时间步脉冲序列（用于神经形态硬件模拟）
+        Returns: [T, ...] 时间维度前置
+        """
+        max_abs = int(spike_integer.abs().max().item())
+        T = max_abs + 1
+        
+        if self.encoding == 'ternary':
+            # 三进制: -1, 0, 1
+            spikes = torch.zeros(T, *spike_integer.shape, device=spike_integer.device)
+            for t in range(T):
+                spikes[t] = torch.where(
+                    spike_integer > t, 1.0,
+                    torch.where(spike_integer < -t, -1.0, 0.0)
+                )
+            return spikes
+        
+        elif self.encoding == 'binary':
+            # 二进制: 0, 1（仅正脉冲）
+            spikes = torch.zeros(T, *spike_integer.shape, device=spike_integer.device)
+            for t in range(T):
+                spikes[t] = (spike_integer > t).float()
+            return spikes
+        
+        else:  # bitwise
+            max_bits = max_bits or 8
+            spikes = torch.zeros(max_bits, *spike_integer.shape, device=spike_integer.device)
+            for t in range(max_bits):
+                bit_mask = 1 << t
+                spikes[t] = ((spike_integer.abs().int() & bit_mask) > 0).float() * torch.sign(spike_integer)
+            return spikes
+```
+
+【组件4: SpikingFFN】
+
+```python
+class SpikingFFN(nn.Module):
+    """
+    脉冲前馈网络，支持CRS合成阶段的blank模式
+    """
+    
+    def __init__(
+        self,
+        d_model: int = 384,
+        d_ff: int = 1536,  # 4x expansion
+        dropout: float = 0.1,
+        blank_ratio: float = 0.3,
+        spiking_config: Optional[Dict] = None
+    ):
+        super().__init__()
+        self.d_model = d_model
+        self.d_ff = d_ff
+        self.blank_ratio = blank_ratio
+        
+        self.fc1 = nn.Linear(d_model, d_ff)
+        self.fc2 = nn.Linear(d_ff, d_model)
+        self.act = nn.SiLU()  # SwiGLU风格，但简化
+        
+        self.norm = nn.LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
+        
+        # 脉冲编码
+        spiking_config = spiking_config or {}
+        self.spiking = AdaptiveThresholdSpiking(**spiking_config)
+        
+    def forward(
+        self,
+        x: torch.Tensor,
+        stage: str = 'normal',
+        modality: Optional[str] = None
+    ) -> Tuple[torch.Tensor, torch.Tensor]:
+        """
+        Args:
+            stage: 'normal', 'synthesis'（触发blank模式）, 'inference'
+        """
+        residual = x
+        x = self.norm(x)
+        
+        # FFN
+        x = self.fc1(x)
+        x = self.act(x)
+        
+        # 脉冲编码（关键）
+        x_spike, s_int, V_th = self.spiking(x, modality=modality)
+        
+        # CRS合成阶段: blank模式（强制稀疏）
+        if stage == 'synthesis' and self.training:
+            blank_mask = torch.rand_like(s_int.float()) < self.blank_ratio
+            s_int = s_int.masked_fill(blank_mask, 0)
+            # 重新解码
+            x_spike = s_int * V_th.unsqueeze(-1)
+        
+        x = self.fc2(x_spike)
+        x = self.dropout(x)
+        
+        return x + residual, s_int  # 返回s_int用于稀疏度统计
+```
+
+【显存优化技巧】
+
+```python
+# 在forward中使用checkpoint（以GLA为例）
+from torch.utils.checkpoint import checkpoint
+
+class MemoryEfficientGLA(GatedLinearAttention):
+    def forward(self, x, state=None):
+        # 使用gradient checkpointing节省显存
+        # 计算代价: 时间换空间
+        if self.training:
+            return checkpoint(super().forward, x, state)
+        return super().forward(x, state)
+```
+
+【验收标准】
+
+AC1. 数值正确性
+```python
+# GLA复杂度测试
+gla = GatedLinearAttention(d_model=384, d_k=64)
+x = torch.randn(4, 512, 384)
+out, state = gla(x)
+assert out.shape == (4, 512, 384)
+assert state.shape == (4, 512, 64)
+
+# 复杂度验证: 计算量应远小于标准注意力
+# 标准: O(512^2 * 384) ~ 100M
+# GLA: O(512 * 64^2) ~ 2M
+```
+
+AC2. 稀疏度达标
+```python
+spiking = AdaptiveThresholdSpiking(k=2.0)
+x = torch.randn(1000, 384)
+_, s_int, _ = spiking(x)
+sparsity = (s_int == 0).float().mean()
+assert 0.6 < sparsity < 0.8, f"稀疏度{sparsity}不在目标范围"
+```
+
+AC3. 梯度流验证
+```python
+# 确保脉冲层可梯度回传（替代梯度）
+x = torch.randn(4, 384, requires_grad=True)
+ffn = SpikingFFN(384, 1536)
+out, _ = ffn(x)
+loss = out.sum()
+loss.backward()
+assert x.grad is not None and not torch.isnan(x.grad).any()
+```
+
+【参考文档】
+- 02_ARCHITECTURE.txt (Layer 1接口契约)
+- 05_CRS_INTEGRATION.txt (脉冲层与CRS的融合点)
+================================================================================
+```

@@ -1,0 +1,205 @@
+### 02_ARCHITECTURE.txt（架构设计文档）
+
+```txt
+================================================================================
+文档: 02_ARCHITECTURE.txt
+标题: 系统架构设计 - 模块划分与接口契约
+依赖: 01_PRD.txt
+================================================================================
+
+【架构总览】
+
+系统采用分层架构:
+
+┌─────────────────────────────────────────┐
+│  Layer 4: Experiment Orchestration      │  (实验编排)
+│  - ablation_study.py, long_term_test.py │
+├─────────────────────────────────────────┤
+│  Layer 3: Training & Evaluation           │  (训练评估)
+│  - crs_trainer.py, metrics.py, monitor  │
+├─────────────────────────────────────────┤
+│  Layer 2: CRS Integration                 │  (CRS融合)
+│  - 5 phases + FSRS + Metacognitive       │
+├─────────────────────────────────────────┤
+│  Layer 1: Core Spiking Components         │  (脉冲核心)
+│  - GLA, SWA, SpikingFFN, AdaptiveThresh  │
+├─────────────────────────────────────────┤
+│  Layer 0: Data Pipeline                   │  (数据管道)
+│  - refinement, loading, augmentation     │
+└─────────────────────────────────────────┘
+
+【模块详细规格】
+
+Module: data_pipeline (Layer 0)
+--------------------------------
+职责: 数据精炼、加载、预处理
+接口:
+  class LC25000Refiner:
+    def refine(self, raw_dir: Path, target_per_class: int = 200) -> Subset
+      
+  class PhysioNetRefiner:
+    def refine_by_ahi(self, records: List, target_patients: int = 20) -> List
+      
+  class IUXRayRefiner:
+    def refine_by_density(self, pairs: List, target: int = 500) -> List
+      
+  class MedicalDataLoader:
+    def __init__(self, dataset_type: str, split: str, batch_size: int)
+    def __iter__(self) -> Dict[str, Tensor]  # 必须 yield 包含 'input', 'label', 'sample_id'的字典
+
+约束:
+  - 必须使用内存映射 (np.memmap或torch内存映射)
+  - 必须实现患者级划分（同一患者不跨split）
+  - batch_size最大16（受显存约束）
+
+Module: core_spiking (Layer 1)
+-------------------------------
+职责: 脉冲神经网络核心组件
+接口:
+  class GatedLinearAttention(nn.Module):
+    def __init__(self, d_model: int, d_k: int, modality: str)
+    def forward(self, x: Tensor, state: Optional[Tensor]) -> Tuple[Tensor, Tensor]
+    # 返回: (output, new_state)
+    
+  class SlidingWindowAttention(nn.Module):
+    def __init__(self, d_model: int, window_size: int)
+    def forward(self, x: Tensor) -> Tensor
+    
+  class AdaptiveThresholdSpiking(nn.Module):
+    def __init__(self, k_base: float, k_medical: Dict[str, float])
+    def forward(self, x: Tensor) -> Tuple[Tensor, Tensor, float]  
+    # 返回: (spike_output, spike_integer, threshold)
+    # spike_integer用于稀疏度计算
+    
+  class SpikingFFN(nn.Module):
+    def __init__(self, d_model: int, d_ff: int, blank_ratio: float)
+    def forward(self, x: Tensor, stage: str) -> Tuple[Tensor, Tensor]
+    # stage控制是否进入blank模式
+
+约束:
+  - 所有forward必须支持FP16混合精度
+  - 状态矩阵S_t必须可梯度回传
+  - 脉冲计数必须限制在[-8, 8]范围
+
+Module: crs_integration (Layer 2)
+---------------------------------
+职责: CRS五阶段与脉冲机制的深度融合
+接口:
+  class ComprehensionPhase:
+    def forward(self, model, batch) -> Tensor  # 返回loss
+    
+  class RecallPhase:
+    def forward(self, model, batch, difficulty_scheduler) -> Tensor
+    
+  class SynthesisPhase:
+    def forward(self, model, batch) -> Tensor
+    
+  class SpacedReviewPhase:
+    def forward(self, model, batch, epoch: int, fsrs: FSRSScheduler) -> Tensor
+    
+  class ErrorCorrectionPhase:
+    def forward(self, model, batch) -> Tensor
+    
+  class FSRSScheduler:
+    def __init__(self, request_retention: float = 0.9)
+    def get_due_samples(self, epoch: int, sample_ids: Tensor) -> Tensor
+    def update_intervals(self, sample_ids: Tensor, correct: Tensor, confidence: Tensor)
+    
+  class MetacognitiveMonitor:
+    def __init__(self, d_model: int)
+    def calculate_confidence_gap(self, model_confidence: Tensor, spike_confidence: Tensor) -> Tensor
+
+关键融合点:
+  - GLA状态矩阵S_t作为Recall阶段的记忆库
+  - 自适应阈值调整作为SpacedReview的LTP/LTD实现
+  - 脉冲发放率作为ErrorCorrection的元认知信号
+
+Module: training_engine (Layer 3)
+-----------------------------------
+职责: 训练循环、优化器、检查点
+接口:
+  class CRSMedicalTrainer:
+    def __init__(self, model, config: Dict)
+    def train_epoch(self, dataloader, epoch: int) -> Dict[str, float]
+    # 返回必须包含: 'avg_loss', 'sparsity', 'phase_distribution'
+    
+    def save_checkpoint(self, path: Path, epoch: int, metrics: Dict)
+    def load_checkpoint(self, path: Path) -> int  # 返回恢复的epoch
+    
+  class PhaseScheduler:
+    def get_phase_weights(self, epoch: int) -> Dict[str, float]
+    # 动态调整五阶段比例
+
+约束:
+  - 必须实现梯度累积（默认4步）
+  - 必须实现梯度裁剪（max_norm=1.0）
+  - 必须每30分钟自动保存（独立于epoch）
+
+Module: evaluation_suite (Layer 3)
+-----------------------------------
+职责: 评估指标、可视化、统计检验
+接口:
+  class MedicalMetrics:
+    @staticmethod
+    def compute_all(y_true: np.ndarray, y_pred: np.ndarray, y_prob: np.ndarray) -> Dict
+      
+  class HardwareMonitor:
+    def __init__(self, log_interval: int = 10)
+    def start_monitoring(self)
+    def get_report(self) -> Dict  # 包含峰值显存、平均功耗、温度
+      
+  class SparsityAnalyzer:
+    def analyze_model(self, model, dataloader) -> Dict[str, float]
+    # 返回每层稀疏度、全局稀疏度
+      
+  class StatisticalTesting:
+    @staticmethod
+    def paired_ttest(results_a: List[float], results_b: List[float]) -> Dict
+    @staticmethod
+    def cohens_d(results_a: List[float], results_b: List[float]) -> float
+
+Module: experiment_protocol (Layer 4)
+---------------------------------------
+职责: 实验编排、消融、长期记忆测试
+接口:
+  class BaselineExperiment:
+    def run(self, model_type: str, dataset: str, n_folds: int = 5) -> Dict
+      
+  class AblationStudy:
+    def run_component_ablation(self, base_config: Dict, components: List[str]) -> Dict
+      
+  class LongTermMemoryTest:
+    def catastrophic_forgetting_protocol(self, model, dataset_a, dataset_b) -> Dict
+    # 必须返回: 'acc_a_initial', 'acc_a_final', 'forgetting_rate', 'acc_b_final'
+    
+  class FullExperimentSuite:
+    def run_48h_schedule(self) -> Path  # 返回results目录路径
+
+【接口契约示例】
+
+契约: GatedLinearAttention.forward
+输入:
+  - x: Tensor, shape [batch_size, seq_len, d_model], dtype float16
+  - state: Optional[Tensor], shape [batch_size, seq_len, d_k], default None
+输出:
+  - output: Tensor, shape [batch_size, seq_len, d_model], dtype float16
+  - new_state: Tensor, shape [batch_size, seq_len, d_k], dtype float16
+副作用: 无
+异常: 如果d_model不是d_k的整数倍， raise ValueError
+性能: 显存增量 < 2MB (batch=4, seq=512, d_model=384, d_k=64)
+
+【验收标准】
+
+AC1. 模块隔离测试
+- 每个Layer的模块可独立导入测试
+- python -c "from data_pipeline import *; from core_spiking import *; ..."
+
+AC2. 接口一致性
+- 所有模块的public方法必须有类型注解
+- 所有Tensor输入输出必须注明shape和dtype
+
+【参考文档】
+- 01_PRD.txt (需求来源)
+- 后续文档必须遵循本架构划分
+================================================================================
+```

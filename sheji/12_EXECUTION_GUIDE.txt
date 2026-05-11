@@ -1,0 +1,20 @@
+### 12_EXECUTION_GUIDE.txt（执行指南）
+
+```txt
+关键内容:
+- 环境安装命令
+- 数据下载脚本
+- 主执行入口
+- 故障排查手册
+- 结果解读指南
+
+命令示例:
+# 完整实验
+bash scripts/run_full_experiment.sh
+
+# 单模型测试
+python -m training.train_crs --dataset lc25000 --model s_crs --epochs 20
+
+# 消融实验
+python -m experiments.ablation_study --base-config configs/s_crs.yaml
+```

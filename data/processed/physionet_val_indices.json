@@ -1,0 +1,50 @@
+[
+  {
+    "patient_id": "a06",
+    "record": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a06.dat",
+    "hea": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a06.hea",
+    "apn": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a06.apn",
+    "ahi": 35.78809679529105,
+    "severity": "severe",
+    "duration_hours": 8.494444444444444,
+    "modality": "ecg",
+    "label": 1,
+    "sample_id": 12
+  },
+  {
+    "patient_id": "a08",
+    "record": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a08.dat",
+    "hea": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a08.hea",
+    "apn": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a08.apn",
+    "ahi": 37.40882597835137,
+    "severity": "severe",
+    "duration_hours": 8.340277777777779,
+    "modality": "ecg",
+    "label": 1,
+    "sample_id": 13
+  },
+  {
+    "patient_id": "a14",
+    "record": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a14.dat",
+    "hea": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a14.hea",
+    "apn": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a14.apn",
+    "ahi": 14.4688995215311,
+    "severity": "mild",
+    "duration_hours": 8.708333333333334,
+    "modality": "ecg",
+    "label": 0,
+    "sample_id": 14
+  },
+  {
+    "patient_id": "a19",
+    "record": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a19.dat",
+    "hea": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a19.hea",
+    "apn": "e:\\开发区\\crs\\shuju\\apnea-ecg-database-1.0.0\\a19.apn",
+    "ahi": 35.49800796812749,
+    "severity": "severe",
+    "duration_hours": 8.366666666666667,
+    "modality": "ecg",
+    "label": 1,
+    "sample_id": 15
+  }
+]

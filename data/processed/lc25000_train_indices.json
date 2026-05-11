@@ -1,0 +1,4202 @@
+[
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1049.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1049",
+    "modality": "pathology",
+    "sample_id": 0
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1199.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1199",
+    "modality": "pathology",
+    "sample_id": 1
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1239.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1239",
+    "modality": "pathology",
+    "sample_id": 2
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1370.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1370",
+    "modality": "pathology",
+    "sample_id": 3
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1498.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1498",
+    "modality": "pathology",
+    "sample_id": 4
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1575.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1575",
+    "modality": "pathology",
+    "sample_id": 5
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1788.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1788",
+    "modality": "pathology",
+    "sample_id": 6
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1862.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1862",
+    "modality": "pathology",
+    "sample_id": 7
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1903.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1903",
+    "modality": "pathology",
+    "sample_id": 8
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca200.jpeg",
+    "label": 0,
+    "patient_id": "lungaca200",
+    "modality": "pathology",
+    "sample_id": 9
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2513.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2513",
+    "modality": "pathology",
+    "sample_id": 10
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2627.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2627",
+    "modality": "pathology",
+    "sample_id": 11
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2650.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2650",
+    "modality": "pathology",
+    "sample_id": 12
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2660.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2660",
+    "modality": "pathology",
+    "sample_id": 13
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2685.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2685",
+    "modality": "pathology",
+    "sample_id": 14
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2796.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2796",
+    "modality": "pathology",
+    "sample_id": 15
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2968.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2968",
+    "modality": "pathology",
+    "sample_id": 16
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3295.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3295",
+    "modality": "pathology",
+    "sample_id": 17
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3978.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3978",
+    "modality": "pathology",
+    "sample_id": 18
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4129.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4129",
+    "modality": "pathology",
+    "sample_id": 19
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4223.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4223",
+    "modality": "pathology",
+    "sample_id": 20
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4866.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4866",
+    "modality": "pathology",
+    "sample_id": 21
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4880.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4880",
+    "modality": "pathology",
+    "sample_id": 22
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca942.jpeg",
+    "label": 0,
+    "patient_id": "lungaca942",
+    "modality": "pathology",
+    "sample_id": 23
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2362.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2362",
+    "modality": "pathology",
+    "sample_id": 24
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3965.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3965",
+    "modality": "pathology",
+    "sample_id": 25
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4991.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4991",
+    "modality": "pathology",
+    "sample_id": 26
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4635.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4635",
+    "modality": "pathology",
+    "sample_id": 27
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3531.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3531",
+    "modality": "pathology",
+    "sample_id": 28
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca952.jpeg",
+    "label": 0,
+    "patient_id": "lungaca952",
+    "modality": "pathology",
+    "sample_id": 29
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3508.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3508",
+    "modality": "pathology",
+    "sample_id": 30
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1726.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1726",
+    "modality": "pathology",
+    "sample_id": 31
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2892.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2892",
+    "modality": "pathology",
+    "sample_id": 32
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4694.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4694",
+    "modality": "pathology",
+    "sample_id": 33
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4561.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4561",
+    "modality": "pathology",
+    "sample_id": 34
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca139.jpeg",
+    "label": 0,
+    "patient_id": "lungaca139",
+    "modality": "pathology",
+    "sample_id": 35
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1624.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1624",
+    "modality": "pathology",
+    "sample_id": 36
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1568.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1568",
+    "modality": "pathology",
+    "sample_id": 37
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2837.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2837",
+    "modality": "pathology",
+    "sample_id": 38
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4015.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4015",
+    "modality": "pathology",
+    "sample_id": 39
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1681.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1681",
+    "modality": "pathology",
+    "sample_id": 40
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4768.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4768",
+    "modality": "pathology",
+    "sample_id": 41
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4745.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4745",
+    "modality": "pathology",
+    "sample_id": 42
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3529.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3529",
+    "modality": "pathology",
+    "sample_id": 43
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca397.jpeg",
+    "label": 0,
+    "patient_id": "lungaca397",
+    "modality": "pathology",
+    "sample_id": 44
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4845.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4845",
+    "modality": "pathology",
+    "sample_id": 45
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3191.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3191",
+    "modality": "pathology",
+    "sample_id": 46
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2558.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2558",
+    "modality": "pathology",
+    "sample_id": 47
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2067.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2067",
+    "modality": "pathology",
+    "sample_id": 48
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4673.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4673",
+    "modality": "pathology",
+    "sample_id": 49
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4425.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4425",
+    "modality": "pathology",
+    "sample_id": 50
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2602.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2602",
+    "modality": "pathology",
+    "sample_id": 51
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1560.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1560",
+    "modality": "pathology",
+    "sample_id": 52
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca404.jpeg",
+    "label": 0,
+    "patient_id": "lungaca404",
+    "modality": "pathology",
+    "sample_id": 53
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4583.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4583",
+    "modality": "pathology",
+    "sample_id": 54
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1511.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1511",
+    "modality": "pathology",
+    "sample_id": 55
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3506.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3506",
+    "modality": "pathology",
+    "sample_id": 56
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3856.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3856",
+    "modality": "pathology",
+    "sample_id": 57
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1576.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1576",
+    "modality": "pathology",
+    "sample_id": 58
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2052.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2052",
+    "modality": "pathology",
+    "sample_id": 59
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4930.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4930",
+    "modality": "pathology",
+    "sample_id": 60
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4045.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4045",
+    "modality": "pathology",
+    "sample_id": 61
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca759.jpeg",
+    "label": 0,
+    "patient_id": "lungaca759",
+    "modality": "pathology",
+    "sample_id": 62
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4704.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4704",
+    "modality": "pathology",
+    "sample_id": 63
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca624.jpeg",
+    "label": 0,
+    "patient_id": "lungaca624",
+    "modality": "pathology",
+    "sample_id": 64
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca966.jpeg",
+    "label": 0,
+    "patient_id": "lungaca966",
+    "modality": "pathology",
+    "sample_id": 65
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2723.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2723",
+    "modality": "pathology",
+    "sample_id": 66
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3245.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3245",
+    "modality": "pathology",
+    "sample_id": 67
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1405.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1405",
+    "modality": "pathology",
+    "sample_id": 68
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca354.jpeg",
+    "label": 0,
+    "patient_id": "lungaca354",
+    "modality": "pathology",
+    "sample_id": 69
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3078.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3078",
+    "modality": "pathology",
+    "sample_id": 70
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1138.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1138",
+    "modality": "pathology",
+    "sample_id": 71
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4830.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4830",
+    "modality": "pathology",
+    "sample_id": 72
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4216.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4216",
+    "modality": "pathology",
+    "sample_id": 73
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1410.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1410",
+    "modality": "pathology",
+    "sample_id": 74
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1880.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1880",
+    "modality": "pathology",
+    "sample_id": 75
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4107.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4107",
+    "modality": "pathology",
+    "sample_id": 76
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1431.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1431",
+    "modality": "pathology",
+    "sample_id": 77
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4145.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4145",
+    "modality": "pathology",
+    "sample_id": 78
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3573.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3573",
+    "modality": "pathology",
+    "sample_id": 79
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2559.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2559",
+    "modality": "pathology",
+    "sample_id": 80
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1166.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1166",
+    "modality": "pathology",
+    "sample_id": 81
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4334.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4334",
+    "modality": "pathology",
+    "sample_id": 82
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca768.jpeg",
+    "label": 0,
+    "patient_id": "lungaca768",
+    "modality": "pathology",
+    "sample_id": 83
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2006.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2006",
+    "modality": "pathology",
+    "sample_id": 84
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2940.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2940",
+    "modality": "pathology",
+    "sample_id": 85
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4409.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4409",
+    "modality": "pathology",
+    "sample_id": 86
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2",
+    "modality": "pathology",
+    "sample_id": 87
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2266.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2266",
+    "modality": "pathology",
+    "sample_id": 88
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca180.jpeg",
+    "label": 0,
+    "patient_id": "lungaca180",
+    "modality": "pathology",
+    "sample_id": 89
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca57.jpeg",
+    "label": 0,
+    "patient_id": "lungaca57",
+    "modality": "pathology",
+    "sample_id": 90
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2637.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2637",
+    "modality": "pathology",
+    "sample_id": 91
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2282.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2282",
+    "modality": "pathology",
+    "sample_id": 92
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1337.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1337",
+    "modality": "pathology",
+    "sample_id": 93
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3480.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3480",
+    "modality": "pathology",
+    "sample_id": 94
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4519.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4519",
+    "modality": "pathology",
+    "sample_id": 95
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca1030.jpeg",
+    "label": 0,
+    "patient_id": "lungaca1030",
+    "modality": "pathology",
+    "sample_id": 96
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4478.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4478",
+    "modality": "pathology",
+    "sample_id": 97
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4329.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4329",
+    "modality": "pathology",
+    "sample_id": 98
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4438.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4438",
+    "modality": "pathology",
+    "sample_id": 99
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2917.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2917",
+    "modality": "pathology",
+    "sample_id": 100
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4349.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4349",
+    "modality": "pathology",
+    "sample_id": 101
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca3821.jpeg",
+    "label": 0,
+    "patient_id": "lungaca3821",
+    "modality": "pathology",
+    "sample_id": 102
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4429.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4429",
+    "modality": "pathology",
+    "sample_id": 103
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2439.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2439",
+    "modality": "pathology",
+    "sample_id": 104
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca769.jpeg",
+    "label": 0,
+    "patient_id": "lungaca769",
+    "modality": "pathology",
+    "sample_id": 105
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca2817.jpeg",
+    "label": 0,
+    "patient_id": "lungaca2817",
+    "modality": "pathology",
+    "sample_id": 106
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4505.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4505",
+    "modality": "pathology",
+    "sample_id": 107
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_aca\\lungaca4530.jpeg",
+    "label": 0,
+    "patient_id": "lungaca4530",
+    "modality": "pathology",
+    "sample_id": 108
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1042.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1042",
+    "modality": "pathology",
+    "sample_id": 109
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1123.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1123",
+    "modality": "pathology",
+    "sample_id": 110
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1203.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1203",
+    "modality": "pathology",
+    "sample_id": 111
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1265.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1265",
+    "modality": "pathology",
+    "sample_id": 112
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1420.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1420",
+    "modality": "pathology",
+    "sample_id": 113
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1784.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1784",
+    "modality": "pathology",
+    "sample_id": 114
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2099.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2099",
+    "modality": "pathology",
+    "sample_id": 115
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2767.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2767",
+    "modality": "pathology",
+    "sample_id": 116
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2933.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2933",
+    "modality": "pathology",
+    "sample_id": 117
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3144.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3144",
+    "modality": "pathology",
+    "sample_id": 118
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3283.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3283",
+    "modality": "pathology",
+    "sample_id": 119
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3861.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3861",
+    "modality": "pathology",
+    "sample_id": 120
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3934.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3934",
+    "modality": "pathology",
+    "sample_id": 121
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc417.jpeg",
+    "label": 1,
+    "patient_id": "lungscc417",
+    "modality": "pathology",
+    "sample_id": 122
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4276.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4276",
+    "modality": "pathology",
+    "sample_id": 123
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc442.jpeg",
+    "label": 1,
+    "patient_id": "lungscc442",
+    "modality": "pathology",
+    "sample_id": 124
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4469.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4469",
+    "modality": "pathology",
+    "sample_id": 125
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4864.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4864",
+    "modality": "pathology",
+    "sample_id": 126
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc674.jpeg",
+    "label": 1,
+    "patient_id": "lungscc674",
+    "modality": "pathology",
+    "sample_id": 127
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc730.jpeg",
+    "label": 1,
+    "patient_id": "lungscc730",
+    "modality": "pathology",
+    "sample_id": 128
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc935.jpeg",
+    "label": 1,
+    "patient_id": "lungscc935",
+    "modality": "pathology",
+    "sample_id": 129
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc964.jpeg",
+    "label": 1,
+    "patient_id": "lungscc964",
+    "modality": "pathology",
+    "sample_id": 130
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc665.jpeg",
+    "label": 1,
+    "patient_id": "lungscc665",
+    "modality": "pathology",
+    "sample_id": 131
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc292.jpeg",
+    "label": 1,
+    "patient_id": "lungscc292",
+    "modality": "pathology",
+    "sample_id": 132
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1817.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1817",
+    "modality": "pathology",
+    "sample_id": 133
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4313.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4313",
+    "modality": "pathology",
+    "sample_id": 134
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2030.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2030",
+    "modality": "pathology",
+    "sample_id": 135
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4926.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4926",
+    "modality": "pathology",
+    "sample_id": 136
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3333.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3333",
+    "modality": "pathology",
+    "sample_id": 137
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc680.jpeg",
+    "label": 1,
+    "patient_id": "lungscc680",
+    "modality": "pathology",
+    "sample_id": 138
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc391.jpeg",
+    "label": 1,
+    "patient_id": "lungscc391",
+    "modality": "pathology",
+    "sample_id": 139
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3061.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3061",
+    "modality": "pathology",
+    "sample_id": 140
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1619.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1619",
+    "modality": "pathology",
+    "sample_id": 141
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4902.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4902",
+    "modality": "pathology",
+    "sample_id": 142
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2396.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2396",
+    "modality": "pathology",
+    "sample_id": 143
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4611.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4611",
+    "modality": "pathology",
+    "sample_id": 144
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4405.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4405",
+    "modality": "pathology",
+    "sample_id": 145
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc918.jpeg",
+    "label": 1,
+    "patient_id": "lungscc918",
+    "modality": "pathology",
+    "sample_id": 146
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4713.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4713",
+    "modality": "pathology",
+    "sample_id": 147
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3216.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3216",
+    "modality": "pathology",
+    "sample_id": 148
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3419.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3419",
+    "modality": "pathology",
+    "sample_id": 149
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3648.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3648",
+    "modality": "pathology",
+    "sample_id": 150
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc13.jpeg",
+    "label": 1,
+    "patient_id": "lungscc13",
+    "modality": "pathology",
+    "sample_id": 151
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4992.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4992",
+    "modality": "pathology",
+    "sample_id": 152
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3209.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3209",
+    "modality": "pathology",
+    "sample_id": 153
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4239.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4239",
+    "modality": "pathology",
+    "sample_id": 154
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4285.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4285",
+    "modality": "pathology",
+    "sample_id": 155
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4964.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4964",
+    "modality": "pathology",
+    "sample_id": 156
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3250.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3250",
+    "modality": "pathology",
+    "sample_id": 157
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4622.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4622",
+    "modality": "pathology",
+    "sample_id": 158
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1544.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1544",
+    "modality": "pathology",
+    "sample_id": 159
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1983.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1983",
+    "modality": "pathology",
+    "sample_id": 160
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4395.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4395",
+    "modality": "pathology",
+    "sample_id": 161
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1589.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1589",
+    "modality": "pathology",
+    "sample_id": 162
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc630.jpeg",
+    "label": 1,
+    "patient_id": "lungscc630",
+    "modality": "pathology",
+    "sample_id": 163
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1588.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1588",
+    "modality": "pathology",
+    "sample_id": 164
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1097.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1097",
+    "modality": "pathology",
+    "sample_id": 165
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2317.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2317",
+    "modality": "pathology",
+    "sample_id": 166
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2389.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2389",
+    "modality": "pathology",
+    "sample_id": 167
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2239.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2239",
+    "modality": "pathology",
+    "sample_id": 168
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2003.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2003",
+    "modality": "pathology",
+    "sample_id": 169
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4289.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4289",
+    "modality": "pathology",
+    "sample_id": 170
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1198.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1198",
+    "modality": "pathology",
+    "sample_id": 171
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2343.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2343",
+    "modality": "pathology",
+    "sample_id": 172
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2019.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2019",
+    "modality": "pathology",
+    "sample_id": 173
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc108.jpeg",
+    "label": 1,
+    "patient_id": "lungscc108",
+    "modality": "pathology",
+    "sample_id": 174
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2621.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2621",
+    "modality": "pathology",
+    "sample_id": 175
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4847.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4847",
+    "modality": "pathology",
+    "sample_id": 176
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1594.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1594",
+    "modality": "pathology",
+    "sample_id": 177
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc111.jpeg",
+    "label": 1,
+    "patient_id": "lungscc111",
+    "modality": "pathology",
+    "sample_id": 178
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2063.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2063",
+    "modality": "pathology",
+    "sample_id": 179
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1666.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1666",
+    "modality": "pathology",
+    "sample_id": 180
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc637.jpeg",
+    "label": 1,
+    "patient_id": "lungscc637",
+    "modality": "pathology",
+    "sample_id": 181
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2418.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2418",
+    "modality": "pathology",
+    "sample_id": 182
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc840.jpeg",
+    "label": 1,
+    "patient_id": "lungscc840",
+    "modality": "pathology",
+    "sample_id": 183
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1795.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1795",
+    "modality": "pathology",
+    "sample_id": 184
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3848.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3848",
+    "modality": "pathology",
+    "sample_id": 185
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1020.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1020",
+    "modality": "pathology",
+    "sample_id": 186
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3268.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3268",
+    "modality": "pathology",
+    "sample_id": 187
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4528.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4528",
+    "modality": "pathology",
+    "sample_id": 188
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1871.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1871",
+    "modality": "pathology",
+    "sample_id": 189
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc396.jpeg",
+    "label": 1,
+    "patient_id": "lungscc396",
+    "modality": "pathology",
+    "sample_id": 190
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2386.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2386",
+    "modality": "pathology",
+    "sample_id": 191
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc750.jpeg",
+    "label": 1,
+    "patient_id": "lungscc750",
+    "modality": "pathology",
+    "sample_id": 192
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2644.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2644",
+    "modality": "pathology",
+    "sample_id": 193
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3277.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3277",
+    "modality": "pathology",
+    "sample_id": 194
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3837.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3837",
+    "modality": "pathology",
+    "sample_id": 195
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc323.jpeg",
+    "label": 1,
+    "patient_id": "lungscc323",
+    "modality": "pathology",
+    "sample_id": 196
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3326.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3326",
+    "modality": "pathology",
+    "sample_id": 197
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3670.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3670",
+    "modality": "pathology",
+    "sample_id": 198
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc834.jpeg",
+    "label": 1,
+    "patient_id": "lungscc834",
+    "modality": "pathology",
+    "sample_id": 199
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc622.jpeg",
+    "label": 1,
+    "patient_id": "lungscc622",
+    "modality": "pathology",
+    "sample_id": 200
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4530.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4530",
+    "modality": "pathology",
+    "sample_id": 201
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3584.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3584",
+    "modality": "pathology",
+    "sample_id": 202
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc853.jpeg",
+    "label": 1,
+    "patient_id": "lungscc853",
+    "modality": "pathology",
+    "sample_id": 203
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2401.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2401",
+    "modality": "pathology",
+    "sample_id": 204
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2878.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2878",
+    "modality": "pathology",
+    "sample_id": 205
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4242.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4242",
+    "modality": "pathology",
+    "sample_id": 206
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2353.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2353",
+    "modality": "pathology",
+    "sample_id": 207
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1360.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1360",
+    "modality": "pathology",
+    "sample_id": 208
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4083.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4083",
+    "modality": "pathology",
+    "sample_id": 209
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1079.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1079",
+    "modality": "pathology",
+    "sample_id": 210
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1723.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1723",
+    "modality": "pathology",
+    "sample_id": 211
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc294.jpeg",
+    "label": 1,
+    "patient_id": "lungscc294",
+    "modality": "pathology",
+    "sample_id": 212
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1197.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1197",
+    "modality": "pathology",
+    "sample_id": 213
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2157.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2157",
+    "modality": "pathology",
+    "sample_id": 214
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1668.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1668",
+    "modality": "pathology",
+    "sample_id": 215
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3527.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3527",
+    "modality": "pathology",
+    "sample_id": 216
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc643.jpeg",
+    "label": 1,
+    "patient_id": "lungscc643",
+    "modality": "pathology",
+    "sample_id": 217
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc3006.jpeg",
+    "label": 1,
+    "patient_id": "lungscc3006",
+    "modality": "pathology",
+    "sample_id": 218
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4356.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4356",
+    "modality": "pathology",
+    "sample_id": 219
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2804.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2804",
+    "modality": "pathology",
+    "sample_id": 220
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2673.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2673",
+    "modality": "pathology",
+    "sample_id": 221
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc891.jpeg",
+    "label": 1,
+    "patient_id": "lungscc891",
+    "modality": "pathology",
+    "sample_id": 222
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4184.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4184",
+    "modality": "pathology",
+    "sample_id": 223
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc772.jpeg",
+    "label": 1,
+    "patient_id": "lungscc772",
+    "modality": "pathology",
+    "sample_id": 224
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1060.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1060",
+    "modality": "pathology",
+    "sample_id": 225
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2931.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2931",
+    "modality": "pathology",
+    "sample_id": 226
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2373.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2373",
+    "modality": "pathology",
+    "sample_id": 227
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc2476.jpeg",
+    "label": 1,
+    "patient_id": "lungscc2476",
+    "modality": "pathology",
+    "sample_id": 228
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc751.jpeg",
+    "label": 1,
+    "patient_id": "lungscc751",
+    "modality": "pathology",
+    "sample_id": 229
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc4298.jpeg",
+    "label": 1,
+    "patient_id": "lungscc4298",
+    "modality": "pathology",
+    "sample_id": 230
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1401.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1401",
+    "modality": "pathology",
+    "sample_id": 231
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc796.jpeg",
+    "label": 1,
+    "patient_id": "lungscc796",
+    "modality": "pathology",
+    "sample_id": 232
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc1513.jpeg",
+    "label": 1,
+    "patient_id": "lungscc1513",
+    "modality": "pathology",
+    "sample_id": 233
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_scc\\lungscc708.jpeg",
+    "label": 1,
+    "patient_id": "lungscc708",
+    "modality": "pathology",
+    "sample_id": 234
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1251.jpeg",
+    "label": 2,
+    "patient_id": "lungn1251",
+    "modality": "pathology",
+    "sample_id": 235
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1436.jpeg",
+    "label": 2,
+    "patient_id": "lungn1436",
+    "modality": "pathology",
+    "sample_id": 236
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1486.jpeg",
+    "label": 2,
+    "patient_id": "lungn1486",
+    "modality": "pathology",
+    "sample_id": 237
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1578.jpeg",
+    "label": 2,
+    "patient_id": "lungn1578",
+    "modality": "pathology",
+    "sample_id": 238
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn195.jpeg",
+    "label": 2,
+    "patient_id": "lungn195",
+    "modality": "pathology",
+    "sample_id": 239
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2354.jpeg",
+    "label": 2,
+    "patient_id": "lungn2354",
+    "modality": "pathology",
+    "sample_id": 240
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2870.jpeg",
+    "label": 2,
+    "patient_id": "lungn2870",
+    "modality": "pathology",
+    "sample_id": 241
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2877.jpeg",
+    "label": 2,
+    "patient_id": "lungn2877",
+    "modality": "pathology",
+    "sample_id": 242
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3345.jpeg",
+    "label": 2,
+    "patient_id": "lungn3345",
+    "modality": "pathology",
+    "sample_id": 243
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3369.jpeg",
+    "label": 2,
+    "patient_id": "lungn3369",
+    "modality": "pathology",
+    "sample_id": 244
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3643.jpeg",
+    "label": 2,
+    "patient_id": "lungn3643",
+    "modality": "pathology",
+    "sample_id": 245
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3830.jpeg",
+    "label": 2,
+    "patient_id": "lungn3830",
+    "modality": "pathology",
+    "sample_id": 246
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3855.jpeg",
+    "label": 2,
+    "patient_id": "lungn3855",
+    "modality": "pathology",
+    "sample_id": 247
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4047.jpeg",
+    "label": 2,
+    "patient_id": "lungn4047",
+    "modality": "pathology",
+    "sample_id": 248
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4070.jpeg",
+    "label": 2,
+    "patient_id": "lungn4070",
+    "modality": "pathology",
+    "sample_id": 249
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4304.jpeg",
+    "label": 2,
+    "patient_id": "lungn4304",
+    "modality": "pathology",
+    "sample_id": 250
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4377.jpeg",
+    "label": 2,
+    "patient_id": "lungn4377",
+    "modality": "pathology",
+    "sample_id": 251
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn442.jpeg",
+    "label": 2,
+    "patient_id": "lungn442",
+    "modality": "pathology",
+    "sample_id": 252
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4430.jpeg",
+    "label": 2,
+    "patient_id": "lungn4430",
+    "modality": "pathology",
+    "sample_id": 253
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4533.jpeg",
+    "label": 2,
+    "patient_id": "lungn4533",
+    "modality": "pathology",
+    "sample_id": 254
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4698.jpeg",
+    "label": 2,
+    "patient_id": "lungn4698",
+    "modality": "pathology",
+    "sample_id": 255
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4809.jpeg",
+    "label": 2,
+    "patient_id": "lungn4809",
+    "modality": "pathology",
+    "sample_id": 256
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn554.jpeg",
+    "label": 2,
+    "patient_id": "lungn554",
+    "modality": "pathology",
+    "sample_id": 257
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn56.jpeg",
+    "label": 2,
+    "patient_id": "lungn56",
+    "modality": "pathology",
+    "sample_id": 258
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn831.jpeg",
+    "label": 2,
+    "patient_id": "lungn831",
+    "modality": "pathology",
+    "sample_id": 259
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn934.jpeg",
+    "label": 2,
+    "patient_id": "lungn934",
+    "modality": "pathology",
+    "sample_id": 260
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn404.jpeg",
+    "label": 2,
+    "patient_id": "lungn404",
+    "modality": "pathology",
+    "sample_id": 261
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn963.jpeg",
+    "label": 2,
+    "patient_id": "lungn963",
+    "modality": "pathology",
+    "sample_id": 262
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3292.jpeg",
+    "label": 2,
+    "patient_id": "lungn3292",
+    "modality": "pathology",
+    "sample_id": 263
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn887.jpeg",
+    "label": 2,
+    "patient_id": "lungn887",
+    "modality": "pathology",
+    "sample_id": 264
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn980.jpeg",
+    "label": 2,
+    "patient_id": "lungn980",
+    "modality": "pathology",
+    "sample_id": 265
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2619.jpeg",
+    "label": 2,
+    "patient_id": "lungn2619",
+    "modality": "pathology",
+    "sample_id": 266
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4216.jpeg",
+    "label": 2,
+    "patient_id": "lungn4216",
+    "modality": "pathology",
+    "sample_id": 267
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn855.jpeg",
+    "label": 2,
+    "patient_id": "lungn855",
+    "modality": "pathology",
+    "sample_id": 268
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3525.jpeg",
+    "label": 2,
+    "patient_id": "lungn3525",
+    "modality": "pathology",
+    "sample_id": 269
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1883.jpeg",
+    "label": 2,
+    "patient_id": "lungn1883",
+    "modality": "pathology",
+    "sample_id": 270
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn382.jpeg",
+    "label": 2,
+    "patient_id": "lungn382",
+    "modality": "pathology",
+    "sample_id": 271
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4391.jpeg",
+    "label": 2,
+    "patient_id": "lungn4391",
+    "modality": "pathology",
+    "sample_id": 272
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4177.jpeg",
+    "label": 2,
+    "patient_id": "lungn4177",
+    "modality": "pathology",
+    "sample_id": 273
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1053.jpeg",
+    "label": 2,
+    "patient_id": "lungn1053",
+    "modality": "pathology",
+    "sample_id": 274
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1370.jpeg",
+    "label": 2,
+    "patient_id": "lungn1370",
+    "modality": "pathology",
+    "sample_id": 275
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn320.jpeg",
+    "label": 2,
+    "patient_id": "lungn320",
+    "modality": "pathology",
+    "sample_id": 276
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2212.jpeg",
+    "label": 2,
+    "patient_id": "lungn2212",
+    "modality": "pathology",
+    "sample_id": 277
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1416.jpeg",
+    "label": 2,
+    "patient_id": "lungn1416",
+    "modality": "pathology",
+    "sample_id": 278
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn667.jpeg",
+    "label": 2,
+    "patient_id": "lungn667",
+    "modality": "pathology",
+    "sample_id": 279
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn714.jpeg",
+    "label": 2,
+    "patient_id": "lungn714",
+    "modality": "pathology",
+    "sample_id": 280
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3442.jpeg",
+    "label": 2,
+    "patient_id": "lungn3442",
+    "modality": "pathology",
+    "sample_id": 281
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4445.jpeg",
+    "label": 2,
+    "patient_id": "lungn4445",
+    "modality": "pathology",
+    "sample_id": 282
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3690.jpeg",
+    "label": 2,
+    "patient_id": "lungn3690",
+    "modality": "pathology",
+    "sample_id": 283
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4745.jpeg",
+    "label": 2,
+    "patient_id": "lungn4745",
+    "modality": "pathology",
+    "sample_id": 284
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn676.jpeg",
+    "label": 2,
+    "patient_id": "lungn676",
+    "modality": "pathology",
+    "sample_id": 285
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3763.jpeg",
+    "label": 2,
+    "patient_id": "lungn3763",
+    "modality": "pathology",
+    "sample_id": 286
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3611.jpeg",
+    "label": 2,
+    "patient_id": "lungn3611",
+    "modality": "pathology",
+    "sample_id": 287
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3652.jpeg",
+    "label": 2,
+    "patient_id": "lungn3652",
+    "modality": "pathology",
+    "sample_id": 288
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3059.jpeg",
+    "label": 2,
+    "patient_id": "lungn3059",
+    "modality": "pathology",
+    "sample_id": 289
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn915.jpeg",
+    "label": 2,
+    "patient_id": "lungn915",
+    "modality": "pathology",
+    "sample_id": 290
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3004.jpeg",
+    "label": 2,
+    "patient_id": "lungn3004",
+    "modality": "pathology",
+    "sample_id": 291
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4995.jpeg",
+    "label": 2,
+    "patient_id": "lungn4995",
+    "modality": "pathology",
+    "sample_id": 292
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2786.jpeg",
+    "label": 2,
+    "patient_id": "lungn2786",
+    "modality": "pathology",
+    "sample_id": 293
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3914.jpeg",
+    "label": 2,
+    "patient_id": "lungn3914",
+    "modality": "pathology",
+    "sample_id": 294
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3920.jpeg",
+    "label": 2,
+    "patient_id": "lungn3920",
+    "modality": "pathology",
+    "sample_id": 295
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3141.jpeg",
+    "label": 2,
+    "patient_id": "lungn3141",
+    "modality": "pathology",
+    "sample_id": 296
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3724.jpeg",
+    "label": 2,
+    "patient_id": "lungn3724",
+    "modality": "pathology",
+    "sample_id": 297
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1384.jpeg",
+    "label": 2,
+    "patient_id": "lungn1384",
+    "modality": "pathology",
+    "sample_id": 298
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3055.jpeg",
+    "label": 2,
+    "patient_id": "lungn3055",
+    "modality": "pathology",
+    "sample_id": 299
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4489.jpeg",
+    "label": 2,
+    "patient_id": "lungn4489",
+    "modality": "pathology",
+    "sample_id": 300
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1548.jpeg",
+    "label": 2,
+    "patient_id": "lungn1548",
+    "modality": "pathology",
+    "sample_id": 301
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4790.jpeg",
+    "label": 2,
+    "patient_id": "lungn4790",
+    "modality": "pathology",
+    "sample_id": 302
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4537.jpeg",
+    "label": 2,
+    "patient_id": "lungn4537",
+    "modality": "pathology",
+    "sample_id": 303
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4246.jpeg",
+    "label": 2,
+    "patient_id": "lungn4246",
+    "modality": "pathology",
+    "sample_id": 304
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3847.jpeg",
+    "label": 2,
+    "patient_id": "lungn3847",
+    "modality": "pathology",
+    "sample_id": 305
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4198.jpeg",
+    "label": 2,
+    "patient_id": "lungn4198",
+    "modality": "pathology",
+    "sample_id": 306
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4500.jpeg",
+    "label": 2,
+    "patient_id": "lungn4500",
+    "modality": "pathology",
+    "sample_id": 307
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1626.jpeg",
+    "label": 2,
+    "patient_id": "lungn1626",
+    "modality": "pathology",
+    "sample_id": 308
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1756.jpeg",
+    "label": 2,
+    "patient_id": "lungn1756",
+    "modality": "pathology",
+    "sample_id": 309
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3608.jpeg",
+    "label": 2,
+    "patient_id": "lungn3608",
+    "modality": "pathology",
+    "sample_id": 310
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1219.jpeg",
+    "label": 2,
+    "patient_id": "lungn1219",
+    "modality": "pathology",
+    "sample_id": 311
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn718.jpeg",
+    "label": 2,
+    "patient_id": "lungn718",
+    "modality": "pathology",
+    "sample_id": 312
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1550.jpeg",
+    "label": 2,
+    "patient_id": "lungn1550",
+    "modality": "pathology",
+    "sample_id": 313
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn408.jpeg",
+    "label": 2,
+    "patient_id": "lungn408",
+    "modality": "pathology",
+    "sample_id": 314
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn691.jpeg",
+    "label": 2,
+    "patient_id": "lungn691",
+    "modality": "pathology",
+    "sample_id": 315
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1702.jpeg",
+    "label": 2,
+    "patient_id": "lungn1702",
+    "modality": "pathology",
+    "sample_id": 316
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3735.jpeg",
+    "label": 2,
+    "patient_id": "lungn3735",
+    "modality": "pathology",
+    "sample_id": 317
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3293.jpeg",
+    "label": 2,
+    "patient_id": "lungn3293",
+    "modality": "pathology",
+    "sample_id": 318
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3472.jpeg",
+    "label": 2,
+    "patient_id": "lungn3472",
+    "modality": "pathology",
+    "sample_id": 319
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4378.jpeg",
+    "label": 2,
+    "patient_id": "lungn4378",
+    "modality": "pathology",
+    "sample_id": 320
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4256.jpeg",
+    "label": 2,
+    "patient_id": "lungn4256",
+    "modality": "pathology",
+    "sample_id": 321
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4704.jpeg",
+    "label": 2,
+    "patient_id": "lungn4704",
+    "modality": "pathology",
+    "sample_id": 322
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn593.jpeg",
+    "label": 2,
+    "patient_id": "lungn593",
+    "modality": "pathology",
+    "sample_id": 323
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4289.jpeg",
+    "label": 2,
+    "patient_id": "lungn4289",
+    "modality": "pathology",
+    "sample_id": 324
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2394.jpeg",
+    "label": 2,
+    "patient_id": "lungn2394",
+    "modality": "pathology",
+    "sample_id": 325
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1020.jpeg",
+    "label": 2,
+    "patient_id": "lungn1020",
+    "modality": "pathology",
+    "sample_id": 326
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4771.jpeg",
+    "label": 2,
+    "patient_id": "lungn4771",
+    "modality": "pathology",
+    "sample_id": 327
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn675.jpeg",
+    "label": 2,
+    "patient_id": "lungn675",
+    "modality": "pathology",
+    "sample_id": 328
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3161.jpeg",
+    "label": 2,
+    "patient_id": "lungn3161",
+    "modality": "pathology",
+    "sample_id": 329
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4453.jpeg",
+    "label": 2,
+    "patient_id": "lungn4453",
+    "modality": "pathology",
+    "sample_id": 330
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4723.jpeg",
+    "label": 2,
+    "patient_id": "lungn4723",
+    "modality": "pathology",
+    "sample_id": 331
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3467.jpeg",
+    "label": 2,
+    "patient_id": "lungn3467",
+    "modality": "pathology",
+    "sample_id": 332
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3787.jpeg",
+    "label": 2,
+    "patient_id": "lungn3787",
+    "modality": "pathology",
+    "sample_id": 333
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3367.jpeg",
+    "label": 2,
+    "patient_id": "lungn3367",
+    "modality": "pathology",
+    "sample_id": 334
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4214.jpeg",
+    "label": 2,
+    "patient_id": "lungn4214",
+    "modality": "pathology",
+    "sample_id": 335
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2202.jpeg",
+    "label": 2,
+    "patient_id": "lungn2202",
+    "modality": "pathology",
+    "sample_id": 336
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3323.jpeg",
+    "label": 2,
+    "patient_id": "lungn3323",
+    "modality": "pathology",
+    "sample_id": 337
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2115.jpeg",
+    "label": 2,
+    "patient_id": "lungn2115",
+    "modality": "pathology",
+    "sample_id": 338
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn526.jpeg",
+    "label": 2,
+    "patient_id": "lungn526",
+    "modality": "pathology",
+    "sample_id": 339
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1580.jpeg",
+    "label": 2,
+    "patient_id": "lungn1580",
+    "modality": "pathology",
+    "sample_id": 340
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3854.jpeg",
+    "label": 2,
+    "patient_id": "lungn3854",
+    "modality": "pathology",
+    "sample_id": 341
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2950.jpeg",
+    "label": 2,
+    "patient_id": "lungn2950",
+    "modality": "pathology",
+    "sample_id": 342
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1389.jpeg",
+    "label": 2,
+    "patient_id": "lungn1389",
+    "modality": "pathology",
+    "sample_id": 343
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3130.jpeg",
+    "label": 2,
+    "patient_id": "lungn3130",
+    "modality": "pathology",
+    "sample_id": 344
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn626.jpeg",
+    "label": 2,
+    "patient_id": "lungn626",
+    "modality": "pathology",
+    "sample_id": 345
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4348.jpeg",
+    "label": 2,
+    "patient_id": "lungn4348",
+    "modality": "pathology",
+    "sample_id": 346
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4994.jpeg",
+    "label": 2,
+    "patient_id": "lungn4994",
+    "modality": "pathology",
+    "sample_id": 347
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2897.jpeg",
+    "label": 2,
+    "patient_id": "lungn2897",
+    "modality": "pathology",
+    "sample_id": 348
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4513.jpeg",
+    "label": 2,
+    "patient_id": "lungn4513",
+    "modality": "pathology",
+    "sample_id": 349
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1429.jpeg",
+    "label": 2,
+    "patient_id": "lungn1429",
+    "modality": "pathology",
+    "sample_id": 350
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn610.jpeg",
+    "label": 2,
+    "patient_id": "lungn610",
+    "modality": "pathology",
+    "sample_id": 351
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4357.jpeg",
+    "label": 2,
+    "patient_id": "lungn4357",
+    "modality": "pathology",
+    "sample_id": 352
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1144.jpeg",
+    "label": 2,
+    "patient_id": "lungn1144",
+    "modality": "pathology",
+    "sample_id": 353
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4180.jpeg",
+    "label": 2,
+    "patient_id": "lungn4180",
+    "modality": "pathology",
+    "sample_id": 354
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn1617.jpeg",
+    "label": 2,
+    "patient_id": "lungn1617",
+    "modality": "pathology",
+    "sample_id": 355
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2707.jpeg",
+    "label": 2,
+    "patient_id": "lungn2707",
+    "modality": "pathology",
+    "sample_id": 356
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn166.jpeg",
+    "label": 2,
+    "patient_id": "lungn166",
+    "modality": "pathology",
+    "sample_id": 357
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4937.jpeg",
+    "label": 2,
+    "patient_id": "lungn4937",
+    "modality": "pathology",
+    "sample_id": 358
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn2043.jpeg",
+    "label": 2,
+    "patient_id": "lungn2043",
+    "modality": "pathology",
+    "sample_id": 359
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn4521.jpeg",
+    "label": 2,
+    "patient_id": "lungn4521",
+    "modality": "pathology",
+    "sample_id": 360
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\lung_image_sets\\lung_n\\lungn3099.jpeg",
+    "label": 2,
+    "patient_id": "lungn3099",
+    "modality": "pathology",
+    "sample_id": 361
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1078.jpeg",
+    "label": 3,
+    "patient_id": "colonca1078",
+    "modality": "pathology",
+    "sample_id": 362
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1195.jpeg",
+    "label": 3,
+    "patient_id": "colonca1195",
+    "modality": "pathology",
+    "sample_id": 363
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1773.jpeg",
+    "label": 3,
+    "patient_id": "colonca1773",
+    "modality": "pathology",
+    "sample_id": 364
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2057.jpeg",
+    "label": 3,
+    "patient_id": "colonca2057",
+    "modality": "pathology",
+    "sample_id": 365
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2435.jpeg",
+    "label": 3,
+    "patient_id": "colonca2435",
+    "modality": "pathology",
+    "sample_id": 366
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2461.jpeg",
+    "label": 3,
+    "patient_id": "colonca2461",
+    "modality": "pathology",
+    "sample_id": 367
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2749.jpeg",
+    "label": 3,
+    "patient_id": "colonca2749",
+    "modality": "pathology",
+    "sample_id": 368
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2941.jpeg",
+    "label": 3,
+    "patient_id": "colonca2941",
+    "modality": "pathology",
+    "sample_id": 369
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2968.jpeg",
+    "label": 3,
+    "patient_id": "colonca2968",
+    "modality": "pathology",
+    "sample_id": 370
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca299.jpeg",
+    "label": 3,
+    "patient_id": "colonca299",
+    "modality": "pathology",
+    "sample_id": 371
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3388.jpeg",
+    "label": 3,
+    "patient_id": "colonca3388",
+    "modality": "pathology",
+    "sample_id": 372
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3661.jpeg",
+    "label": 3,
+    "patient_id": "colonca3661",
+    "modality": "pathology",
+    "sample_id": 373
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3804.jpeg",
+    "label": 3,
+    "patient_id": "colonca3804",
+    "modality": "pathology",
+    "sample_id": 374
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca381.jpeg",
+    "label": 3,
+    "patient_id": "colonca381",
+    "modality": "pathology",
+    "sample_id": 375
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3822.jpeg",
+    "label": 3,
+    "patient_id": "colonca3822",
+    "modality": "pathology",
+    "sample_id": 376
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3886.jpeg",
+    "label": 3,
+    "patient_id": "colonca3886",
+    "modality": "pathology",
+    "sample_id": 377
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3896.jpeg",
+    "label": 3,
+    "patient_id": "colonca3896",
+    "modality": "pathology",
+    "sample_id": 378
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4129.jpeg",
+    "label": 3,
+    "patient_id": "colonca4129",
+    "modality": "pathology",
+    "sample_id": 379
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4223.jpeg",
+    "label": 3,
+    "patient_id": "colonca4223",
+    "modality": "pathology",
+    "sample_id": 380
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca442.jpeg",
+    "label": 3,
+    "patient_id": "colonca442",
+    "modality": "pathology",
+    "sample_id": 381
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4496.jpeg",
+    "label": 3,
+    "patient_id": "colonca4496",
+    "modality": "pathology",
+    "sample_id": 382
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4851.jpeg",
+    "label": 3,
+    "patient_id": "colonca4851",
+    "modality": "pathology",
+    "sample_id": 383
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca882.jpeg",
+    "label": 3,
+    "patient_id": "colonca882",
+    "modality": "pathology",
+    "sample_id": 384
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3084.jpeg",
+    "label": 3,
+    "patient_id": "colonca3084",
+    "modality": "pathology",
+    "sample_id": 385
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2885.jpeg",
+    "label": 3,
+    "patient_id": "colonca2885",
+    "modality": "pathology",
+    "sample_id": 386
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3203.jpeg",
+    "label": 3,
+    "patient_id": "colonca3203",
+    "modality": "pathology",
+    "sample_id": 387
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1183.jpeg",
+    "label": 3,
+    "patient_id": "colonca1183",
+    "modality": "pathology",
+    "sample_id": 388
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3663.jpeg",
+    "label": 3,
+    "patient_id": "colonca3663",
+    "modality": "pathology",
+    "sample_id": 389
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1316.jpeg",
+    "label": 3,
+    "patient_id": "colonca1316",
+    "modality": "pathology",
+    "sample_id": 390
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3081.jpeg",
+    "label": 3,
+    "patient_id": "colonca3081",
+    "modality": "pathology",
+    "sample_id": 391
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4999.jpeg",
+    "label": 3,
+    "patient_id": "colonca4999",
+    "modality": "pathology",
+    "sample_id": 392
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1646.jpeg",
+    "label": 3,
+    "patient_id": "colonca1646",
+    "modality": "pathology",
+    "sample_id": 393
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3500.jpeg",
+    "label": 3,
+    "patient_id": "colonca3500",
+    "modality": "pathology",
+    "sample_id": 394
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4527.jpeg",
+    "label": 3,
+    "patient_id": "colonca4527",
+    "modality": "pathology",
+    "sample_id": 395
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca153.jpeg",
+    "label": 3,
+    "patient_id": "colonca153",
+    "modality": "pathology",
+    "sample_id": 396
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1640.jpeg",
+    "label": 3,
+    "patient_id": "colonca1640",
+    "modality": "pathology",
+    "sample_id": 397
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca334.jpeg",
+    "label": 3,
+    "patient_id": "colonca334",
+    "modality": "pathology",
+    "sample_id": 398
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca247.jpeg",
+    "label": 3,
+    "patient_id": "colonca247",
+    "modality": "pathology",
+    "sample_id": 399
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2380.jpeg",
+    "label": 3,
+    "patient_id": "colonca2380",
+    "modality": "pathology",
+    "sample_id": 400
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1948.jpeg",
+    "label": 3,
+    "patient_id": "colonca1948",
+    "modality": "pathology",
+    "sample_id": 401
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2094.jpeg",
+    "label": 3,
+    "patient_id": "colonca2094",
+    "modality": "pathology",
+    "sample_id": 402
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3621.jpeg",
+    "label": 3,
+    "patient_id": "colonca3621",
+    "modality": "pathology",
+    "sample_id": 403
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2371.jpeg",
+    "label": 3,
+    "patient_id": "colonca2371",
+    "modality": "pathology",
+    "sample_id": 404
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3837.jpeg",
+    "label": 3,
+    "patient_id": "colonca3837",
+    "modality": "pathology",
+    "sample_id": 405
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca397.jpeg",
+    "label": 3,
+    "patient_id": "colonca397",
+    "modality": "pathology",
+    "sample_id": 406
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca307.jpeg",
+    "label": 3,
+    "patient_id": "colonca307",
+    "modality": "pathology",
+    "sample_id": 407
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca173.jpeg",
+    "label": 3,
+    "patient_id": "colonca173",
+    "modality": "pathology",
+    "sample_id": 408
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca98.jpeg",
+    "label": 3,
+    "patient_id": "colonca98",
+    "modality": "pathology",
+    "sample_id": 409
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2484.jpeg",
+    "label": 3,
+    "patient_id": "colonca2484",
+    "modality": "pathology",
+    "sample_id": 410
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2943.jpeg",
+    "label": 3,
+    "patient_id": "colonca2943",
+    "modality": "pathology",
+    "sample_id": 411
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4799.jpeg",
+    "label": 3,
+    "patient_id": "colonca4799",
+    "modality": "pathology",
+    "sample_id": 412
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4454.jpeg",
+    "label": 3,
+    "patient_id": "colonca4454",
+    "modality": "pathology",
+    "sample_id": 413
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca413.jpeg",
+    "label": 3,
+    "patient_id": "colonca413",
+    "modality": "pathology",
+    "sample_id": 414
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2500.jpeg",
+    "label": 3,
+    "patient_id": "colonca2500",
+    "modality": "pathology",
+    "sample_id": 415
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3746.jpeg",
+    "label": 3,
+    "patient_id": "colonca3746",
+    "modality": "pathology",
+    "sample_id": 416
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1865.jpeg",
+    "label": 3,
+    "patient_id": "colonca1865",
+    "modality": "pathology",
+    "sample_id": 417
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4743.jpeg",
+    "label": 3,
+    "patient_id": "colonca4743",
+    "modality": "pathology",
+    "sample_id": 418
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca93.jpeg",
+    "label": 3,
+    "patient_id": "colonca93",
+    "modality": "pathology",
+    "sample_id": 419
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1863.jpeg",
+    "label": 3,
+    "patient_id": "colonca1863",
+    "modality": "pathology",
+    "sample_id": 420
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca325.jpeg",
+    "label": 3,
+    "patient_id": "colonca325",
+    "modality": "pathology",
+    "sample_id": 421
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4738.jpeg",
+    "label": 3,
+    "patient_id": "colonca4738",
+    "modality": "pathology",
+    "sample_id": 422
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca923.jpeg",
+    "label": 3,
+    "patient_id": "colonca923",
+    "modality": "pathology",
+    "sample_id": 423
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2475.jpeg",
+    "label": 3,
+    "patient_id": "colonca2475",
+    "modality": "pathology",
+    "sample_id": 424
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2382.jpeg",
+    "label": 3,
+    "patient_id": "colonca2382",
+    "modality": "pathology",
+    "sample_id": 425
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2081.jpeg",
+    "label": 3,
+    "patient_id": "colonca2081",
+    "modality": "pathology",
+    "sample_id": 426
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4060.jpeg",
+    "label": 3,
+    "patient_id": "colonca4060",
+    "modality": "pathology",
+    "sample_id": 427
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2862.jpeg",
+    "label": 3,
+    "patient_id": "colonca2862",
+    "modality": "pathology",
+    "sample_id": 428
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4354.jpeg",
+    "label": 3,
+    "patient_id": "colonca4354",
+    "modality": "pathology",
+    "sample_id": 429
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca575.jpeg",
+    "label": 3,
+    "patient_id": "colonca575",
+    "modality": "pathology",
+    "sample_id": 430
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1562.jpeg",
+    "label": 3,
+    "patient_id": "colonca1562",
+    "modality": "pathology",
+    "sample_id": 431
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca904.jpeg",
+    "label": 3,
+    "patient_id": "colonca904",
+    "modality": "pathology",
+    "sample_id": 432
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2648.jpeg",
+    "label": 3,
+    "patient_id": "colonca2648",
+    "modality": "pathology",
+    "sample_id": 433
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4141.jpeg",
+    "label": 3,
+    "patient_id": "colonca4141",
+    "modality": "pathology",
+    "sample_id": 434
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4289.jpeg",
+    "label": 3,
+    "patient_id": "colonca4289",
+    "modality": "pathology",
+    "sample_id": 435
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3103.jpeg",
+    "label": 3,
+    "patient_id": "colonca3103",
+    "modality": "pathology",
+    "sample_id": 436
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4747.jpeg",
+    "label": 3,
+    "patient_id": "colonca4747",
+    "modality": "pathology",
+    "sample_id": 437
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1895.jpeg",
+    "label": 3,
+    "patient_id": "colonca1895",
+    "modality": "pathology",
+    "sample_id": 438
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1676.jpeg",
+    "label": 3,
+    "patient_id": "colonca1676",
+    "modality": "pathology",
+    "sample_id": 439
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2756.jpeg",
+    "label": 3,
+    "patient_id": "colonca2756",
+    "modality": "pathology",
+    "sample_id": 440
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3578.jpeg",
+    "label": 3,
+    "patient_id": "colonca3578",
+    "modality": "pathology",
+    "sample_id": 441
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2890.jpeg",
+    "label": 3,
+    "patient_id": "colonca2890",
+    "modality": "pathology",
+    "sample_id": 442
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4177.jpeg",
+    "label": 3,
+    "patient_id": "colonca4177",
+    "modality": "pathology",
+    "sample_id": 443
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3215.jpeg",
+    "label": 3,
+    "patient_id": "colonca3215",
+    "modality": "pathology",
+    "sample_id": 444
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1155.jpeg",
+    "label": 3,
+    "patient_id": "colonca1155",
+    "modality": "pathology",
+    "sample_id": 445
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3858.jpeg",
+    "label": 3,
+    "patient_id": "colonca3858",
+    "modality": "pathology",
+    "sample_id": 446
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3251.jpeg",
+    "label": 3,
+    "patient_id": "colonca3251",
+    "modality": "pathology",
+    "sample_id": 447
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca206.jpeg",
+    "label": 3,
+    "patient_id": "colonca206",
+    "modality": "pathology",
+    "sample_id": 448
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca610.jpeg",
+    "label": 3,
+    "patient_id": "colonca610",
+    "modality": "pathology",
+    "sample_id": 449
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3855.jpeg",
+    "label": 3,
+    "patient_id": "colonca3855",
+    "modality": "pathology",
+    "sample_id": 450
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2078.jpeg",
+    "label": 3,
+    "patient_id": "colonca2078",
+    "modality": "pathology",
+    "sample_id": 451
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3407.jpeg",
+    "label": 3,
+    "patient_id": "colonca3407",
+    "modality": "pathology",
+    "sample_id": 452
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3761.jpeg",
+    "label": 3,
+    "patient_id": "colonca3761",
+    "modality": "pathology",
+    "sample_id": 453
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4632.jpeg",
+    "label": 3,
+    "patient_id": "colonca4632",
+    "modality": "pathology",
+    "sample_id": 454
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4556.jpeg",
+    "label": 3,
+    "patient_id": "colonca4556",
+    "modality": "pathology",
+    "sample_id": 455
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2309.jpeg",
+    "label": 3,
+    "patient_id": "colonca2309",
+    "modality": "pathology",
+    "sample_id": 456
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4694.jpeg",
+    "label": 3,
+    "patient_id": "colonca4694",
+    "modality": "pathology",
+    "sample_id": 457
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3179.jpeg",
+    "label": 3,
+    "patient_id": "colonca3179",
+    "modality": "pathology",
+    "sample_id": 458
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1244.jpeg",
+    "label": 3,
+    "patient_id": "colonca1244",
+    "modality": "pathology",
+    "sample_id": 459
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2581.jpeg",
+    "label": 3,
+    "patient_id": "colonca2581",
+    "modality": "pathology",
+    "sample_id": 460
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4387.jpeg",
+    "label": 3,
+    "patient_id": "colonca4387",
+    "modality": "pathology",
+    "sample_id": 461
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3840.jpeg",
+    "label": 3,
+    "patient_id": "colonca3840",
+    "modality": "pathology",
+    "sample_id": 462
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1045.jpeg",
+    "label": 3,
+    "patient_id": "colonca1045",
+    "modality": "pathology",
+    "sample_id": 463
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2180.jpeg",
+    "label": 3,
+    "patient_id": "colonca2180",
+    "modality": "pathology",
+    "sample_id": 464
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3914.jpeg",
+    "label": 3,
+    "patient_id": "colonca3914",
+    "modality": "pathology",
+    "sample_id": 465
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1681.jpeg",
+    "label": 3,
+    "patient_id": "colonca1681",
+    "modality": "pathology",
+    "sample_id": 466
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2998.jpeg",
+    "label": 3,
+    "patient_id": "colonca2998",
+    "modality": "pathology",
+    "sample_id": 467
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1341.jpeg",
+    "label": 3,
+    "patient_id": "colonca1341",
+    "modality": "pathology",
+    "sample_id": 468
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca424.jpeg",
+    "label": 3,
+    "patient_id": "colonca424",
+    "modality": "pathology",
+    "sample_id": 469
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca401.jpeg",
+    "label": 3,
+    "patient_id": "colonca401",
+    "modality": "pathology",
+    "sample_id": 470
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca780.jpeg",
+    "label": 3,
+    "patient_id": "colonca780",
+    "modality": "pathology",
+    "sample_id": 471
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca490.jpeg",
+    "label": 3,
+    "patient_id": "colonca490",
+    "modality": "pathology",
+    "sample_id": 472
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca443.jpeg",
+    "label": 3,
+    "patient_id": "colonca443",
+    "modality": "pathology",
+    "sample_id": 473
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca238.jpeg",
+    "label": 3,
+    "patient_id": "colonca238",
+    "modality": "pathology",
+    "sample_id": 474
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3564.jpeg",
+    "label": 3,
+    "patient_id": "colonca3564",
+    "modality": "pathology",
+    "sample_id": 475
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4146.jpeg",
+    "label": 3,
+    "patient_id": "colonca4146",
+    "modality": "pathology",
+    "sample_id": 476
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca622.jpeg",
+    "label": 3,
+    "patient_id": "colonca622",
+    "modality": "pathology",
+    "sample_id": 477
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4375.jpeg",
+    "label": 3,
+    "patient_id": "colonca4375",
+    "modality": "pathology",
+    "sample_id": 478
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4668.jpeg",
+    "label": 3,
+    "patient_id": "colonca4668",
+    "modality": "pathology",
+    "sample_id": 479
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca3227.jpeg",
+    "label": 3,
+    "patient_id": "colonca3227",
+    "modality": "pathology",
+    "sample_id": 480
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca120.jpeg",
+    "label": 3,
+    "patient_id": "colonca120",
+    "modality": "pathology",
+    "sample_id": 481
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca4754.jpeg",
+    "label": 3,
+    "patient_id": "colonca4754",
+    "modality": "pathology",
+    "sample_id": 482
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca230.jpeg",
+    "label": 3,
+    "patient_id": "colonca230",
+    "modality": "pathology",
+    "sample_id": 483
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca2791.jpeg",
+    "label": 3,
+    "patient_id": "colonca2791",
+    "modality": "pathology",
+    "sample_id": 484
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_aca\\colonca1293.jpeg",
+    "label": 3,
+    "patient_id": "colonca1293",
+    "modality": "pathology",
+    "sample_id": 485
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1073.jpeg",
+    "label": 4,
+    "patient_id": "colonn1073",
+    "modality": "pathology",
+    "sample_id": 486
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1399.jpeg",
+    "label": 4,
+    "patient_id": "colonn1399",
+    "modality": "pathology",
+    "sample_id": 487
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1845.jpeg",
+    "label": 4,
+    "patient_id": "colonn1845",
+    "modality": "pathology",
+    "sample_id": 488
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1987.jpeg",
+    "label": 4,
+    "patient_id": "colonn1987",
+    "modality": "pathology",
+    "sample_id": 489
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2164.jpeg",
+    "label": 4,
+    "patient_id": "colonn2164",
+    "modality": "pathology",
+    "sample_id": 490
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2968.jpeg",
+    "label": 4,
+    "patient_id": "colonn2968",
+    "modality": "pathology",
+    "sample_id": 491
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3013.jpeg",
+    "label": 4,
+    "patient_id": "colonn3013",
+    "modality": "pathology",
+    "sample_id": 492
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3016.jpeg",
+    "label": 4,
+    "patient_id": "colonn3016",
+    "modality": "pathology",
+    "sample_id": 493
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3306.jpeg",
+    "label": 4,
+    "patient_id": "colonn3306",
+    "modality": "pathology",
+    "sample_id": 494
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3336.jpeg",
+    "label": 4,
+    "patient_id": "colonn3336",
+    "modality": "pathology",
+    "sample_id": 495
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3519.jpeg",
+    "label": 4,
+    "patient_id": "colonn3519",
+    "modality": "pathology",
+    "sample_id": 496
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3763.jpeg",
+    "label": 4,
+    "patient_id": "colonn3763",
+    "modality": "pathology",
+    "sample_id": 497
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4129.jpeg",
+    "label": 4,
+    "patient_id": "colonn4129",
+    "modality": "pathology",
+    "sample_id": 498
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn442.jpeg",
+    "label": 4,
+    "patient_id": "colonn442",
+    "modality": "pathology",
+    "sample_id": 499
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4492.jpeg",
+    "label": 4,
+    "patient_id": "colonn4492",
+    "modality": "pathology",
+    "sample_id": 500
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4533.jpeg",
+    "label": 4,
+    "patient_id": "colonn4533",
+    "modality": "pathology",
+    "sample_id": 501
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4851.jpeg",
+    "label": 4,
+    "patient_id": "colonn4851",
+    "modality": "pathology",
+    "sample_id": 502
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn505.jpeg",
+    "label": 4,
+    "patient_id": "colonn505",
+    "modality": "pathology",
+    "sample_id": 503
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn782.jpeg",
+    "label": 4,
+    "patient_id": "colonn782",
+    "modality": "pathology",
+    "sample_id": 504
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3810.jpeg",
+    "label": 4,
+    "patient_id": "colonn3810",
+    "modality": "pathology",
+    "sample_id": 505
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn907.jpeg",
+    "label": 4,
+    "patient_id": "colonn907",
+    "modality": "pathology",
+    "sample_id": 506
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn491.jpeg",
+    "label": 4,
+    "patient_id": "colonn491",
+    "modality": "pathology",
+    "sample_id": 507
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2991.jpeg",
+    "label": 4,
+    "patient_id": "colonn2991",
+    "modality": "pathology",
+    "sample_id": 508
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2812.jpeg",
+    "label": 4,
+    "patient_id": "colonn2812",
+    "modality": "pathology",
+    "sample_id": 509
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2518.jpeg",
+    "label": 4,
+    "patient_id": "colonn2518",
+    "modality": "pathology",
+    "sample_id": 510
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn969.jpeg",
+    "label": 4,
+    "patient_id": "colonn969",
+    "modality": "pathology",
+    "sample_id": 511
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1077.jpeg",
+    "label": 4,
+    "patient_id": "colonn1077",
+    "modality": "pathology",
+    "sample_id": 512
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3639.jpeg",
+    "label": 4,
+    "patient_id": "colonn3639",
+    "modality": "pathology",
+    "sample_id": 513
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4557.jpeg",
+    "label": 4,
+    "patient_id": "colonn4557",
+    "modality": "pathology",
+    "sample_id": 514
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1296.jpeg",
+    "label": 4,
+    "patient_id": "colonn1296",
+    "modality": "pathology",
+    "sample_id": 515
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3617.jpeg",
+    "label": 4,
+    "patient_id": "colonn3617",
+    "modality": "pathology",
+    "sample_id": 516
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1033.jpeg",
+    "label": 4,
+    "patient_id": "colonn1033",
+    "modality": "pathology",
+    "sample_id": 517
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3456.jpeg",
+    "label": 4,
+    "patient_id": "colonn3456",
+    "modality": "pathology",
+    "sample_id": 518
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn774.jpeg",
+    "label": 4,
+    "patient_id": "colonn774",
+    "modality": "pathology",
+    "sample_id": 519
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1501.jpeg",
+    "label": 4,
+    "patient_id": "colonn1501",
+    "modality": "pathology",
+    "sample_id": 520
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1790.jpeg",
+    "label": 4,
+    "patient_id": "colonn1790",
+    "modality": "pathology",
+    "sample_id": 521
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2039.jpeg",
+    "label": 4,
+    "patient_id": "colonn2039",
+    "modality": "pathology",
+    "sample_id": 522
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4743.jpeg",
+    "label": 4,
+    "patient_id": "colonn4743",
+    "modality": "pathology",
+    "sample_id": 523
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2865.jpeg",
+    "label": 4,
+    "patient_id": "colonn2865",
+    "modality": "pathology",
+    "sample_id": 524
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn183.jpeg",
+    "label": 4,
+    "patient_id": "colonn183",
+    "modality": "pathology",
+    "sample_id": 525
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2437.jpeg",
+    "label": 4,
+    "patient_id": "colonn2437",
+    "modality": "pathology",
+    "sample_id": 526
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4942.jpeg",
+    "label": 4,
+    "patient_id": "colonn4942",
+    "modality": "pathology",
+    "sample_id": 527
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3352.jpeg",
+    "label": 4,
+    "patient_id": "colonn3352",
+    "modality": "pathology",
+    "sample_id": 528
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1127.jpeg",
+    "label": 4,
+    "patient_id": "colonn1127",
+    "modality": "pathology",
+    "sample_id": 529
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn434.jpeg",
+    "label": 4,
+    "patient_id": "colonn434",
+    "modality": "pathology",
+    "sample_id": 530
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3969.jpeg",
+    "label": 4,
+    "patient_id": "colonn3969",
+    "modality": "pathology",
+    "sample_id": 531
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2112.jpeg",
+    "label": 4,
+    "patient_id": "colonn2112",
+    "modality": "pathology",
+    "sample_id": 532
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4220.jpeg",
+    "label": 4,
+    "patient_id": "colonn4220",
+    "modality": "pathology",
+    "sample_id": 533
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4060.jpeg",
+    "label": 4,
+    "patient_id": "colonn4060",
+    "modality": "pathology",
+    "sample_id": 534
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3187.jpeg",
+    "label": 4,
+    "patient_id": "colonn3187",
+    "modality": "pathology",
+    "sample_id": 535
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4111.jpeg",
+    "label": 4,
+    "patient_id": "colonn4111",
+    "modality": "pathology",
+    "sample_id": 536
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1004.jpeg",
+    "label": 4,
+    "patient_id": "colonn1004",
+    "modality": "pathology",
+    "sample_id": 537
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1457.jpeg",
+    "label": 4,
+    "patient_id": "colonn1457",
+    "modality": "pathology",
+    "sample_id": 538
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3534.jpeg",
+    "label": 4,
+    "patient_id": "colonn3534",
+    "modality": "pathology",
+    "sample_id": 539
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3492.jpeg",
+    "label": 4,
+    "patient_id": "colonn3492",
+    "modality": "pathology",
+    "sample_id": 540
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3509.jpeg",
+    "label": 4,
+    "patient_id": "colonn3509",
+    "modality": "pathology",
+    "sample_id": 541
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2714.jpeg",
+    "label": 4,
+    "patient_id": "colonn2714",
+    "modality": "pathology",
+    "sample_id": 542
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2302.jpeg",
+    "label": 4,
+    "patient_id": "colonn2302",
+    "modality": "pathology",
+    "sample_id": 543
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4366.jpeg",
+    "label": 4,
+    "patient_id": "colonn4366",
+    "modality": "pathology",
+    "sample_id": 544
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1767.jpeg",
+    "label": 4,
+    "patient_id": "colonn1767",
+    "modality": "pathology",
+    "sample_id": 545
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2335.jpeg",
+    "label": 4,
+    "patient_id": "colonn2335",
+    "modality": "pathology",
+    "sample_id": 546
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1969.jpeg",
+    "label": 4,
+    "patient_id": "colonn1969",
+    "modality": "pathology",
+    "sample_id": 547
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn250.jpeg",
+    "label": 4,
+    "patient_id": "colonn250",
+    "modality": "pathology",
+    "sample_id": 548
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn89.jpeg",
+    "label": 4,
+    "patient_id": "colonn89",
+    "modality": "pathology",
+    "sample_id": 549
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4816.jpeg",
+    "label": 4,
+    "patient_id": "colonn4816",
+    "modality": "pathology",
+    "sample_id": 550
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2146.jpeg",
+    "label": 4,
+    "patient_id": "colonn2146",
+    "modality": "pathology",
+    "sample_id": 551
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4307.jpeg",
+    "label": 4,
+    "patient_id": "colonn4307",
+    "modality": "pathology",
+    "sample_id": 552
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3244.jpeg",
+    "label": 4,
+    "patient_id": "colonn3244",
+    "modality": "pathology",
+    "sample_id": 553
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn902.jpeg",
+    "label": 4,
+    "patient_id": "colonn902",
+    "modality": "pathology",
+    "sample_id": 554
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1693.jpeg",
+    "label": 4,
+    "patient_id": "colonn1693",
+    "modality": "pathology",
+    "sample_id": 555
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2262.jpeg",
+    "label": 4,
+    "patient_id": "colonn2262",
+    "modality": "pathology",
+    "sample_id": 556
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn553.jpeg",
+    "label": 4,
+    "patient_id": "colonn553",
+    "modality": "pathology",
+    "sample_id": 557
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4320.jpeg",
+    "label": 4,
+    "patient_id": "colonn4320",
+    "modality": "pathology",
+    "sample_id": 558
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2958.jpeg",
+    "label": 4,
+    "patient_id": "colonn2958",
+    "modality": "pathology",
+    "sample_id": 559
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn549.jpeg",
+    "label": 4,
+    "patient_id": "colonn549",
+    "modality": "pathology",
+    "sample_id": 560
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2333.jpeg",
+    "label": 4,
+    "patient_id": "colonn2333",
+    "modality": "pathology",
+    "sample_id": 561
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2738.jpeg",
+    "label": 4,
+    "patient_id": "colonn2738",
+    "modality": "pathology",
+    "sample_id": 562
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3589.jpeg",
+    "label": 4,
+    "patient_id": "colonn3589",
+    "modality": "pathology",
+    "sample_id": 563
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn477.jpeg",
+    "label": 4,
+    "patient_id": "colonn477",
+    "modality": "pathology",
+    "sample_id": 564
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1370.jpeg",
+    "label": 4,
+    "patient_id": "colonn1370",
+    "modality": "pathology",
+    "sample_id": 565
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn394.jpeg",
+    "label": 4,
+    "patient_id": "colonn394",
+    "modality": "pathology",
+    "sample_id": 566
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2975.jpeg",
+    "label": 4,
+    "patient_id": "colonn2975",
+    "modality": "pathology",
+    "sample_id": 567
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2020.jpeg",
+    "label": 4,
+    "patient_id": "colonn2020",
+    "modality": "pathology",
+    "sample_id": 568
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2519.jpeg",
+    "label": 4,
+    "patient_id": "colonn2519",
+    "modality": "pathology",
+    "sample_id": 569
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4738.jpeg",
+    "label": 4,
+    "patient_id": "colonn4738",
+    "modality": "pathology",
+    "sample_id": 570
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1017.jpeg",
+    "label": 4,
+    "patient_id": "colonn1017",
+    "modality": "pathology",
+    "sample_id": 571
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4921.jpeg",
+    "label": 4,
+    "patient_id": "colonn4921",
+    "modality": "pathology",
+    "sample_id": 572
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3347.jpeg",
+    "label": 4,
+    "patient_id": "colonn3347",
+    "modality": "pathology",
+    "sample_id": 573
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4510.jpeg",
+    "label": 4,
+    "patient_id": "colonn4510",
+    "modality": "pathology",
+    "sample_id": 574
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4157.jpeg",
+    "label": 4,
+    "patient_id": "colonn4157",
+    "modality": "pathology",
+    "sample_id": 575
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1894.jpeg",
+    "label": 4,
+    "patient_id": "colonn1894",
+    "modality": "pathology",
+    "sample_id": 576
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn551.jpeg",
+    "label": 4,
+    "patient_id": "colonn551",
+    "modality": "pathology",
+    "sample_id": 577
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2144.jpeg",
+    "label": 4,
+    "patient_id": "colonn2144",
+    "modality": "pathology",
+    "sample_id": 578
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn763.jpeg",
+    "label": 4,
+    "patient_id": "colonn763",
+    "modality": "pathology",
+    "sample_id": 579
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1822.jpeg",
+    "label": 4,
+    "patient_id": "colonn1822",
+    "modality": "pathology",
+    "sample_id": 580
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1455.jpeg",
+    "label": 4,
+    "patient_id": "colonn1455",
+    "modality": "pathology",
+    "sample_id": 581
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2018.jpeg",
+    "label": 4,
+    "patient_id": "colonn2018",
+    "modality": "pathology",
+    "sample_id": 582
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn497.jpeg",
+    "label": 4,
+    "patient_id": "colonn497",
+    "modality": "pathology",
+    "sample_id": 583
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn271.jpeg",
+    "label": 4,
+    "patient_id": "colonn271",
+    "modality": "pathology",
+    "sample_id": 584
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn962.jpeg",
+    "label": 4,
+    "patient_id": "colonn962",
+    "modality": "pathology",
+    "sample_id": 585
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn478.jpeg",
+    "label": 4,
+    "patient_id": "colonn478",
+    "modality": "pathology",
+    "sample_id": 586
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2794.jpeg",
+    "label": 4,
+    "patient_id": "colonn2794",
+    "modality": "pathology",
+    "sample_id": 587
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4546.jpeg",
+    "label": 4,
+    "patient_id": "colonn4546",
+    "modality": "pathology",
+    "sample_id": 588
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1211.jpeg",
+    "label": 4,
+    "patient_id": "colonn1211",
+    "modality": "pathology",
+    "sample_id": 589
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1593.jpeg",
+    "label": 4,
+    "patient_id": "colonn1593",
+    "modality": "pathology",
+    "sample_id": 590
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2521.jpeg",
+    "label": 4,
+    "patient_id": "colonn2521",
+    "modality": "pathology",
+    "sample_id": 591
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn4490.jpeg",
+    "label": 4,
+    "patient_id": "colonn4490",
+    "modality": "pathology",
+    "sample_id": 592
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn2044.jpeg",
+    "label": 4,
+    "patient_id": "colonn2044",
+    "modality": "pathology",
+    "sample_id": 593
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3843.jpeg",
+    "label": 4,
+    "patient_id": "colonn3843",
+    "modality": "pathology",
+    "sample_id": 594
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn1524.jpeg",
+    "label": 4,
+    "patient_id": "colonn1524",
+    "modality": "pathology",
+    "sample_id": 595
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3192.jpeg",
+    "label": 4,
+    "patient_id": "colonn3192",
+    "modality": "pathology",
+    "sample_id": 596
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3914.jpeg",
+    "label": 4,
+    "patient_id": "colonn3914",
+    "modality": "pathology",
+    "sample_id": 597
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3987.jpeg",
+    "label": 4,
+    "patient_id": "colonn3987",
+    "modality": "pathology",
+    "sample_id": 598
+  },
+  {
+    "path": "shuju\\lung_colon_image_set\\colon_image_sets\\colon_n\\colonn3401.jpeg",
+    "label": 4,
+    "patient_id": "colonn3401",
+    "modality": "pathology",
+    "sample_id": 599
+  }
+]

@@ -1,0 +1,15 @@
+
+### 07_EXPERIMENT_PROTOCOL.txt（实验协议）
+
+```txt
+关键内容:
+- 4组模型配置（T-Base, T-CRS, S-Base, S-CRS）
+- 3数据集×5折实验流程
+- 随机种子管理（1, 42, 123, 456, 2024）
+- 结果目录结构标准化
+
+核心接口:
+class BaselineExperiment
+class CRSExperiment  
+class FullExperimentSuite
+```

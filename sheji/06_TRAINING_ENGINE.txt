@@ -1,0 +1,16 @@
+### 06_TRAINING_ENGINE.txt（训练引擎）
+
+```txt
+关键内容:
+- 48小时时间分配精确调度
+- 自动检查点（每30分钟）
+- 早停机制（patience=20）
+- 多折交叉验证管理
+- 实验恢复（从任意检查点继续）
+
+核心接口:
+class ExperimentScheduler:
+    def run_48h_schedule(self) -> Path
+    def _run_fold(self, fold_idx: int) -> Dict
+    def _handle_interrupt(self, signal, frame)
+```

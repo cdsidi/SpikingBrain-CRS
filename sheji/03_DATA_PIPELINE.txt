@@ -1,0 +1,286 @@
+### 03_DATA_PIPELINE.txt（数据管道详细规格）
+
+```txt
+================================================================================
+文档: 03_DATA_PIPELINE.txt
+标题: 数据管道实现规格 - 精炼、加载、预处理
+依赖: 01_PRD.txt, 02_ARCHITECTURE.txt
+================================================================================
+
+【数据集A: LC25000肺癌病理】
+
+原始数据:
+- 来源: https://github.com/tampapath/lung_colon_image_set
+- 结构: lung_aca (腺癌), lung_scc (鳞癌), lung_n (良性), colon_aca, colon_n
+- 原始规模: 每类1000张 (5000总计)
+
+精炼算法 (K-means形态学聚类):
+```python
+def refine_lc25000(raw_dir: Path, target_per_class: int = 200) -> Dict[str, List[Path]]:
+    """
+    基于ResNet18特征的形态学聚类选择
+    """
+    # 1. 加载预训练ResNet18（无监督特征提取）
+    feature_extractor = resnet18(pretrained=True)
+    feature_extractor.fc = nn.Identity()
+    feature_extractor.eval()
+    
+    refined_indices = {}
+    
+    for class_name in ['lung_aca', 'lung_scc', 'lung_n']:
+        class_dir = raw_dir / 'lung_image_sets' / class_name
+        images = sorted(list(class_dir.glob('*.jpeg')))
+        
+        # 2. 提取特征
+        features = []
+        for img_path in images:
+            img = load_image(img_path, size=(224, 224))
+            with torch.no_grad():
+                feat = feature_extractor(img.unsqueeze(0))
+            features.append(feat.numpy().flatten())
+        features = np.array(features)
+        
+        # 3. K-means聚类 (k=20)
+        kmeans = KMeans(n_clusters=20, random_state=42, n_init=10)
+        labels = kmeans.fit_predict(features)
+        
+        # 4. 选择策略: 聚类中心 + 边界样本 + 随机补充
+        selected = []
+        for cluster_id in range(20):
+            cluster_samples = np.where(labels == cluster_id)[0]
+            if len(cluster_samples) == 0:
+                continue
+                
+            # 中心点（代表性）
+            center_idx = cluster_samples[
+                np.argmin(np.linalg.norm(features[cluster_samples] - kmeans.cluster_centers_[cluster_id], axis=1))
+            ]
+            selected.append(center_idx)
+            
+            # 边界点（难度/多样性）
+            if len(cluster_samples) > 1:
+                distances = np.linalg.norm(features[cluster_samples] - kmeans.cluster_centers_[cluster_id], axis=1)
+                boundary_idx = cluster_samples[np.argmax(distances)]
+                selected.append(boundary_idx)
+        
+        # 5. 补充至target_per_class
+        remaining = target_per_class - len(selected)
+        if remaining > 0:
+            available = [i for i in range(len(images)) if i not in selected]
+            additional = np.random.choice(available, size=min(remaining, len(available)), replace=False)
+            selected.extend(additional)
+        
+        refined_indices[class_name] = [images[i] for i in selected[:target_per_class]]
+    
+    return refined_indices
+```
+
+患者级划分（关键防泄漏）:
+- 虽然LC25000无显式患者ID，但假设文件名包含患者信息
+- 提取规则: 文件名前3个字符作为患者ID（如 "lungaca1_001.jpeg" -> "lun"）
+- 确保同一患者的所有切片只在一个split中
+
+【数据集B: PhysioNet Apnea-ECG】
+
+原始数据:
+- 来源: https://physionet.org/content/apnea-ecg/1.0.0/
+- 选择: a01-a20 (前20个患者，节省下载时间)
+
+精炼算法 (AHI分层采样):
+```python
+def refine_physionet(records: List[Path], target_patients: int = 20) -> List[Path]:
+    """
+    基于AHI指数的分层代表性采样
+    """
+    patient_ahi = []
+    for record in records:
+        # 读取标注文件 (.apn)
+        annotations = load_apn_annotations(record.with_suffix('.apn'))
+        ahi = calculate_ahi(annotations)  # 标准AHI公式
+        
+        severity = 'normal' if ahi < 5 else \
+                   'mild' if ahi < 15 else \
+                   'moderate' if ahi < 30 else 'severe'
+        
+        patient_ahi.append({
+            'record': record,
+            'ahi': ahi,
+            'severity': severity,
+            'duration_hours': get_record_duration(record) / 3600
+        })
+    
+    # 分层: 确保轻/中/重度各至少6个，剩余2个随机
+    selected = []
+    for sev in ['mild', 'moderate', 'severe']:
+        group = [p for p in patient_ahi if p['severity'] == sev]
+        group_sorted = sorted(group, key=lambda x: x['ahi'])
+        
+        # 均匀采样AHI范围
+        n_select = 6
+        step = len(group_sorted) // n_select
+        for i in range(n_select):
+            idx = min(i * step, len(group_sorted) - 1)
+            selected.append(group_sorted[idx])
+    
+    # 补充2个随机（可重复上述或随机）
+    remaining = [p for p in patient_ahi if p not in selected]
+    selected.extend(np.random.choice(remaining, size=2, replace=False))
+    
+    return [p['record'] for p in selected]
+```
+
+预处理:
+- 采样率: 100Hz (原100Hz，无需重采样)
+- 滤波: 带通0.5-40Hz (去除基线漂移和高频噪声)
+- 分段: 10秒窗口 (1000点)，步长5秒 (50%重叠)
+- 标签: 窗口内任一秒有呼吸暂停事件则为正样本
+
+【数据集C: IU X-Ray多模态】
+
+原始数据:
+- 来源: https://openi.nlm.nih.gov/
+- 规模: ~7000对图文，选择前1000下载
+
+精炼算法 (信息密度评分):
+```python
+def refine_iu_xray(pairs: List[Tuple[Path, str]], target: int = 500) -> List[Tuple[Path, str]]:
+    """
+    基于医学实体密度和图文对齐度的筛选
+    """
+    import spacy
+    nlp = spacy.load("en_core_sci_sm")  # 医学NLP模型
+    
+    scores = []
+    for img_path, report in pairs:
+        # 1. 医学实体密度
+        doc = nlp(report)
+        entities = [ent for ent in doc.ents if ent.label_ in ['DISEASE', 'CHEMICAL', 'ANATOMY']]
+        entity_score = len(entities) / len(report.split())  # 实体/词数比
+        
+        # 2. 病理关键词匹配
+        pathology_keywords = ['opacity', 'consolidation', 'effusion', 'nodule', 'mass', 
+                           'infiltrate', 'pneumonia', 'cardiomegaly']
+        keyword_score = sum(1 for kw in pathology_keywords if kw in report.lower()) / len(pathology_keywords)
+        
+        # 3. 报告完整性（句子数）
+        completeness_score = min(len(report.split('.')), 5) / 5  # 最多5句满分
+        
+        # 4. 影像-文本长度对齐（简单启发式）
+        img_size = os.path.getsize(img_path) / 1024  # KB
+        text_length = len(report)
+        alignment_score = 1.0 if 1000 < img_size < 5000 and 100 < text_length < 500 else 0.5
+        
+        total_score = 0.3 * entity_score + 0.3 * keyword_score + 0.2 * completeness_score + 0.2 * alignment_score
+        scores.append((total_score, img_path, report))
+    
+    # 选择Top-target
+    scores.sort(reverse=True)
+    return [(img, report) for _, img, report in scores[:target]]
+```
+
+【数据加载器统一接口】
+
+```python
+class MedicalDataLoader:
+    """
+    统一数据加载器，支持内存映射和患者级划分
+    """
+    def __init__(
+        self,
+        dataset_type: Literal['lc25000', 'physionet', 'iu_xray'],
+        split: Literal['train', 'val', 'test'],
+        batch_size: int,
+        num_workers: int = 0,  # RTX 4050建议0（避免多进程内存开销）
+        memory_map: bool = True
+    ):
+        self.dataset_type = dataset_type
+        self.split = split
+        self.batch_size = min(batch_size, 16)  # 硬性上限
+        
+        # 加载精炼后的索引
+        self.indices = self._load_refined_indices()
+        
+        # 内存映射设置
+        if memory_map and dataset_type == 'physionet':
+            self._prepare_memmap()
+    
+    def _load_refined_indices(self) -> List[Dict]:
+        """
+        加载患者级划分后的索引
+        返回: [{'path': ..., 'label': ..., 'patient_id': ..., 'sample_id': ...}, ...]
+        """
+        cache_file = Path(f'data/processed/{self.dataset_type}_{self.split}_indices.json')
+        if cache_file.exists():
+            return json.load(open(cache_file))
+        
+        # 否则现场生成（首次运行）
+        indices = self._generate_indices()
+        cache_file.parent.mkdir(parents=True, exist_ok=True)
+        json.dump(indices, open(cache_file, 'w'))
+        return indices
+    
+    def __iter__(self):
+        """
+        必须yield包含以下键的字典:
+        - 'input': Tensor, 模型输入
+        - 'label': Tensor, 分类标签
+        - 'sample_id': int, 样本唯一ID（用于FSRS调度）
+        - 'patient_id': str, 患者ID（用于防泄漏验证）
+        - 'modality': str, 数据集类型（用于自适应脉冲阈值）
+        """
+        # 根据dataset_type调用特定加载逻辑
+        ...
+    
+    def _collate_fn(self, batch: List[Dict]) -> Dict[str, Tensor]:
+        """
+        批处理，自动padding（对变长序列）
+        """
+        ...
+```
+
+【内存优化策略】
+
+1. **LC25000**: 图像延迟加载，__getitem__时读取
+2. **PhysioNet**: 预处理后内存映射为numpy memmap，避免全量加载
+3. **IU X-Ray**: 图像路径列表在内存，图像延迟加载
+
+【验收标准】
+
+AC1. 精炼可复现
+```bash
+python data/refine_lc25000.py --seed 42
+# 两次运行结果相同（MD5校验前10个文件路径）
+```
+
+AC2. 患者级划分验证
+```python
+loader = MedicalDataLoader('lc25000', 'train', batch_size=4)
+patient_ids_train = set([b['patient_id'] for b in loader])
+loader_test = MedicalDataLoader('lc25000', 'test', batch_size=4)
+patient_ids_test = set([b['patient_id'] for b in loader_test])
+assert len(patient_ids_train & patient_ids_test) == 0, "数据泄漏!"
+```
+
+AC3. 内存占用
+```bash
+python -m memory_profiler data/test_loader.py
+# 峰值内存 < 2GB（16GB系统的12.5%）
+```
+
+AC4. 加载速度
+```python
+loader = MedicalDataLoader('physionet', 'train', batch_size=4)
+import time
+start = time.time()
+for i, batch in enumerate(loader):
+    if i >= 100:
+        break
+elapsed = time.time() - start
+assert elapsed < 10, f"加载100批次耗时{elapsed}s，太慢"
+```
+
+【参考文档】
+- 01_PRD.txt (FR2, NFR2)
+- 02_ARCHITECTURE.txt (Layer 0接口)
+================================================================================
+```

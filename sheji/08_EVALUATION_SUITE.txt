@@ -1,0 +1,15 @@
+### 08_EVALUATION_SUITE.txt（评估系统）
+
+```txt
+关键内容:
+- 医学指标（Accuracy, Precision, Recall, F1, AUC-ROC, AUC-PR, Sensitivity, Specificity）
+- 效率指标（时间、显存、吞吐量）
+- 统计检验（配对t检验、Cohen's d、ANOVA）
+- 可视化生成（matplotlib/seaborn）
+
+核心接口:
+class MedicalMetrics
+class HardwareMonitor（nvidia-smi封装）
+class StatisticalTesting
+class ReportGenerator
+```

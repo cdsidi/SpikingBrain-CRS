@@ -1,0 +1,102 @@
+## 各文档详细内容
+
+### 01_PRD.txt（产品需求文档）
+
+```txt
+================================================================================
+文档: 01_PRD.txt
+标题: SpikingBrain-CRS医学AI系统 - 产品需求文档
+版本: 1.0.0
+目标读者: 
+================================================================================
+
+【项目愿景】
+在RTX 4050 6GB显存、48小时时间约束下，构建一个融合人类CRS认知科学与
+脉冲神经网络的医学AI系统，解决灾难性遗忘问题，达到Nature Medicine发表水准。
+
+【硬件约束（硬性）】
+- GPU: NVIDIA RTX 4050 Laptop, 6GB GDDR6
+- 可用显存: 4.2GB (70% of 6GB)
+- 系统内存: 16GB DDR5
+- 计算能力: CUDA 8.9, Compute Capability 8.9
+- 开发时限: 48小时连续运行
+- Python: 3.10+
+- PyTorch: 2.0+ (CUDA 11.8)
+
+【功能需求】
+
+FR1. 核心架构
+- 必须实现4组模型对比: T-Base, T-CRS, S-Base, S-CRS
+- S-CRS必须融合GLA注意力、脉冲编码、CRS五阶段训练
+- 所有模型参数量<2.5M，显存峰值<4.2GB
+
+FR2. 数据集处理
+- 必须处理3个医学数据集: LC25000(病理), PhysioNet(心电), IU X-Ray(多模态)
+- 必须实现K-means精炼、患者级划分
+- 必须支持内存映射加载（16GB RAM约束）
+
+FR3. CRS训练
+- 必须实现5阶段: Comprehension, Recall, Synthesis, SpacedReview, ErrorCorrection
+- 必须与脉冲机制深度融合（非简单包裹）
+- 必须实现FSRS间隔调度算法
+
+FR4. 实验验证
+- 必须实现8组消融实验
+- 必须实现长期记忆保持测试（灾难性遗忘）
+- 必须实现硬件压力测试（nvidia-smi监控）
+
+FR5. 评估指标
+- 医学指标: Accuracy, Precision, Recall, F1, AUC-ROC, AUC-PR, Sensitivity, Specificity
+- 效率指标: 训练时间, 推理延迟(P50/P95/P99), 吞吐量, 显存峰值, 稀疏度
+
+【非功能需求】
+
+NFR1. 性能
+- S-CRS推理速度 > 50 samples/s (病理图像224x224)
+- 稀疏度 > 65% (激活稀疏率)
+- 48小时内完成全部实验
+
+NFR2. 可靠性
+- 5次独立运行，准确率标准差 < 2%
+- 无显存泄漏（48小时监控）
+- 自动检查点（每30分钟保存）
+
+NFR3. 可维护性
+- 代码覆盖率 > 80%
+- 类型注解覆盖率 100%
+- 文档字符串覆盖率 100%
+
+【验收标准】
+
+AC1. 冒烟测试
+- 运行: python -c "from models.spikingbrain_crs import MedicalCRS_SpikingBrain; print('OK')"
+- 预期: 无错误，成功导入
+
+AC2. 显存测试
+- 运行: python tests/test_memory.py
+- 预期: Peak memory < 4.2GB, 无OOM
+
+AC3. 端到端训练
+- 运行: python training/train_crs.py --dataset lc25000 --epochs 1 --smoke-test
+- 预期: 完成1个epoch，生成checkpoint，loss为有限值
+
+AC4. 完整实验
+- 运行: bash experiments/run_all.sh
+- 预期: 48小时内生成results/目录，包含所有指标JSON
+
+【术语表】
+- GLA: Gated Linear Attention, 门控线性注意力
+- SWA: Sliding Window Attention, 滑动窗口注意力
+- SNN: Spiking Neural Network, 脉冲神经网络
+- CRS: Comprehension-Recall-Synthesis-SpacedReview-ErrorCorrection
+- FSRS: Free Spaced Repetition Scheduler, 自由间隔重复调度器
+- LTP: Long-Term Potentiation, 长时程增强
+- LTD: Long-Term Depression, 长时程抑制
+
+【参考文档】
+- 无（本文档为根文档）
+
+【变更日志】
+v1.0.0 - 初始版本
+================================================================================
+```

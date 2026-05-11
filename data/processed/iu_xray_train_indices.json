@@ -1,0 +1,2729 @@
+[
+  {
+    "uid": "519",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\519_IM-2131-1001.dcm.png",
+    "report": "No pneumothorax, pleural effusion or airspace consolidation. Cardiomediastinal size is within normal limits. XXXX XXXX intact. No acute cardiopulmonary abnormality. .",
+    "patient_id": "519",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 0
+  },
+  {
+    "uid": "6",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\6_IM-2192-2001.dcm.png",
+    "report": "Heart size and mediastinal contour are within normal limits. There is no focal airspace consolidation or suspicious pulmonary opacity. No pneumothorax or large pleural effusion. Mild degenerative change of the thoracic spine. No acute cardiopulmonary findings.",
+    "patient_id": "6",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 1
+  },
+  {
+    "uid": "521",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\521_IM-2132-4004.dcm.png",
+    "report": "Low lung volumes with bronchovascular crowding. No focal alveolar consolidation, no definite pleural effusion seen. Heart size within normal limits for technique, no typical mediastinal widening of vascular injury. No pleural line of pneumothorax. Limited quality exam shows no definite acute findings.",
+    "patient_id": "521",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 2
+  },
+  {
+    "uid": "6",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\6_IM-2192-1001.dcm.png",
+    "report": "Heart size and mediastinal contour are within normal limits. There is no focal airspace consolidation or suspicious pulmonary opacity. No pneumothorax or large pleural effusion. Mild degenerative change of the thoracic spine. No acute cardiopulmonary findings.",
+    "patient_id": "6",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 3
+  },
+  {
+    "uid": "43",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\43_IM-2070-1001.dcm.png",
+    "report": "The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal. No active disease.",
+    "patient_id": "43",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 4
+  },
+  {
+    "uid": "107",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\107_IM-0049-2001.dcm.png",
+    "report": "The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Cardio mediastinal silhouette is unremarkable. Visualized osseous structures of the thorax are without acute abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "107",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 5
+  },
+  {
+    "uid": "501",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\501_IM-2120-1001.dcm.png",
+    "report": "1. There is minimal streaky opacity in the posterior lungs, possibly cyst, scarring, or pneumonia. 2. Heart size and pulmonary XXXX appear normal 3. Mediastinal contours are normal",
+    "patient_id": "501",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 6
+  },
+  {
+    "uid": "34",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\34_IM-1644-1001.dcm.png",
+    "report": "The heart is normal in size and contour. The lungs are clear, without evidence of infiltrate. There is no pneumothorax or effusion. No acute cardiopulmonary disease.",
+    "patient_id": "34",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 7
+  },
+  {
+    "uid": "327",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\327_IM-1552-1001.dcm.png",
+    "report": "There is stable, mild cardiomegaly with normal caliber pulmonary vasculature. There are grossly intact XXXX sternotomy XXXX and mediastinal surgical clips. There is no focal airspace disease, pneumothorax, or pleural effusion. There are no acute bony findings. Stable chronic changes. No acute findings. .",
+    "patient_id": "327",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 8
+  },
+  {
+    "uid": "122",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\122_IM-0147-0001-0002.dcm.png",
+    "report": "No comparison chest x-XXXX. Minimal lingular scarring. Overall, Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified.",
+    "patient_id": "122",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 9
+  },
+  {
+    "uid": "444",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\444_IM-2079-1001.dcm.png",
+    "report": "The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm. No acute radiographic cardiopulmonary process.",
+    "patient_id": "444",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 10
+  },
+  {
+    "uid": "480",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\480_IM-2104-2001.dcm.png",
+    "report": "Heart size, mediastinal silhouette, pulmonary vascularity are within normal limits. There is no focal air space consolidation to suggest acute pneumonia or active tuberculous infection. No pleural effusion or pneumothorax.",
+    "patient_id": "480",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 11
+  },
+  {
+    "uid": "13",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\13_IM-0198-2001.dcm.png",
+    "report": "The cardiac silhouette is borderline enlarged. Otherwise, there is no focal opacity. Mediastinal contours are within normal limits. There is no large pleural effusion. No pneumothorax. Borderline enlargement of the cardiac silhouette without acute pulmonary disease.",
+    "patient_id": "13",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 12
+  },
+  {
+    "uid": "217",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\217_IM-0786-1001.dcm.png",
+    "report": "Normal heart size and normal mediastinal contours. Normal pulmonary vasculature. No XXXX of pleural effusions. No infiltrates. Normal X-XXXX of chest.",
+    "patient_id": "217",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 13
+  },
+  {
+    "uid": "112",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\112_IM-0080-1001.dcm.png",
+    "report": "Previous lower spine cervical fusion. Lungs are overall hyperexpanded with flattening of the diaphragms consistent with obstructive lung disease. Lungs are clear without focal consolidation. No pleural effusions or pneumothoraces. Heart and mediastinum of normal size and contour. Degenerative changes in the spine. Hyperexpanded but clear lungs.",
+    "patient_id": "112",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 14
+  },
+  {
+    "uid": "388",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\388_IM-1968-1001.dcm.png",
+    "report": "Cardiomegaly is unchanged. Stable superior mediastinal contour with tortuous calcified aorta. Normal pulmonary vascularity. No focal air space consolidation, pleural effusion, or pneumothorax. No acute bony abnormality. Changes of prior right mastectomy. Stable appearance of the chest. No acute cardiopulmonary findings.",
+    "patient_id": "388",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 15
+  },
+  {
+    "uid": "220",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\220_IM-0811-1003.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is stable. Left-sided chest XXXX is again visualized with tip at cavoatrial junction. There is no pneumothorax. Numerous bilateral pulmonary nodules have increased in size and number XXXX compared to prior study. The dominant nodule/mass in the left midlung is also mildly increased. There is no pleural effusion. Interval increase in size and number of innumerable bilateral pulmonary nodules consistent with worsening metastatic disease.",
+    "patient_id": "220",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 16
+  },
+  {
+    "uid": "96",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\96_IM-2450-2002.dcm.png",
+    "report": "The lungs are clear. The heart and pulmonary XXXX are normal. The pleural spaces are clear. The mediastinal contours are normal. No acute cardiopulmonary disease",
+    "patient_id": "96",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 17
+  },
+  {
+    "uid": "248",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\248_IM-1008-85149003.dcm.png",
+    "report": "No pneumothorax, pleural effusion or airspace consolidation. Heart size and pulmonary vasculature appear within normal limits. XXXX XXXX are intact. There is a small calcified granuloma in the right midlung. No acute cardiopulmonary abnormality. .",
+    "patient_id": "248",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 18
+  },
+  {
+    "uid": "343",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\343_IM-1658-1001.dcm.png",
+    "report": "Heart size and mediastinal contour are normal. Pulmonary vascularity is normal. is not diffuse interstitial prominence, which has chronic appearance. Cannot exclude early pulmonary edema. Two airspace consolidation or effusion. XXXX are osteopenic. No visible pneumothorax. Mild interstitial prominence, XXXX chronic though could reflect early pulmonary edema.",
+    "patient_id": "343",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 19
+  },
+  {
+    "uid": "139",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\139_IM-0248-1001.dcm.png",
+    "report": "The cardiac silhouette is mildly enlarged. A lobulated opacity is identified superior to the heart, in the anterior mediastinum on the lateral view, possibly consistent with a tortuous/ectatic thoracic aorta versus an anterior mediastinal mass. The thoracic aorta is tortuous and calcified. No focal areas of pulmonary consolidation. The lungs are hyperexpanded with flattening of the bilateral hemidiaphragms. No pneumothorax or pleural effusion. Severe degenerative changes of the thoracic spine. 1. Lobulated anterior mediastinal opacity on the lateral view, possibly consistent with a tortuous/ectatic thoracic aorta versus an anterior mediastinal mass. Contrast-enhanced XXXX examination would XXXX to further evaluate if clinically indicated. 2. Mild cardiomegaly with findings of chronic obstructive pulmonary disease.",
+    "patient_id": "139",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 20
+  },
+  {
+    "uid": "418",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\418_IM-2061-2001.dcm.png",
+    "report": "Stable enlargement of the cardiac silhouette, stable mediastinal and hilar contours, surgical clips and CABG markers. Stable XXXX densities in the left base compatible with scarring or chronic subsegmental atelectasis. No focal alveolar consolidation, no definite pleural effusion seen. Right hilar calcifications suggest a previous granulomatous process. No typical findings of pulmonary edema. No acute findings",
+    "patient_id": "418",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 21
+  },
+  {
+    "uid": "85",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\85_IM-2372-2001.dcm.png",
+    "report": "There are scattered calcified granulomas. No focal infiltrate. No pleural effusion or pneumothorax. Heart size and mediastinal contour are within normal limits. There are degenerative changes of the spine. No evidence of active disease.",
+    "patient_id": "85",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 22
+  },
+  {
+    "uid": "155",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\155_IM-0358-2001.dcm.png",
+    "report": "Heart size is normal. Lungs are clear. Prominent ascending aorta. Calcified left hilar XXXX.",
+    "patient_id": "155",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 23
+  },
+  {
+    "uid": "249",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\249_IM-1016-2001.dcm.png",
+    "report": "Lobulated right middle lobe mass measuring 4.5 x 6.8 cm, increased in size compared to prior study, most compatible with neoplasm. Otherwise, the lungs are clear without focal consolidation. No pneumothorax or pleural effusion. Cardiomediastinal silhouette within normal limits. 1. Interval enlargement of right middle lobe mass, highly suspicious for malignancy. Recommend CT of the chest/abdomen with intravenous contrast for further evaluation. 2. Otherwise clear lungs. Dr. XXXX XXXX notified of the critical results at XXXX on XXXX, XXXX by telephone and acknowledged receipt of these results.",
+    "patient_id": "249",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 24
+  },
+  {
+    "uid": "488",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\488_IM-2110-1001.dcm.png",
+    "report": "Broken of the 4XXXX XXXX XXXX, similar to the prior study. Stable multiple surgical clips in the left hilar area. Stable cardiomediastinal silhouette. Pulmonary vasculatures are within normal limits. No XXXX focal consolidation, pleural effusion or pneumothorax. Unremarkable bony structure. No acute pulmonary findings. .",
+    "patient_id": "488",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 25
+  },
+  {
+    "uid": "227",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\227_IM-0859-4004.dcm.png",
+    "report": "Heart is enlarged. There is prominence of the central pulmonary vasculature. Mild diffuse interstitial opacities bilaterally, predominantly in the bases, with no focal consolidation, pleural effusion, or pneumothoraces. XXXX and soft tissues are unremarkable. Cardiomegaly with pulmonary interstitial edema and XXXX bilateral pleural effusions. .",
+    "patient_id": "227",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 26
+  },
+  {
+    "uid": "56",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\56_IM-2160-2002.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. The lungs are clear. No acute disease.",
+    "patient_id": "56",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 27
+  },
+  {
+    "uid": "259",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\259_IM-1083-1001.dcm.png",
+    "report": "The heart and cardiomediastinal silhouette or normal in size and contour. There is no focal air space opacity, pleural effusion, or pneumothorax. The osseous structures are intact. No acute cardiopulmonary finding.",
+    "patient_id": "259",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 28
+  },
+  {
+    "uid": "305",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\305_IM-1420-2001.dcm.png",
+    "report": "Heart size is mildly enlarged. The pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. No acute cardiopulmonary disease.",
+    "patient_id": "305",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 29
+  },
+  {
+    "uid": "159",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\159_IM-0382-1002.dcm.png",
+    "report": "Chest. The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal. Left and right XXXX. Osteophytes are present at the acromioclavicular joints bilaterally and also on the humeral necks. The right glenohumeral joint is normal, but the left is narrowed. No fractures or bone destruction. 1. Chest. No active disease. 2. Left and right XXXX. Bilateral degenerative joint disease, left worse than right.",
+    "patient_id": "159",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 30
+  },
+  {
+    "uid": "237",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\237_IM-0930-1001.dcm.png",
+    "report": "The heart size and cardiomediastinal silhouette are normal. The lungs are clear without focal airspace opacity, pleural effusion, or pneumothorax. There are numerous calcified granuloma in the right perihilar region. There are multilevel degenerative changes in the thoracic spine. No acute cardiopulmonary finding.",
+    "patient_id": "237",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 31
+  },
+  {
+    "uid": "285",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\285_IM-1258-1001.dcm.png",
+    "report": "Heart size is top normal. Tortuous aorta. No edema. Patchy left upper right basilar atelectasis. No pneumothorax. Right hilar surgical clips.",
+    "patient_id": "285",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 32
+  },
+  {
+    "uid": "130",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\130_IM-0198-2001.dcm.png",
+    "report": "The lungs are clear. Heart size is normal. No pneumothorax. There is a left chest XXXX with tip projecting over the lower SVC. There is XXXX deformity within the midthoracic spine. Clear lungs. XXXX deformities within the midthoracic spine. .",
+    "patient_id": "130",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 33
+  },
+  {
+    "uid": "108",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\108_IM-0056-1002.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is Within normal limits the lungs are hypoinflated. There is mild increase in perihilar markings XXXX related to patient's history bronchitis. No acute infiltrate or pleural effusion are seen. Low lung volumes with increased lung markings particularly in the left perihilar region XXXX related to history of bronchitis. No acute infiltrate.",
+    "patient_id": "108",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 34
+  },
+  {
+    "uid": "202",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\202_IM-0667-1001.dcm.png",
+    "report": "AP and lateral view of the chest. 1. Cardiomegaly with central vascular congestion and increased interstitial opacities suggesting mild interstitial pulmonary edema. 2. Small bilateral pleural effusions. 3. No visible pneumothorax.",
+    "patient_id": "202",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 35
+  },
+  {
+    "uid": "299",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\299_IM-1377-1001.dcm.png",
+    "report": "Cardiac and mediastinal contours are within normal limits. The lungs are clear. Bony structures are intact. Small hiatal hernia. No acute findings. Small hiatal hernia.",
+    "patient_id": "299",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 36
+  },
+  {
+    "uid": "492",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\492_IM-2112-3003.dcm.png",
+    "report": "No pneumothorax, pleural effusion or airspace consolidation. Heart size and pulmonary vasculature appear within normal limits. XXXX XXXX are intact. No acute cardiopulmonary abnormality. .",
+    "patient_id": "492",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 37
+  },
+  {
+    "uid": "396",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\396_IM-2024-3003.dcm.png",
+    "report": "The lungs are clear. There is no focal airspace consolidation. No pleural effusion or pneumothorax. Normal cardiomediastinal silhouette. There are minimal degenerative changes of the spine. No evidence of active disease.",
+    "patient_id": "396",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 38
+  },
+  {
+    "uid": "9",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\9_IM-2407-2001.dcm.png",
+    "report": "The XXXX examination consists of frontal and lateral radiographs of the chest. The cardiac silhouette is not enlarged. There has been apparent interval increase in low density convexity at the left cardiophrenic XXXX. Calcified granuloma is again seen in the right upper lobe. There is no consolidation, pleural effusion or pneumothorax. Increased size of density in the left cardiophrenic XXXX. Primary differential considerations include increased size of prominent epicardial fat, pericardial mass, pleural mass or cardiac aneurysm. CT chest with contrast is recommended. These findings and recommendations were discussed XXXX. XXXX by Dr. XXXX XXXX telephone at XXXX p.m. XXXX/XXXX. Dr. XXXX<XXXX>technologist receipt of the results.",
+    "patient_id": "9",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 39
+  },
+  {
+    "uid": "57",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\57_IM-2170-1001-0001.dcm.png",
+    "report": "The tracheostomy tube tip is 5 cm above the carina. There are prominent diffuse bilateral interstitial opacities, stable from prior radiographs. There is no focal airspace consolidation. No pleural effusion. No pneumothorax. Heart size is within normal limits. There are mild degenerative changes of the spine. 1. No focal airspace consolidation. 2. Prominent bilateral interstitial opacities, stable from prior radiographs.",
+    "patient_id": "57",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 40
+  },
+  {
+    "uid": "187",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\187_IM-0563-2001.dcm.png",
+    "report": "Normal heart size. Stable tortuous aorta. No pneumothorax, pleural effusion or suspicious focal airspace opacity. Prior granulomatous disease. Unchanged exam without acute abnormality.",
+    "patient_id": "187",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 41
+  },
+  {
+    "uid": "367",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\367_IM-1826-1002.dcm.png",
+    "report": "The lungs are clear. No focal airspace consolidation. No pleural effusion or pneumothorax. Heart size is within normal limits. Clear lungs.",
+    "patient_id": "367",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 42
+  },
+  {
+    "uid": "502",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\502_IM-2120-1002.dcm.png",
+    "report": "Chest. The trachea is midline. Negative for pneumothorax, pleural effusion or focal airspace consolidation. The heart size is normal. Abdomen. No pneumoperitoneum. There is a normal bowel XXXX pattern. Air and stool visible throughout the entire large colon including the rectum. No abnormally dilated small bowel loops. No evidence for intussusception or small bowel obstruction. No pathologic calcifications XXXX over the abdomen or pelvis. XXXX XXXX are without fracture or destructive lesion, though there are mild degenerative changes throughout the lumbar spine. Small hiatal hernia is not as well demonstrated on this exam. Chest. 1. No acute cardiopulmonary abnormality. Abdomen. 1. No acute intra-abdominal process. Negative for obstruction.",
+    "patient_id": "502",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 43
+  },
+  {
+    "uid": "167",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\167_IM-0441-1002.dcm.png",
+    "report": "Both lungs are clear and expanded. An old calcified granuloma is present in the left upper lobe. Heart and mediastinum normal. No active disease.",
+    "patient_id": "167",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 44
+  },
+  {
+    "uid": "133",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\133_IM-0212-1001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. The lungs are clear. No acute disease.",
+    "patient_id": "133",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 45
+  },
+  {
+    "uid": "62",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\62_IM-2202-1001.dcm.png",
+    "report": "Status post XXXX sternotomy and CABG. Heart size is normal. Coronary vascular stent. The lungs are clear. There are no focal air space consolidations. No pleural effusions or pneumothoraces. The hilar and mediastinal contours are stable. Calcified mediastinal lymph XXXX. Normal pulmonary vascularity. Degenerative changes of the spine. No acute abnormality. .",
+    "patient_id": "62",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 46
+  },
+  {
+    "uid": "64",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\64_IM-2218-4004.dcm.png",
+    "report": "2 images. Heart size upper limits of normal. Mediastinal contours are maintained. The patient is mildly rotated. There is a small to moderate sized right apical pneumothorax which measures approximately 2.0 cm. No focal airspace consolidation is seen. Left chest is clear. No definite displaced bony injury is seen. Results called XXXX. XXXX XXXX p.m. XXXX, XXXX. Small to moderate right apical pneumothorax.",
+    "patient_id": "64",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 47
+  },
+  {
+    "uid": "65",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\65_IM-2228-2001.dcm.png",
+    "report": "The XXXX examination consists of frontal and lateral radiographs of the chest. The cardiomediastinal contours are within normal limits. Pulmonary vascularity is within normal limits. No focal consolidation, pleural effusion, or pneumothorax identified. Deformity of the right clavicle related to remote XXXX is again seen. Visualized upper abdomen grossly unremarkable. No evidence of acute cardiopulmonary process.",
+    "patient_id": "65",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 48
+  },
+  {
+    "uid": "508",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\508_IM-2125-1002.dcm.png",
+    "report": "Normal heart size and mediastinal contours. No focal airspace consolidation. No pleural effusion or pneumothorax. Visualized osseous structures are unremarkable. No acute cardiopulmonary abnormality.",
+    "patient_id": "508",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 49
+  },
+  {
+    "uid": "63",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\63_IM-2210-0001-0002.dcm.png",
+    "report": "Stable flattening of the posterior diaphragm and scattered chronic appearing irregular interstitial markings with no focal alveolar consolidation. Stable cardiomediastinal silhouette with normal heart size and aortic ectasia/tortuosity, stable mediastinal contours. No definite pleural effusion seen, no typical findings of pulmonary edema. Following spine ossifications and marginal osteophytes again noted. Chronic changes as described, no acute findings",
+    "patient_id": "63",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 50
+  },
+  {
+    "uid": "86",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\86_IM-2380-3001.dcm.png",
+    "report": "Heart size is within normal limits. No focal airspace consolidations. No pneumothorax or pleural effusion. No acute cardiopulmonary findings.",
+    "patient_id": "86",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 51
+  },
+  {
+    "uid": "190",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\190_IM-0583-3001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. The lungs are clear. There is no obvious lytic or destructive lesion. No displaced rib fracture is evident. No acute disease.",
+    "patient_id": "190",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 52
+  },
+  {
+    "uid": "251",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\251_IM-1032-1001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. Mild hyperinflation is noted. There are granulomatous sequela. No acute infiltrate or significant pleural effusion are noted. The costophrenic XXXX are excluded. No acute disease.",
+    "patient_id": "251",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 53
+  },
+  {
+    "uid": "186",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\186_IM-0558-2001.dcm.png",
+    "report": "Cardiac size, mediastinal contour, and pulmonary vascularity are within normal limits. No focal consolidation, suspicious pulmonary opacity, pleural effusion, or pneumothorax. The visualized osseous structures appear intact. No evidence of abnormal radiodense foreign bodies. No acute cardiopulmonary abnormalities. No evidence of abnormal radiodense foreign bodies.",
+    "patient_id": "186",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 54
+  },
+  {
+    "uid": "466",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\466_IM-2094-2002.dcm.png",
+    "report": "Normal heart size. Mild tortuosity of the aorta. No pneumothorax, pleural effusion or suspicious airspace opacity. Mild levoscoliosis of the lumbar spine. No acute abnormality seen.",
+    "patient_id": "466",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 55
+  },
+  {
+    "uid": "192",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\192_IM-0598-1002.dcm.png",
+    "report": "Low lung volumes. Heart size and mediastinal contour within normal limits. No focal air space consolidation, pneumothorax, or pleural effusion. Mild thoracic spine degenerative change. No acute cardiopulmonary abnormality.",
+    "patient_id": "192",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 56
+  },
+  {
+    "uid": "94",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\94_IM-2436-1001.dcm.png",
+    "report": "Heart size, mediastinal contour, and pulmonary vascularity are similar to comparison exam and within normal limits. No focal consolidation, suspicious pulmonary opacity, pleural effusion, or pneumothorax. The visualized osseous structures appear intact. No acute cardiopulmonary abnormalities.",
+    "patient_id": "94",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 57
+  },
+  {
+    "uid": "444",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\444_IM-2079-2001.dcm.png",
+    "report": "The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm. No acute radiographic cardiopulmonary process.",
+    "patient_id": "444",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 58
+  },
+  {
+    "uid": "297",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\297_IM-1361-4004.dcm.png",
+    "report": "Cardiac silhouette is within normal limits in size. The lungs are hypoinflated with mild bronchovascular crowding. There is mild, XXXX opacity projected over the left lung base. This is partly due to overlying soft tissues, however, there is partial obscuration of the lateral left hemidiaphragm. The lungs are otherwise grossly clear. There is no pneumothorax or pleural effusion. There are no acute bony findings. There are degenerative endplate changes throughout the thoracic spine. Low lung volumes with mild, XXXX left basilar opacity, atelectasis versus infiltrate. .",
+    "patient_id": "297",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 59
+  },
+  {
+    "uid": "249",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\249_IM-1016-1001.dcm.png",
+    "report": "Lobulated right middle lobe mass measuring 4.5 x 6.8 cm, increased in size compared to prior study, most compatible with neoplasm. Otherwise, the lungs are clear without focal consolidation. No pneumothorax or pleural effusion. Cardiomediastinal silhouette within normal limits. 1. Interval enlargement of right middle lobe mass, highly suspicious for malignancy. Recommend CT of the chest/abdomen with intravenous contrast for further evaluation. 2. Otherwise clear lungs. Dr. XXXX XXXX notified of the critical results at XXXX on XXXX, XXXX by telephone and acknowledged receipt of these results.",
+    "patient_id": "249",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 60
+  },
+  {
+    "uid": "98",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\98_IM-2467-1001.dcm.png",
+    "report": "Frontal and lateral views of the chest show an unchanged cardiomediastinal silhouette. Reduced lung volumes with basilar atelectasis. No XXXX focal airspace consolidation or pleural effusion. No acute or active cardiac, pulmonary or pleural disease.",
+    "patient_id": "98",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 61
+  },
+  {
+    "uid": "475",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\475_IM-2101-1001.dcm.png",
+    "report": "Frontal and lateral views of the chest show normal size and configuration of the cardiac silhouette. Normal pulmonary vasculature and central airways. No focal airspace consolidation or pleural effusion. No acute or active cardiac, pulmonary or pleural disease.",
+    "patient_id": "475",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 62
+  },
+  {
+    "uid": "113",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\113_IM-0086-3001.dcm.png",
+    "report": "The heart and mediastinum are unremarkable. There are two subcentimeter hyperdense nodular opacities are noted within the right lung. These may represent XXXX on end or alternatively, calcified granulomas. The lungs are clear without infiltrate. There is no effusion or pneumothorax. 1. No acute cardiopulmonary disease.",
+    "patient_id": "113",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 63
+  },
+  {
+    "uid": "8",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\8_IM-2333-2001.dcm.png",
+    "report": "The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. There is an interim XXXX cervical spinal fusion partly evaluated. No acute cardiopulmonary disease.",
+    "patient_id": "8",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 64
+  },
+  {
+    "uid": "236",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\236_IM-0924-1001.dcm.png",
+    "report": "Heart size is within normal limits. No focal airspace consolidations. No pneumothorax or pleural effusion. No acute cardiopulmonary findings.",
+    "patient_id": "236",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 65
+  },
+  {
+    "uid": "123",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\123_IM-0153-4004.dcm.png",
+    "report": "Mild cardiomegaly. Tortuous aorta. No focal infiltrate. No pneumothorax or large pleural effusion. Soft tissue density identified in the medial right apex which is asymmetric compared to left. Asymmetric right medial apical opacity which may be attributable to the sternoclavicular joint. Upper lobe airspace disease or pulmonary nodule is not entirely excluded. Recommend XXXX XXXX chest and apical lordotic view of the chest to further evaluate. Findings and recommendations were discussed XXXX. XXXX in the XXXX department at XXXX a.m. XXXX/XXXX.",
+    "patient_id": "123",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 66
+  },
+  {
+    "uid": "154",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\154_IM-0350-2001.dcm.png",
+    "report": "Cardiomediastinal silhouette is normal. Pulmonary vasculature and XXXX are normal. No consolidation, pneumothorax or large pleural effusion. Osseous structures and soft tissues are normal. No acute cardiopulmonary disease.",
+    "patient_id": "154",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 67
+  },
+  {
+    "uid": "285",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\285_IM-1258-4004.dcm.png",
+    "report": "Heart size is top normal. Tortuous aorta. No edema. Patchy left upper right basilar atelectasis. No pneumothorax. Right hilar surgical clips.",
+    "patient_id": "285",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 68
+  },
+  {
+    "uid": "62",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\62_IM-2202-4004.dcm.png",
+    "report": "Status post XXXX sternotomy and CABG. Heart size is normal. Coronary vascular stent. The lungs are clear. There are no focal air space consolidations. No pleural effusions or pneumothoraces. The hilar and mediastinal contours are stable. Calcified mediastinal lymph XXXX. Normal pulmonary vascularity. Degenerative changes of the spine. No acute abnormality. .",
+    "patient_id": "62",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 69
+  },
+  {
+    "uid": "466",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\466_IM-2094-3003.dcm.png",
+    "report": "Normal heart size. Mild tortuosity of the aorta. No pneumothorax, pleural effusion or suspicious airspace opacity. Mild levoscoliosis of the lumbar spine. No acute abnormality seen.",
+    "patient_id": "466",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 70
+  },
+  {
+    "uid": "101",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\101_IM-0011-2001.dcm.png",
+    "report": "The heart is again mildly enlarged. Mediastinal contours are stable. Patient is somewhat rotated. The lungs are hypoinflated with elevated left hemidiaphragm. XXXX XXXX opacities compatible with atelectasis. No large effusion is seen. There is no focal consolidation. Pulmonary vascularity is mildly accentuated. There are bilateral degenerative changes of the XXXX with probable chronic dislocation of the left humerus. Correlate clinically. 1. Mild stable cardiomegaly and central vascular congestion. 2. Low lung volumes with elevated left hemidiaphragm and basilar subsegmental atelectasis. 3. Extensive bilateral shoulder degenerative changes with subluxation/dislocation left shoulder, possibly chronic. Suggest clinical correlation.",
+    "patient_id": "101",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 71
+  },
+  {
+    "uid": "437",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\437_IM-2077-1001.dcm.png",
+    "report": "There are postoperative changes of sternotomy. There is cardiomegaly. The contour of the ascending aorta is prominent, consistent with known ascending aortic aneurysm. The lungs appear clear. No focal airspace consolidation. No pleural effusion or pneumothorax. There are minimal degenerative changes of the spine. 1. No acute pulmonary abnormality demonstrated. 2. Stable cardiomegaly. 3. Prominent contour of the ascending aorta, consistent with known ascending aortic aneurysm.",
+    "patient_id": "437",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 72
+  },
+  {
+    "uid": "98",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\98_IM-2467-4004.dcm.png",
+    "report": "Frontal and lateral views of the chest show an unchanged cardiomediastinal silhouette. Reduced lung volumes with basilar atelectasis. No XXXX focal airspace consolidation or pleural effusion. No acute or active cardiac, pulmonary or pleural disease.",
+    "patient_id": "98",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 73
+  },
+  {
+    "uid": "252",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\252_IM-1038-2001.dcm.png",
+    "report": "The heart is normal in size and contour. The lungs are clear, without evidence of infiltrate. There is no pneumothorax or effusion. No acute cardiopulmonary disease.",
+    "patient_id": "252",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 74
+  },
+  {
+    "uid": "80",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\80_IM-2333-2001.dcm.png",
+    "report": "Heart size and mediastinal contour within normal limits. No focal airspace consolidation, pneumothorax, or large pleural effusion. No acute osseous abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "80",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 75
+  },
+  {
+    "uid": "219",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\219_IM-0799-1001.dcm.png",
+    "report": "Cardiac and mediastinal contours are within normal limits. The lungs are clear. Bony structures are intact. No x-XXXX evidence of pulmonary metastatic disease. Stable appearance of the chest.",
+    "patient_id": "219",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 76
+  },
+  {
+    "uid": "145",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\145_IM-0290-1001.dcm.png",
+    "report": "Right costophrenic XXXX is blunted. In the left lower lobe a patchy infiltrate is present. The pulmonary XXXX are normal. Large right pleural effusion and patchy left lower lobe airspace disease.",
+    "patient_id": "145",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 77
+  },
+  {
+    "uid": "194",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\194_IM-0609-1001.dcm.png",
+    "report": "Heart size upper limits of normal. Small amount of left basilar airspace disease. The right lung is clear. There are no cavitary lesions seen. No pneumothorax. No pleural effusions. Left basilar atelectasis and/or infiltrate, with no radiographic evidence of tuberculosis.",
+    "patient_id": "194",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 78
+  },
+  {
+    "uid": "22",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\22_IM-0810-1001.dcm.png",
+    "report": "The lungs are clear, and without focal air space opacity. The cardiomediastinal silhouette is normal in size and contour, and stable. There is no pneumothorax large pleural effusion. No acute cardiopulmonary abnormality.",
+    "patient_id": "22",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 79
+  },
+  {
+    "uid": "236",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\236_IM-0924-1002.dcm.png",
+    "report": "Heart size is within normal limits. No focal airspace consolidations. No pneumothorax or pleural effusion. No acute cardiopulmonary findings.",
+    "patient_id": "236",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 80
+  },
+  {
+    "uid": "410",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\410_IM-2056-1002.dcm.png",
+    "report": "The heart and mediastinum are unremarkable. The lungs are clear without infiltrate. There is no effusion or pneumothorax. There is a mild levoscoliosis of the thoracic spine. There is mild widening of the right acromioclavicular joint which may be postsurgical or posttraumatic in XXXX. 1. No acute cardiopulmonary disease.",
+    "patient_id": "410",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 81
+  },
+  {
+    "uid": "290",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\290_IM-1303-1001.dcm.png",
+    "report": "The lungs are clear. There are multiple surgical XXXX seen near the apical regions and lower cervical region bilaterally. The heart and mediastinum are normal. There is a screw in the right shoulder. The soft tissues are normal. 1. No active disease. 2. There are numerous small surgical clips seen overlying the upper thorax bilaterally and the lower cervical region of uncertain significance.",
+    "patient_id": "290",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 82
+  },
+  {
+    "uid": "340",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\340_IM-1644-1001.dcm.png",
+    "report": "Heart size moderately enlarged, stable mediastinal contours. Lateral view curvilinear densities over the heart suggestive of coronary artery stents. Diaphragm eventration. No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema. Cardiomegaly, no acute pulmonary findings",
+    "patient_id": "340",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 83
+  },
+  {
+    "uid": "97",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\97_IM-2460-1001.dcm.png",
+    "report": "The cardiac contours are normal. The lungs are clear. Thoracic spondylosis. No acute process.",
+    "patient_id": "97",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 84
+  },
+  {
+    "uid": "277",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\277_IM-1213-2001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is stable. Mild biapical scarring is identified. There is a nodular density in the right midlung which is stable from prior studies and noted to represent a granuloma on XXXX of XXXX. However, additional foci in the right upper lung are questioned. There is no acute infiltrate or pleural effusion. No acute disease. Vague right upper/mid lung nodular densities versus scarring and superimposed structures. CT may be warranted given patient's history.",
+    "patient_id": "277",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 85
+  },
+  {
+    "uid": "134",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\134_IM-0219-1001.dcm.png",
+    "report": "Calcified granulomata are present in the right middle lobe and right upper lobe. These are unchanged since the previous examination. Both lungs are free of active infiltrates. Heart size normal. No active disease.",
+    "patient_id": "134",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 86
+  },
+  {
+    "uid": "254",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\254_IM-1051-2001.dcm.png",
+    "report": "Lungs are clear. Heart size normal. Scattered thoracic spine spurring. No acute cardiopulmonary finding.",
+    "patient_id": "254",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 87
+  },
+  {
+    "uid": "17",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\17_IM-0460-2001.dcm.png",
+    "report": "No focal areas of consolidation. No suspicious pulmonary opacities. Heart size within normal limits. No pleural effusions. No evidence of pneumothorax. Osseous structures intact. No acute cardiopulmonary abnormality.",
+    "patient_id": "17",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 88
+  },
+  {
+    "uid": "132",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\132_IM-0206-1001.dcm.png",
+    "report": "The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion. Cardiomediastinal silhouette is unremarkable. Tortuosity of the thoracic aorta. Visualized osseous structures of the thorax are without acute abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "132",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 89
+  },
+  {
+    "uid": "192",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\192_IM-0598-1001.dcm.png",
+    "report": "Low lung volumes. Heart size and mediastinal contour within normal limits. No focal air space consolidation, pneumothorax, or pleural effusion. Mild thoracic spine degenerative change. No acute cardiopulmonary abnormality.",
+    "patient_id": "192",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 90
+  },
+  {
+    "uid": "21",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\21_IM-0729-1001-0002.dcm.png",
+    "report": "Heart size normal. Mediastinal silhouettes and pulmonary vascularity are within normal limits. Calcified lingular granuloma. No focal consolidations or pleural effusions. No pneumothorax. Breast implants there is a moderate wedge XXXX deformity of the midthoracic vertebrae, XXXX T6, age-indeterminate.",
+    "patient_id": "21",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 91
+  },
+  {
+    "uid": "54",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\54_IM-2145-1001.dcm.png",
+    "report": "The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Minimal right basilar subsegmental atelectasis noted. Cardio mediastinal silhouette is unremarkable. Tortuosity of the thoracic aorta noted. Scattered calcified granulomas are seen without evidence of active granulomatous/tuberculous process. Visualized osseous structures of the thorax are without acute abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "54",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 92
+  },
+  {
+    "uid": "359",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\359_IM-1768-1001.dcm.png",
+    "report": "Heart size is upper limits of normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm. 1. No acute radiographic cardiopulmonary process.",
+    "patient_id": "359",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 93
+  },
+  {
+    "uid": "343",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\343_IM-1658-2001.dcm.png",
+    "report": "Heart size and mediastinal contour are normal. Pulmonary vascularity is normal. is not diffuse interstitial prominence, which has chronic appearance. Cannot exclude early pulmonary edema. Two airspace consolidation or effusion. XXXX are osteopenic. No visible pneumothorax. Mild interstitial prominence, XXXX chronic though could reflect early pulmonary edema.",
+    "patient_id": "343",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 94
+  },
+  {
+    "uid": "203",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\203_IM-0675-1001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. The lungs are clear. No acute disease.",
+    "patient_id": "203",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 95
+  },
+  {
+    "uid": "42",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\42_IM-2063-3001.dcm.png",
+    "report": "The trachea is midline. The cardiomediastinal silhouette is normal. The lungs are clear, without evidence of focal infiltrate or effusion. There is no pneumothorax. The visualized bony structures reveal no acute abnormalities. No acute cardiopulmonary abnormalities. .",
+    "patient_id": "42",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 96
+  },
+  {
+    "uid": "294",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\294_IM-1340-2001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. The lungs are grossly clear. Underlying emphysematous changes are noted. Emphysema without acute disease.",
+    "patient_id": "294",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 97
+  },
+  {
+    "uid": "215",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\215_IM-0769-1001.dcm.png",
+    "report": "Stable cardiomegaly. XXXX sternotomy XXXX are intact. No pneumothorax or pleural effusion. XXXX calcific density in the left mid to upper lung XXXX represents old granulomatous disease. No focal consolidation. Stable moderate thoracic levoscoliosis and mild thoracolumbar dextroscoliosis. 1. Stable cardiomegaly with no focal airspace disease. 2. Stable moderate thoracic levoscoliosis and mild thoracolumbar dextroscoliosis. .",
+    "patient_id": "215",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 98
+  },
+  {
+    "uid": "507",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\507_IM-2125-2001.dcm.png",
+    "report": "No airspace disease, effusion or noncalcified nodule. Normal heart size and mediastinum. Visualized XXXX of the chest XXXX are within normal limits. No acute cardiopulmonary abnormality.",
+    "patient_id": "507",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 99
+  },
+  {
+    "uid": "168",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\168_IM-0448-1001.dcm.png",
+    "report": "The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Cardio mediastinal silhouette is unremarkable. Visualized osseous structures of the thorax demonstrates stable mild multilevel degenerative disc disease of the thoracolumbar spine as well as chronic left-sided rib fractures without acute abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "168",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 100
+  },
+  {
+    "uid": "250",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\250_IM-1025-1001.dcm.png",
+    "report": "The lungs are clear. There is no focal airspace consolidation. No pleural effusion or pneumothorax. Heart size and mediastinal contour are normal. There are minimal degenerative changes of the spine. No evidence of active disease.",
+    "patient_id": "250",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 101
+  },
+  {
+    "uid": "252",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\252_IM-1038-1001.dcm.png",
+    "report": "The heart is normal in size and contour. The lungs are clear, without evidence of infiltrate. There is no pneumothorax or effusion. No acute cardiopulmonary disease.",
+    "patient_id": "252",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 102
+  },
+  {
+    "uid": "268",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\268_IM-1153-1001.dcm.png",
+    "report": "There is a right upper lobe opacity. Cardiomediastinal silhouette is normal. Pulmonary vasculature and XXXX are normal. Osseous structures and soft tissues are normal. Right upper lobe pneumonia.",
+    "patient_id": "268",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 103
+  },
+  {
+    "uid": "190",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\190_IM-0583-1001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. The lungs are clear. There is no obvious lytic or destructive lesion. No displaced rib fracture is evident. No acute disease.",
+    "patient_id": "190",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 104
+  },
+  {
+    "uid": "519",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\519_IM-2131-2001.dcm.png",
+    "report": "No pneumothorax, pleural effusion or airspace consolidation. Cardiomediastinal size is within normal limits. XXXX XXXX intact. No acute cardiopulmonary abnormality. .",
+    "patient_id": "519",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 105
+  },
+  {
+    "uid": "113",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\113_IM-0086-1001.dcm.png",
+    "report": "The heart and mediastinum are unremarkable. There are two subcentimeter hyperdense nodular opacities are noted within the right lung. These may represent XXXX on end or alternatively, calcified granulomas. The lungs are clear without infiltrate. There is no effusion or pneumothorax. 1. No acute cardiopulmonary disease.",
+    "patient_id": "113",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 106
+  },
+  {
+    "uid": "17",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\17_IM-0460-1001.dcm.png",
+    "report": "No focal areas of consolidation. No suspicious pulmonary opacities. Heart size within normal limits. No pleural effusions. No evidence of pneumothorax. Osseous structures intact. No acute cardiopulmonary abnormality.",
+    "patient_id": "17",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 107
+  },
+  {
+    "uid": "77",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\77_IM-2315-2001.dcm.png",
+    "report": "Stable XXXX silhouette. No pneumothorax. No focal consolidation. No large pleural effusion. Unchanged pleural thickening at the visualized lung apices. Mild osteopenia, degenerative changes. No fractures.",
+    "patient_id": "77",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 108
+  },
+  {
+    "uid": "271",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\271_IM-1176-2001.dcm.png",
+    "report": "The cardiomediastinal silhouette is normal in size and contour. No focal consolidation, pneumothorax or large pleural effusion. Negative for acute displaced rib fracture. Negative for acute abnormality.",
+    "patient_id": "271",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 109
+  },
+  {
+    "uid": "240",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\240_IM-0950-1001.dcm.png",
+    "report": "Chest. There is no change in the strandy scarring in the right apex. No XXXX infiltrates or masses in the lungs. Heart and mediastinum remain normal. Lumbosacral spine. disc spaces are old narrow, and large osteophytes present on the vertebral bodies, worst at L2-L3. XXXX elements from L4 through S1 are sclerotic. Sacrum and sacroiliac joints are normal. Calcific aortic disease is present. 1. Chest. No change right upper lobe scar. No acute disease. 2. Lumbosacral spine. Multiple levels of advanced degenerative disc disease and XXXX arthritis.",
+    "patient_id": "240",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 110
+  },
+  {
+    "uid": "412",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\412_IM-2056-1001.dcm.png",
+    "report": "Bilateral emphysematous again noted and lower lobe fibrotic changes. Postsurgical changes of the chest including CABG procedure, stable. Stable valve artifact. There are no focal areas of consolidation. No large pleural effusions. No evidence of pneumothorax. Degenerative changes noted of the visualized thoracic spine. Nodular right lower lobe opacity, XXXX nipple XXXX. Contour abnormality of the posterior aspect of the right 7th rib again noted, stable. 1. No acute cardiopulmonary abnormality. 2. Stable bilateral emphysematous and lower lobe fibrotic changes.",
+    "patient_id": "412",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 111
+  },
+  {
+    "uid": "217",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\217_IM-0786-2001.dcm.png",
+    "report": "Normal heart size and normal mediastinal contours. Normal pulmonary vasculature. No XXXX of pleural effusions. No infiltrates. Normal X-XXXX of chest.",
+    "patient_id": "217",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 112
+  },
+  {
+    "uid": "179",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\179_IM-0514-1001.dcm.png",
+    "report": "No airspace disease, effusion or noncalcified nodule. Normal heart size and mediastinum. Visualized XXXX of the chest XXXX are within normal limits. No acute cardiopulmonary abnormality.",
+    "patient_id": "179",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 113
+  },
+  {
+    "uid": "212",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\212_IM-0746-2001.dcm.png",
+    "report": "Chest: Stable cardiomediastinal silhouette. Pulmonary vascularity is within normal limits. Hyperlucent apices. Negative for focal airspace disease or consolidation. Negative for pneumothorax or pleural effusion. Healed remote left 9th rib fracture. Right shoulder: Negative for fracture or dislocation. Chest. Right shoulder. 1. No acute cardiopulmonary abnormality. 2. Negative for right shoulder fracture or dislocation.",
+    "patient_id": "212",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 114
+  },
+  {
+    "uid": "96",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\96_IM-2450-3003.dcm.png",
+    "report": "The lungs are clear. The heart and pulmonary XXXX are normal. The pleural spaces are clear. The mediastinal contours are normal. No acute cardiopulmonary disease",
+    "patient_id": "96",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 115
+  },
+  {
+    "uid": "327",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\327_IM-1552-2001.dcm.png",
+    "report": "There is stable, mild cardiomegaly with normal caliber pulmonary vasculature. There are grossly intact XXXX sternotomy XXXX and mediastinal surgical clips. There is no focal airspace disease, pneumothorax, or pleural effusion. There are no acute bony findings. Stable chronic changes. No acute findings. .",
+    "patient_id": "327",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 116
+  },
+  {
+    "uid": "21",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\21_IM-0729-1001-0001.dcm.png",
+    "report": "Heart size normal. Mediastinal silhouettes and pulmonary vascularity are within normal limits. Calcified lingular granuloma. No focal consolidations or pleural effusions. No pneumothorax. Breast implants there is a moderate wedge XXXX deformity of the midthoracic vertebrae, XXXX T6, age-indeterminate.",
+    "patient_id": "21",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 117
+  },
+  {
+    "uid": "72",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\72_IM-2280-2001.dcm.png",
+    "report": "Lungs are clear without focal consolidation, effusion, or pneumothorax. Normal heart size. Bony thorax and soft tissues grossly unremarkable. Negative acute cardiopulmonary abnormality.",
+    "patient_id": "72",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 118
+  },
+  {
+    "uid": "64",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\64_IM-2218-2001.dcm.png",
+    "report": "2 images. Heart size upper limits of normal. Mediastinal contours are maintained. The patient is mildly rotated. There is a small to moderate sized right apical pneumothorax which measures approximately 2.0 cm. No focal airspace consolidation is seen. Left chest is clear. No definite displaced bony injury is seen. Results called XXXX. XXXX XXXX p.m. XXXX, XXXX. Small to moderate right apical pneumothorax.",
+    "patient_id": "64",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 119
+  },
+  {
+    "uid": "122",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\122_IM-0147-0001-0001.dcm.png",
+    "report": "No comparison chest x-XXXX. Minimal lingular scarring. Overall, Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified.",
+    "patient_id": "122",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 120
+  },
+  {
+    "uid": "81",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\81_IM-2343-2001.dcm.png",
+    "report": "2 images. Heart size and pulmonary vascular engorgement appear within limits of normal. Mediastinal contour is unremarkable. No focal consolidation, pleural effusion, or pneumothorax identified. No convincing acute bony findings. No acute cardiopulmonary abnormality identified.",
+    "patient_id": "81",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 121
+  },
+  {
+    "uid": "212",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\212_IM-0746-1001-0002.dcm.png",
+    "report": "Chest: Stable cardiomediastinal silhouette. Pulmonary vascularity is within normal limits. Hyperlucent apices. Negative for focal airspace disease or consolidation. Negative for pneumothorax or pleural effusion. Healed remote left 9th rib fracture. Right shoulder: Negative for fracture or dislocation. Chest. Right shoulder. 1. No acute cardiopulmonary abnormality. 2. Negative for right shoulder fracture or dislocation.",
+    "patient_id": "212",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 122
+  },
+  {
+    "uid": "27",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\27_IM-1168-3003.dcm.png",
+    "report": "Lungs are overall hyperexpanded with flattening of the diaphragms. No focal consolidation. No pleural effusions or pneumothoraces. Heart and mediastinum of normal size and contour. Degenerative changes in the thoracic spine. Hyperexpanded but clear lungs.",
+    "patient_id": "27",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 123
+  },
+  {
+    "uid": "227",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\227_IM-0859-1001.dcm.png",
+    "report": "Heart is enlarged. There is prominence of the central pulmonary vasculature. Mild diffuse interstitial opacities bilaterally, predominantly in the bases, with no focal consolidation, pleural effusion, or pneumothoraces. XXXX and soft tissues are unremarkable. Cardiomegaly with pulmonary interstitial edema and XXXX bilateral pleural effusions. .",
+    "patient_id": "227",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 124
+  },
+  {
+    "uid": "44",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\44_IM-2078-1001.dcm.png",
+    "report": "The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. No acute cardiopulmonary disease.",
+    "patient_id": "44",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 125
+  },
+  {
+    "uid": "90",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\90_IM-2407-1001.dcm.png",
+    "report": "The lungs are clear. There is no focal airspace consolidation. No pleural effusion or pneumothorax. Heart size and mediastinal contour are within normal limits. There are degenerative changes of the spine. No evidence of active disease.",
+    "patient_id": "90",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 126
+  },
+  {
+    "uid": "90",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\90_IM-2407-2001.dcm.png",
+    "report": "The lungs are clear. There is no focal airspace consolidation. No pleural effusion or pneumothorax. Heart size and mediastinal contour are within normal limits. There are degenerative changes of the spine. No evidence of active disease.",
+    "patient_id": "90",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 127
+  },
+  {
+    "uid": "527",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\527_IM-2137-1001.dcm.png",
+    "report": "Cardiac and mediastinal XXXX appear normal. No visible pneumothorax, focal airspace opacity, or pleural effusion is seen. No visible free air under the diaphragm. The osseous structures appear intact. No acute radiographic cardiopulmonary process. .",
+    "patient_id": "527",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 128
+  },
+  {
+    "uid": "230",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\230_IM-0880-0001-0002.dcm.png",
+    "report": "Stable cardiomediastinal silhouette. Stable lingular nodule, presumably granuloma . No pleural effusion, pneumothorax or interval airspace consolidation to suggest pneumonia.",
+    "patient_id": "230",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 129
+  },
+  {
+    "uid": "9",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\9_IM-2407-1001.dcm.png",
+    "report": "The XXXX examination consists of frontal and lateral radiographs of the chest. The cardiac silhouette is not enlarged. There has been apparent interval increase in low density convexity at the left cardiophrenic XXXX. Calcified granuloma is again seen in the right upper lobe. There is no consolidation, pleural effusion or pneumothorax. Increased size of density in the left cardiophrenic XXXX. Primary differential considerations include increased size of prominent epicardial fat, pericardial mass, pleural mass or cardiac aneurysm. CT chest with contrast is recommended. These findings and recommendations were discussed XXXX. XXXX by Dr. XXXX XXXX telephone at XXXX p.m. XXXX/XXXX. Dr. XXXX<XXXX>technologist receipt of the results.",
+    "patient_id": "9",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 130
+  },
+  {
+    "uid": "437",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\437_IM-2077-3003.dcm.png",
+    "report": "There are postoperative changes of sternotomy. There is cardiomegaly. The contour of the ascending aorta is prominent, consistent with known ascending aortic aneurysm. The lungs appear clear. No focal airspace consolidation. No pleural effusion or pneumothorax. There are minimal degenerative changes of the spine. 1. No acute pulmonary abnormality demonstrated. 2. Stable cardiomegaly. 3. Prominent contour of the ascending aorta, consistent with known ascending aortic aneurysm.",
+    "patient_id": "437",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 131
+  },
+  {
+    "uid": "168",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\168_IM-0448-1002.dcm.png",
+    "report": "The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Cardio mediastinal silhouette is unremarkable. Visualized osseous structures of the thorax demonstrates stable mild multilevel degenerative disc disease of the thoracolumbar spine as well as chronic left-sided rib fractures without acute abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "168",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 132
+  },
+  {
+    "uid": "123",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\123_IM-0153-1001.dcm.png",
+    "report": "Mild cardiomegaly. Tortuous aorta. No focal infiltrate. No pneumothorax or large pleural effusion. Soft tissue density identified in the medial right apex which is asymmetric compared to left. Asymmetric right medial apical opacity which may be attributable to the sternoclavicular joint. Upper lobe airspace disease or pulmonary nodule is not entirely excluded. Recommend XXXX XXXX chest and apical lordotic view of the chest to further evaluate. Findings and recommendations were discussed XXXX. XXXX in the XXXX department at XXXX a.m. XXXX/XXXX.",
+    "patient_id": "123",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 133
+  },
+  {
+    "uid": "127",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\127_IM-0181-1001.dcm.png",
+    "report": "Heart size and mediastinal contour within normal limits. Calcified granuloma in the left lung base. No focal airspace consolidation, pneumothorax, or large pleural effusion. No acute osseous abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "127",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 134
+  },
+  {
+    "uid": "308",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\308_IM-1439-1001.dcm.png",
+    "report": "Stable appearing right-sided XXXX the opacities. There is persistent elevation of the right hemidiaphragm. The cardiac silhouette and mediastinal contours are within normal limits. There is no pneumothorax. Stable right-sided chronic lung scarring otherwise no acute cardiopulmonary disease.",
+    "patient_id": "308",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 135
+  },
+  {
+    "uid": "26",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\26_IM-1090-2001.dcm.png",
+    "report": "The cardiac contours are normal. The lungs are clear. Thoracic spondylosis. No acute process.",
+    "patient_id": "26",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 136
+  },
+  {
+    "uid": "321",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\321_IM-1516-0001-0002.dcm.png",
+    "report": "There are XXXX opacities in the left lung, XXXX subsegmental atelectasis. XXXX opacities overlying the left lung base on the frontal XXXX XXXX reflect epicardial fat XXXX and overlying breast tissue. There is no focal airspace consolidation. No pleural effusion or pneumothorax. Heart size is at the upper limits of normal. There are diffuse degenerative changes of the spine. No acute findings. Left mid lung subsegmental atelectasis.",
+    "patient_id": "321",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 137
+  },
+  {
+    "uid": "197",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\197_IM-0631-1001.dcm.png",
+    "report": "The cardiomediastinal silhouette is normal. Lungs are hyperexpanded but clear without evidence of effusion or infiltrate. There is a small right lower lobe calcified granuloma that is unchanged from prior examinations. No acute bony abnormality. No pneumothorax or pneumomediastinum. 1. Hyperexpanded lungs.",
+    "patient_id": "197",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 138
+  },
+  {
+    "uid": "34",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\34_IM-1644-2001.dcm.png",
+    "report": "The heart is normal in size and contour. The lungs are clear, without evidence of infiltrate. There is no pneumothorax or effusion. No acute cardiopulmonary disease.",
+    "patient_id": "34",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 139
+  },
+  {
+    "uid": "251",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\251_IM-1032-4001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. Mild hyperinflation is noted. There are granulomatous sequela. No acute infiltrate or significant pleural effusion are noted. The costophrenic XXXX are excluded. No acute disease.",
+    "patient_id": "251",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 140
+  },
+  {
+    "uid": "182",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\182_IM-0531-1001.dcm.png",
+    "report": "Heart size and mediastinal contours appear within normal limits. Patchy airspace opacities in the left lower lobe, compatible with infiltrate. No large pleural effusion. No pneumothorax. No acute bony abnormality. Left lower lobe infiltrate.",
+    "patient_id": "182",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 141
+  },
+  {
+    "uid": "86",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\86_IM-2380-2001.dcm.png",
+    "report": "Heart size is within normal limits. No focal airspace consolidations. No pneumothorax or pleural effusion. No acute cardiopulmonary findings.",
+    "patient_id": "86",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 142
+  },
+  {
+    "uid": "238",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\238_IM-0939-1001.dcm.png",
+    "report": "Stable cardiomediastinal silhouette. No focal pulmonary opacity, pleural effusion or pneumothorax. No acute bony abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "238",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 143
+  },
+  {
+    "uid": "113",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\113_IM-0086-2001.dcm.png",
+    "report": "The heart and mediastinum are unremarkable. There are two subcentimeter hyperdense nodular opacities are noted within the right lung. These may represent XXXX on end or alternatively, calcified granulomas. The lungs are clear without infiltrate. There is no effusion or pneumothorax. 1. No acute cardiopulmonary disease.",
+    "patient_id": "113",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 144
+  },
+  {
+    "uid": "504",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\504_IM-2122-1001.dcm.png",
+    "report": "Stable cardiomediastinal silhouette. Stable XXXX opacity in the left base, XXXX scarring or atelectasis. Rounded calcified density in the left lung base, XXXX calcified granuloma. No XXXX consolidation. No pleural effusion or pneumothorax. Stable degenerative changes of the spine. No acute cardiopulmonary abnormality.",
+    "patient_id": "504",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 145
+  },
+  {
+    "uid": "463",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\463_IM-2091-1001.dcm.png",
+    "report": "There is a approximately 4 cm opacity with one XXXX margin and the other ill-defined in the lateral lower left lung is seen on the PA view. This is not definitely seen on the lateral view. There is no pneumothorax or pleural effusion. The cardiac silhouette is within normal limits. There are T-spine osteophytes. There is no pneumothorax or pleural effusion. There are calcified hilar lymph XXXX there Approximately 4.8 cm mass in the left lower hemithorax. This is favored to be arising from the chest wall and be pleural based. A CT of the chest is recommended for further evaluation. Critical result notification documented through Primordial.",
+    "patient_id": "463",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 146
+  },
+  {
+    "uid": "26",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\26_IM-1090-1001.dcm.png",
+    "report": "The cardiac contours are normal. The lungs are clear. Thoracic spondylosis. No acute process.",
+    "patient_id": "26",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 147
+  },
+  {
+    "uid": "299",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\299_IM-1377-2001.dcm.png",
+    "report": "Cardiac and mediastinal contours are within normal limits. The lungs are clear. Bony structures are intact. Small hiatal hernia. No acute findings. Small hiatal hernia.",
+    "patient_id": "299",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 148
+  },
+  {
+    "uid": "56",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\56_IM-2160-3003.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. The lungs are clear. No acute disease.",
+    "patient_id": "56",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 149
+  },
+  {
+    "uid": "261",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\261_IM-1100-12012.dcm.png",
+    "report": "No focal areas of consolidation. Heart size within normal limits. No pleural effusions. No evidence of pneumothorax. Osseous structures appear intact. No acute cardiopulmonary abnormality. .",
+    "patient_id": "261",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 150
+  },
+  {
+    "uid": "245",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\245_IM-0985-1001.dcm.png",
+    "report": "XXXX XXXX and lateral chest examination was obtained. The heart silhouette is normal in size and contour. Aortic XXXX appear unremarkable. Lungs demonstrate left upper lobe airspace disease most XXXX pneumonia. There is no effusion or pneumothorax. 1. Left upper lobe pneumonia.",
+    "patient_id": "245",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 151
+  },
+  {
+    "uid": "323",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\323_IM-1526-2001.dcm.png",
+    "report": "The trachea is midline. The cardiomediastinal silhouette is normal. Right lung calcified densities are unchanged from prior and indicate old granulomatous disease. Otherwise, the lungs are clear, without evidence of acute infiltrate or effusion. There is no pneumothorax. The visualized bony structures reveal no acute abnormalities. Lateral view reveals mild degenerative changes of the thoracic spine. No acute cardiopulmonary abnormalities.",
+    "patient_id": "323",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 152
+  },
+  {
+    "uid": "93",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\93_IM-2428-2001.dcm.png",
+    "report": "Lungs are clear without focal consolidation, effusion, or pneumothorax. Normal heart size. Negative for pneumoperitoneum. Mild degenerative changes of the thoracic spine. Negative for acute cardiopulmonary abnormality.",
+    "patient_id": "93",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 153
+  },
+  {
+    "uid": "492",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\492_IM-2112-2002.dcm.png",
+    "report": "No pneumothorax, pleural effusion or airspace consolidation. Heart size and pulmonary vasculature appear within normal limits. XXXX XXXX are intact. No acute cardiopulmonary abnormality. .",
+    "patient_id": "492",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 154
+  },
+  {
+    "uid": "469",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\469_IM-2097-1001.dcm.png",
+    "report": "The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal airspace opacity to suggest a pneumonia. There are scoliotic changes of the thoracolumbar spine. There degenerative changes of the spine. No acute cardiopulmonary disease.",
+    "patient_id": "469",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 155
+  },
+  {
+    "uid": "42",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\42_IM-2063-2001.dcm.png",
+    "report": "The trachea is midline. The cardiomediastinal silhouette is normal. The lungs are clear, without evidence of focal infiltrate or effusion. There is no pneumothorax. The visualized bony structures reveal no acute abnormalities. No acute cardiopulmonary abnormalities. .",
+    "patient_id": "42",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 156
+  },
+  {
+    "uid": "384",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\384_IM-1941-2001.dcm.png",
+    "report": "Heart size within normal limits, stable mediastinal contours. XXXX densities in the lingula may be compatible with scarring or subsegmental atelectasis, scattered chronic appearing irregular interstitial markings. No focal alveolar consolidation, no definite pleural effusion seen. Mild bronchovascular crowding without typical findings of pulmonary edema.",
+    "patient_id": "384",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 157
+  },
+  {
+    "uid": "228",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\228_IM-0866-5001.dcm.png",
+    "report": "Heart size, mediastinal contour, and pulmonary vascularity are within normal limits. No focal consolidation, suspicious pulmonary opacity, large pleural effusion, or pneumothorax is identified. Visualized osseous structures appear intact. Surgical XXXX is noted in the right upper quadrant. Subcutaneous emphysema seen along the neck bilaterally, right lateral upper abdomen, and left chest. 1. No acute cardiopulmonary abnormality. 2. Subcutaneous emphysema of the neck, left lateral chest, and right lateral abdominal soft tissues noted. .",
+    "patient_id": "228",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 158
+  },
+  {
+    "uid": "179",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\179_IM-0514-2001.dcm.png",
+    "report": "No airspace disease, effusion or noncalcified nodule. Normal heart size and mediastinum. Visualized XXXX of the chest XXXX are within normal limits. No acute cardiopulmonary abnormality.",
+    "patient_id": "179",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 159
+  },
+  {
+    "uid": "379",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\379_IM-1903-2001.dcm.png",
+    "report": "There has been interval placement of a dual-lumen dialysis catheter with the distal tip projected over the right atrium. Moderate cardiomegaly is identified. There is mild calcification of the transverse XXXX. XXXX airspace opacities are identified with bilateral pleural effusions. 1. Interval placement of a dual-lumen dialysis catheter with the distal tip projected over the right atrium. 2. Bibasilar airspace opacities and bilateral pleural effusions.",
+    "patient_id": "379",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 160
+  },
+  {
+    "uid": "248",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\248_IM-1008-85149002.dcm.png",
+    "report": "No pneumothorax, pleural effusion or airspace consolidation. Heart size and pulmonary vasculature appear within normal limits. XXXX XXXX are intact. There is a small calcified granuloma in the right midlung. No acute cardiopulmonary abnormality. .",
+    "patient_id": "248",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 161
+  },
+  {
+    "uid": "268",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\268_IM-1153-2001.dcm.png",
+    "report": "There is a right upper lobe opacity. Cardiomediastinal silhouette is normal. Pulmonary vasculature and XXXX are normal. Osseous structures and soft tissues are normal. Right upper lobe pneumonia.",
+    "patient_id": "268",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 162
+  },
+  {
+    "uid": "519",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\519_IM-2131-4001.dcm.png",
+    "report": "No pneumothorax, pleural effusion or airspace consolidation. Cardiomediastinal size is within normal limits. XXXX XXXX intact. No acute cardiopulmonary abnormality. .",
+    "patient_id": "519",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 163
+  },
+  {
+    "uid": "277",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\277_IM-1213-1001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is stable. Mild biapical scarring is identified. There is a nodular density in the right midlung which is stable from prior studies and noted to represent a granuloma on XXXX of XXXX. However, additional foci in the right upper lung are questioned. There is no acute infiltrate or pleural effusion. No acute disease. Vague right upper/mid lung nodular densities versus scarring and superimposed structures. CT may be warranted given patient's history.",
+    "patient_id": "277",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 164
+  },
+  {
+    "uid": "296",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\296_IM-1354-1002.dcm.png",
+    "report": "Heart size normal. Lungs clear. Hiatal hernia. No effusion the or pneumothorax. No pneumonia",
+    "patient_id": "296",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 165
+  },
+  {
+    "uid": "516",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\516_IM-2130-2001.dcm.png",
+    "report": "Normal heart. Calcified right hilar granulomas. No focal infiltrate. Midline trachea. No acute cardiopulmonary abnormality.",
+    "patient_id": "516",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 166
+  },
+  {
+    "uid": "245",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\245_IM-0985-2001.dcm.png",
+    "report": "XXXX XXXX and lateral chest examination was obtained. The heart silhouette is normal in size and contour. Aortic XXXX appear unremarkable. Lungs demonstrate left upper lobe airspace disease most XXXX pneumonia. There is no effusion or pneumothorax. 1. Left upper lobe pneumonia.",
+    "patient_id": "245",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 167
+  },
+  {
+    "uid": "271",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\271_IM-1176-1001.dcm.png",
+    "report": "The cardiomediastinal silhouette is normal in size and contour. No focal consolidation, pneumothorax or large pleural effusion. Negative for acute displaced rib fracture. Negative for acute abnormality.",
+    "patient_id": "271",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 168
+  },
+  {
+    "uid": "254",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\254_IM-1051-1001.dcm.png",
+    "report": "Lungs are clear. Heart size normal. Scattered thoracic spine spurring. No acute cardiopulmonary finding.",
+    "patient_id": "254",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 169
+  },
+  {
+    "uid": "8",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\8_IM-2333-1001.dcm.png",
+    "report": "The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. There is an interim XXXX cervical spinal fusion partly evaluated. No acute cardiopulmonary disease.",
+    "patient_id": "8",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 170
+  },
+  {
+    "uid": "521",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\521_IM-2132-1001.dcm.png",
+    "report": "Low lung volumes with bronchovascular crowding. No focal alveolar consolidation, no definite pleural effusion seen. Heart size within normal limits for technique, no typical mediastinal widening of vascular injury. No pleural line of pneumothorax. Limited quality exam shows no definite acute findings.",
+    "patient_id": "521",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 171
+  },
+  {
+    "uid": "418",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\418_IM-2061-3001.dcm.png",
+    "report": "Stable enlargement of the cardiac silhouette, stable mediastinal and hilar contours, surgical clips and CABG markers. Stable XXXX densities in the left base compatible with scarring or chronic subsegmental atelectasis. No focal alveolar consolidation, no definite pleural effusion seen. Right hilar calcifications suggest a previous granulomatous process. No typical findings of pulmonary edema. No acute findings",
+    "patient_id": "418",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 172
+  },
+  {
+    "uid": "212",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\212_IM-0746-1001-0001.dcm.png",
+    "report": "Chest: Stable cardiomediastinal silhouette. Pulmonary vascularity is within normal limits. Hyperlucent apices. Negative for focal airspace disease or consolidation. Negative for pneumothorax or pleural effusion. Healed remote left 9th rib fracture. Right shoulder: Negative for fracture or dislocation. Chest. Right shoulder. 1. No acute cardiopulmonary abnormality. 2. Negative for right shoulder fracture or dislocation.",
+    "patient_id": "212",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 173
+  },
+  {
+    "uid": "194",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\194_IM-0609-2001.dcm.png",
+    "report": "Heart size upper limits of normal. Small amount of left basilar airspace disease. The right lung is clear. There are no cavitary lesions seen. No pneumothorax. No pleural effusions. Left basilar atelectasis and/or infiltrate, with no radiographic evidence of tuberculosis.",
+    "patient_id": "194",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 174
+  },
+  {
+    "uid": "133",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\133_IM-0212-3001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. The lungs are clear. No acute disease.",
+    "patient_id": "133",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 175
+  },
+  {
+    "uid": "323",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\323_IM-1526-1001.dcm.png",
+    "report": "The trachea is midline. The cardiomediastinal silhouette is normal. Right lung calcified densities are unchanged from prior and indicate old granulomatous disease. Otherwise, the lungs are clear, without evidence of acute infiltrate or effusion. There is no pneumothorax. The visualized bony structures reveal no acute abnormalities. Lateral view reveals mild degenerative changes of the thoracic spine. No acute cardiopulmonary abnormalities.",
+    "patient_id": "323",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 176
+  },
+  {
+    "uid": "65",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\65_IM-2228-4004.dcm.png",
+    "report": "The XXXX examination consists of frontal and lateral radiographs of the chest. The cardiomediastinal contours are within normal limits. Pulmonary vascularity is within normal limits. No focal consolidation, pleural effusion, or pneumothorax identified. Deformity of the right clavicle related to remote XXXX is again seen. Visualized upper abdomen grossly unremarkable. No evidence of acute cardiopulmonary process.",
+    "patient_id": "65",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 177
+  },
+  {
+    "uid": "276",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\276_IM-1207-1001.dcm.png",
+    "report": "The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Cardio mediastinal silhouette is unremarkable. Visualized osseous structures of the thorax are without acute abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "276",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 178
+  },
+  {
+    "uid": "227",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\227_IM-0859-12012.dcm.png",
+    "report": "Heart is enlarged. There is prominence of the central pulmonary vasculature. Mild diffuse interstitial opacities bilaterally, predominantly in the bases, with no focal consolidation, pleural effusion, or pneumothoraces. XXXX and soft tissues are unremarkable. Cardiomegaly with pulmonary interstitial edema and XXXX bilateral pleural effusions. .",
+    "patient_id": "227",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 179
+  },
+  {
+    "uid": "51",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\51_IM-2125-1002.dcm.png",
+    "report": "Heart size is normal and cardiomediastinal silhouette is normal. There are scattered calcified granulomas throughout both lung XXXX. Lungs are clear bilaterally otherwise. No bony or soft tissue abnormalities. No acute cardiopulmonary abnormality.",
+    "patient_id": "51",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 180
+  },
+  {
+    "uid": "147",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\147_IM-0303-1001.dcm.png",
+    "report": "The lungs are clear. Heart and pulmonary XXXX appear normal. The pleural spaces are clear and mediastinal contours are normal. Nodular density overlying the anterior left 4th rib XXXX represents a healing rib fracture. 1. No acute cardiopulmonary disease",
+    "patient_id": "147",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 181
+  },
+  {
+    "uid": "241",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\241_IM-0955-1001.dcm.png",
+    "report": "The trachea is midline. Cardiomediastinal silhouette is normal in size and contour. The lungs are clear without evidence of acute infiltrate or effusion. There is no pneumothorax. The visualized bony structures reveal no acute abnormalities. No acute cardiopulmonary abnormalities.",
+    "patient_id": "241",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 182
+  },
+  {
+    "uid": "79",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\79_IM-2329-2001.dcm.png",
+    "report": "The cardiomediastinal silhouette and vasculature are within normal limits for size and contour. The lungs are normally inflated and clear. Osseous structures are within normal limits for patient age. 1. No acute radiographic cardiopulmonary process.",
+    "patient_id": "79",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 183
+  },
+  {
+    "uid": "272",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\272_IM-1182-2001.dcm.png",
+    "report": "The lungs are clear. No focal airspace consolidation. No pleural effusion or pneumothorax. Heart size and mediastinal contour are within normal limits. No evidence of active disease.",
+    "patient_id": "272",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 184
+  },
+  {
+    "uid": "308",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\308_IM-1439-2001.dcm.png",
+    "report": "Stable appearing right-sided XXXX the opacities. There is persistent elevation of the right hemidiaphragm. The cardiac silhouette and mediastinal contours are within normal limits. There is no pneumothorax. Stable right-sided chronic lung scarring otherwise no acute cardiopulmonary disease.",
+    "patient_id": "308",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 185
+  },
+  {
+    "uid": "138",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\138_IM-0244-2001.dcm.png",
+    "report": "Cardiac and mediastinal contours are within normal limits. The lungs are clear. Bony structures are intact. No acute preoperative findings.",
+    "patient_id": "138",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 186
+  },
+  {
+    "uid": "220",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\220_IM-0811-1002.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is stable. Left-sided chest XXXX is again visualized with tip at cavoatrial junction. There is no pneumothorax. Numerous bilateral pulmonary nodules have increased in size and number XXXX compared to prior study. The dominant nodule/mass in the left midlung is also mildly increased. There is no pleural effusion. Interval increase in size and number of innumerable bilateral pulmonary nodules consistent with worsening metastatic disease.",
+    "patient_id": "220",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 187
+  },
+  {
+    "uid": "321",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\321_IM-1516-0001-0001.dcm.png",
+    "report": "There are XXXX opacities in the left lung, XXXX subsegmental atelectasis. XXXX opacities overlying the left lung base on the frontal XXXX XXXX reflect epicardial fat XXXX and overlying breast tissue. There is no focal airspace consolidation. No pleural effusion or pneumothorax. Heart size is at the upper limits of normal. There are diffuse degenerative changes of the spine. No acute findings. Left mid lung subsegmental atelectasis.",
+    "patient_id": "321",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 188
+  },
+  {
+    "uid": "379",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\379_IM-1903-4004.dcm.png",
+    "report": "There has been interval placement of a dual-lumen dialysis catheter with the distal tip projected over the right atrium. Moderate cardiomegaly is identified. There is mild calcification of the transverse XXXX. XXXX airspace opacities are identified with bilateral pleural effusions. 1. Interval placement of a dual-lumen dialysis catheter with the distal tip projected over the right atrium. 2. Bibasilar airspace opacities and bilateral pleural effusions.",
+    "patient_id": "379",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 189
+  },
+  {
+    "uid": "127",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\127_IM-0181-1002.dcm.png",
+    "report": "Heart size and mediastinal contour within normal limits. Calcified granuloma in the left lung base. No focal airspace consolidation, pneumothorax, or large pleural effusion. No acute osseous abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "127",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 190
+  },
+  {
+    "uid": "79",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\79_IM-2329-1001.dcm.png",
+    "report": "The cardiomediastinal silhouette and vasculature are within normal limits for size and contour. The lungs are normally inflated and clear. Osseous structures are within normal limits for patient age. 1. No acute radiographic cardiopulmonary process.",
+    "patient_id": "79",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 191
+  },
+  {
+    "uid": "259",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\259_IM-1083-1002.dcm.png",
+    "report": "The heart and cardiomediastinal silhouette or normal in size and contour. There is no focal air space opacity, pleural effusion, or pneumothorax. The osseous structures are intact. No acute cardiopulmonary finding.",
+    "patient_id": "259",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 192
+  },
+  {
+    "uid": "155",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\155_IM-0358-1001.dcm.png",
+    "report": "Heart size is normal. Lungs are clear. Prominent ascending aorta. Calcified left hilar XXXX.",
+    "patient_id": "155",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 193
+  },
+  {
+    "uid": "410",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\410_IM-2056-1003.dcm.png",
+    "report": "The heart and mediastinum are unremarkable. The lungs are clear without infiltrate. There is no effusion or pneumothorax. There is a mild levoscoliosis of the thoracic spine. There is mild widening of the right acromioclavicular joint which may be postsurgical or posttraumatic in XXXX. 1. No acute cardiopulmonary disease.",
+    "patient_id": "410",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 194
+  },
+  {
+    "uid": "475",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\475_IM-2101-2001.dcm.png",
+    "report": "Frontal and lateral views of the chest show normal size and configuration of the cardiac silhouette. Normal pulmonary vasculature and central airways. No focal airspace consolidation or pleural effusion. No acute or active cardiac, pulmonary or pleural disease.",
+    "patient_id": "475",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 195
+  },
+  {
+    "uid": "261",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\261_IM-1100-3003.dcm.png",
+    "report": "No focal areas of consolidation. Heart size within normal limits. No pleural effusions. No evidence of pneumothorax. Osseous structures appear intact. No acute cardiopulmonary abnormality. .",
+    "patient_id": "261",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 196
+  },
+  {
+    "uid": "1",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\1_IM-0001-3001.dcm.png",
+    "report": "The cardiac silhouette and mediastinum size are within normal limits. There is no pulmonary edema. There is no focal consolidation. There are no XXXX of a pleural effusion. There is no evidence of pneumothorax. Normal chest x-XXXX.",
+    "patient_id": "1",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 197
+  },
+  {
+    "uid": "202",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\202_IM-0667-4004.dcm.png",
+    "report": "AP and lateral view of the chest. 1. Cardiomegaly with central vascular congestion and increased interstitial opacities suggesting mild interstitial pulmonary edema. 2. Small bilateral pleural effusions. 3. No visible pneumothorax.",
+    "patient_id": "202",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 198
+  },
+  {
+    "uid": "507",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\507_IM-2125-1001.dcm.png",
+    "report": "No airspace disease, effusion or noncalcified nodule. Normal heart size and mediastinum. Visualized XXXX of the chest XXXX are within normal limits. No acute cardiopulmonary abnormality.",
+    "patient_id": "507",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 199
+  },
+  {
+    "uid": "159",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\159_IM-0382-1001.dcm.png",
+    "report": "Chest. The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal. Left and right XXXX. Osteophytes are present at the acromioclavicular joints bilaterally and also on the humeral necks. The right glenohumeral joint is normal, but the left is narrowed. No fractures or bone destruction. 1. Chest. No active disease. 2. Left and right XXXX. Bilateral degenerative joint disease, left worse than right.",
+    "patient_id": "159",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 200
+  },
+  {
+    "uid": "296",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\296_IM-1354-1001.dcm.png",
+    "report": "Heart size normal. Lungs clear. Hiatal hernia. No effusion the or pneumothorax. No pneumonia",
+    "patient_id": "296",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 201
+  },
+  {
+    "uid": "136",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\136_IM-0233-1001.dcm.png",
+    "report": "Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses. Normal chest",
+    "patient_id": "136",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 202
+  },
+  {
+    "uid": "394",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\394_IM-2010-1001.dcm.png",
+    "report": "There is a large airspace opacity in the right lower and middle lobes. There is no pneumothorax. Heart size is normal. Soft tissue and bony structures unremarkable. Multilobar airspace consolidation.",
+    "patient_id": "394",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 203
+  },
+  {
+    "uid": "235",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\235_IM-0915-2001.dcm.png",
+    "report": "There is a left-sided biventricular pacemaker. Leads overlie the right ventricle and a lateral cardiac vein. The leads appear intact. The cardiac silhouette is mildly enlarged. There are mild diffuse bilateral interstitial opacities, XXXX pulmonary edema. There are XXXX opacities overlying the left lung base on the frontal view. No large pleural effusion is seen on the lateral view. No pneumothorax is identified. 1. Left-sided biventricular cardiac pacemaker. Leads appear intact. No pneumothorax. 2. Cardiomegaly and mild interstitial pulmonary edema. 3. XXXX opacities overlying the left lung base on the frontal view, possibly lingular atelectasis or infiltrate. No large pleural effusion.",
+    "patient_id": "235",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 204
+  },
+  {
+    "uid": "33",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\33_IM-1576-12012.dcm.png",
+    "report": "Cardiac and mediastinal contours are within normal limits. The lungs are clear. Left axillary surgical clips. Bony structures are intact. No active pulmonary disease.",
+    "patient_id": "33",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 205
+  },
+  {
+    "uid": "43",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\43_IM-2070-2001.dcm.png",
+    "report": "The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal. No active disease.",
+    "patient_id": "43",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 206
+  },
+  {
+    "uid": "220",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\220_IM-0811-1001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is stable. Left-sided chest XXXX is again visualized with tip at cavoatrial junction. There is no pneumothorax. Numerous bilateral pulmonary nodules have increased in size and number XXXX compared to prior study. The dominant nodule/mass in the left midlung is also mildly increased. There is no pleural effusion. Interval increase in size and number of innumerable bilateral pulmonary nodules consistent with worsening metastatic disease.",
+    "patient_id": "220",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 207
+  },
+  {
+    "uid": "93",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\93_IM-2428-1001.dcm.png",
+    "report": "Lungs are clear without focal consolidation, effusion, or pneumothorax. Normal heart size. Negative for pneumoperitoneum. Mild degenerative changes of the thoracic spine. Negative for acute cardiopulmonary abnormality.",
+    "patient_id": "93",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 208
+  },
+  {
+    "uid": "112",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\112_IM-0080-1002.dcm.png",
+    "report": "Previous lower spine cervical fusion. Lungs are overall hyperexpanded with flattening of the diaphragms consistent with obstructive lung disease. Lungs are clear without focal consolidation. No pleural effusions or pneumothoraces. Heart and mediastinum of normal size and contour. Degenerative changes in the spine. Hyperexpanded but clear lungs.",
+    "patient_id": "112",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 209
+  },
+  {
+    "uid": "63",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\63_IM-2210-0001-0001.dcm.png",
+    "report": "Stable flattening of the posterior diaphragm and scattered chronic appearing irregular interstitial markings with no focal alveolar consolidation. Stable cardiomediastinal silhouette with normal heart size and aortic ectasia/tortuosity, stable mediastinal contours. No definite pleural effusion seen, no typical findings of pulmonary edema. Following spine ossifications and marginal osteophytes again noted. Chronic changes as described, no acute findings",
+    "patient_id": "63",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 210
+  },
+  {
+    "uid": "225",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\225_IM-0844-2001.dcm.png",
+    "report": "Cardiomediastinal silhouette is within normal limits. No focal consolidation. No pneumothorax or pleural effusion. No acute bony abnormalities. No acute cardiopulmonary abnormalities. .",
+    "patient_id": "225",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 211
+  },
+  {
+    "uid": "126",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\126_IM-0176-2002.dcm.png",
+    "report": "Vague increased opacity which appears to be within the left lower lobe. Question of this could be developing or resolving pneumonia. Lungs are otherwise clear. No pleural effusions or pneumothoraces. heart and mediastinum are stable normal size heart. Atherosclerotic vascular disease. Degenerative changes in the thoracic spine. Vague opacity at the left lung base which appears to be within the left lower lobe. This may represent resolving or developing pneumonia given the patient's history.",
+    "patient_id": "126",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 212
+  },
+  {
+    "uid": "238",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\238_IM-0939-2001.dcm.png",
+    "report": "Stable cardiomediastinal silhouette. No focal pulmonary opacity, pleural effusion or pneumothorax. No acute bony abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "238",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 213
+  },
+  {
+    "uid": "145",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\145_IM-0290-2001.dcm.png",
+    "report": "Right costophrenic XXXX is blunted. In the left lower lobe a patchy infiltrate is present. The pulmonary XXXX are normal. Large right pleural effusion and patchy left lower lobe airspace disease.",
+    "patient_id": "145",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 214
+  },
+  {
+    "uid": "197",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\197_IM-0631-1002.dcm.png",
+    "report": "The cardiomediastinal silhouette is normal. Lungs are hyperexpanded but clear without evidence of effusion or infiltrate. There is a small right lower lobe calcified granuloma that is unchanged from prior examinations. No acute bony abnormality. No pneumothorax or pneumomediastinum. 1. Hyperexpanded lungs.",
+    "patient_id": "197",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 215
+  },
+  {
+    "uid": "367",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\367_IM-1826-1001.dcm.png",
+    "report": "The lungs are clear. No focal airspace consolidation. No pleural effusion or pneumothorax. Heart size is within normal limits. Clear lungs.",
+    "patient_id": "367",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 216
+  },
+  {
+    "uid": "72",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\72_IM-2280-1001.dcm.png",
+    "report": "Lungs are clear without focal consolidation, effusion, or pneumothorax. Normal heart size. Bony thorax and soft tissues grossly unremarkable. Negative acute cardiopulmonary abnormality.",
+    "patient_id": "72",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 217
+  },
+  {
+    "uid": "388",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\388_IM-1968-2001.dcm.png",
+    "report": "Cardiomegaly is unchanged. Stable superior mediastinal contour with tortuous calcified aorta. Normal pulmonary vascularity. No focal air space consolidation, pleural effusion, or pneumothorax. No acute bony abnormality. Changes of prior right mastectomy. Stable appearance of the chest. No acute cardiopulmonary findings.",
+    "patient_id": "388",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 218
+  },
+  {
+    "uid": "516",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\516_IM-2130-1001.dcm.png",
+    "report": "Normal heart. Calcified right hilar granulomas. No focal infiltrate. Midline trachea. No acute cardiopulmonary abnormality.",
+    "patient_id": "516",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 219
+  },
+  {
+    "uid": "154",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\154_IM-0350-1001.dcm.png",
+    "report": "Cardiomediastinal silhouette is normal. Pulmonary vasculature and XXXX are normal. No consolidation, pneumothorax or large pleural effusion. Osseous structures and soft tissues are normal. No acute cardiopulmonary disease.",
+    "patient_id": "154",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 220
+  },
+  {
+    "uid": "504",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\504_IM-2122-2001.dcm.png",
+    "report": "Stable cardiomediastinal silhouette. Stable XXXX opacity in the left base, XXXX scarring or atelectasis. Rounded calcified density in the left lung base, XXXX calcified granuloma. No XXXX consolidation. No pleural effusion or pneumothorax. Stable degenerative changes of the spine. No acute cardiopulmonary abnormality.",
+    "patient_id": "504",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 221
+  },
+  {
+    "uid": "75",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\75_IM-2303-1001.dcm.png",
+    "report": "The heart size is stable. The aorta is ectatic and atherosclerotic but stable. XXXX sternotomy XXXX are again noted. The scarring in the left lower lobe is again noted and unchanged from prior exam. There are mild bilateral prominent lung interstitial opacities consistent with emphysematous disease. The calcified granulomas are stable. 1. Changes of emphysema and left lower lobe scarring, both stable. 2. Unchanged degenerative and atherosclerotic changes of the thoracic aorta.",
+    "patient_id": "75",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 222
+  },
+  {
+    "uid": "42",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\42_IM-2063-1001.dcm.png",
+    "report": "The trachea is midline. The cardiomediastinal silhouette is normal. The lungs are clear, without evidence of focal infiltrate or effusion. There is no pneumothorax. The visualized bony structures reveal no acute abnormalities. No acute cardiopulmonary abnormalities. .",
+    "patient_id": "42",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 223
+  },
+  {
+    "uid": "294",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\294_IM-1340-3001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. The lungs are grossly clear. Underlying emphysematous changes are noted. Emphysema without acute disease.",
+    "patient_id": "294",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 224
+  },
+  {
+    "uid": "338",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\338_IM-1628-1001.dcm.png",
+    "report": "The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. The patient was shielded. No acute cardiopulmonary disease.",
+    "patient_id": "338",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 225
+  },
+  {
+    "uid": "201",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\201_IM-0660-1001.dcm.png",
+    "report": "The cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size. There is minimal XXXX airspace opacity in the right middle lobe, XXXX atelectasis. The lungs are otherwise clear of focal airspace disease. There is no pneumothorax or pleural effusion. There is mild tortuosity of the thoracic aorta with atherosclerotic calcification of the aortic XXXX. There are moderate degenerative endplate changes in the thoracic spine. There are no acute bony findings. No acute cardiopulmonary findings. .",
+    "patient_id": "201",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 226
+  },
+  {
+    "uid": "182",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\182_IM-0531-2001.dcm.png",
+    "report": "Heart size and mediastinal contours appear within normal limits. Patchy airspace opacities in the left lower lobe, compatible with infiltrate. No large pleural effusion. No pneumothorax. No acute bony abnormality. Left lower lobe infiltrate.",
+    "patient_id": "182",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 227
+  },
+  {
+    "uid": "237",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\237_IM-0930-2001.dcm.png",
+    "report": "The heart size and cardiomediastinal silhouette are normal. The lungs are clear without focal airspace opacity, pleural effusion, or pneumothorax. There are numerous calcified granuloma in the right perihilar region. There are multilevel degenerative changes in the thoracic spine. No acute cardiopulmonary finding.",
+    "patient_id": "237",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 228
+  },
+  {
+    "uid": "234",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\234_IM-0906-0001-0001.dcm.png",
+    "report": "The trachea is midline. The cardiomediastinal silhouette is normal. The lungs are clear, without focal consolidation or effusion. There is no pneumothorax. The visualized bony structures reveal no acute abnormalities. Lateral view reveals mild degenerative changes of the thoracic spine. No layering pleural effusion or pneumothorax seen on decubitus exam. Chest x-XXXX, lateral, and decubitus. 1. No acute cardiopulmonary abnormalities. 2. No evidence of pleural effusion. .",
+    "patient_id": "234",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 229
+  },
+  {
+    "uid": "204",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\204_IM-0683-1001.dcm.png",
+    "report": "Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses. Normal chest",
+    "patient_id": "204",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 230
+  },
+  {
+    "uid": "234",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\234_IM-0906-0001-0002.dcm.png",
+    "report": "The trachea is midline. The cardiomediastinal silhouette is normal. The lungs are clear, without focal consolidation or effusion. There is no pneumothorax. The visualized bony structures reveal no acute abnormalities. Lateral view reveals mild degenerative changes of the thoracic spine. No layering pleural effusion or pneumothorax seen on decubitus exam. Chest x-XXXX, lateral, and decubitus. 1. No acute cardiopulmonary abnormalities. 2. No evidence of pleural effusion. .",
+    "patient_id": "234",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 231
+  },
+  {
+    "uid": "261",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\261_IM-1100-1001.dcm.png",
+    "report": "No focal areas of consolidation. Heart size within normal limits. No pleural effusions. No evidence of pneumothorax. Osseous structures appear intact. No acute cardiopulmonary abnormality. .",
+    "patient_id": "261",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 232
+  },
+  {
+    "uid": "276",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\276_IM-1207-1002.dcm.png",
+    "report": "The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Cardio mediastinal silhouette is unremarkable. Visualized osseous structures of the thorax are without acute abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "276",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 233
+  },
+  {
+    "uid": "94",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\94_IM-2436-2001.dcm.png",
+    "report": "Heart size, mediastinal contour, and pulmonary vascularity are similar to comparison exam and within normal limits. No focal consolidation, suspicious pulmonary opacity, pleural effusion, or pneumothorax. The visualized osseous structures appear intact. No acute cardiopulmonary abnormalities.",
+    "patient_id": "94",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 234
+  },
+  {
+    "uid": "75",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\75_IM-2303-2001.dcm.png",
+    "report": "The heart size is stable. The aorta is ectatic and atherosclerotic but stable. XXXX sternotomy XXXX are again noted. The scarring in the left lower lobe is again noted and unchanged from prior exam. There are mild bilateral prominent lung interstitial opacities consistent with emphysematous disease. The calcified granulomas are stable. 1. Changes of emphysema and left lower lobe scarring, both stable. 2. Unchanged degenerative and atherosclerotic changes of the thoracic aorta.",
+    "patient_id": "75",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 235
+  },
+  {
+    "uid": "225",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\225_IM-0844-1001.dcm.png",
+    "report": "Cardiomediastinal silhouette is within normal limits. No focal consolidation. No pneumothorax or pleural effusion. No acute bony abnormalities. No acute cardiopulmonary abnormalities. .",
+    "patient_id": "225",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 236
+  },
+  {
+    "uid": "297",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\297_IM-1361-2001.dcm.png",
+    "report": "Cardiac silhouette is within normal limits in size. The lungs are hypoinflated with mild bronchovascular crowding. There is mild, XXXX opacity projected over the left lung base. This is partly due to overlying soft tissues, however, there is partial obscuration of the lateral left hemidiaphragm. The lungs are otherwise grossly clear. There is no pneumothorax or pleural effusion. There are no acute bony findings. There are degenerative endplate changes throughout the thoracic spine. Low lung volumes with mild, XXXX left basilar opacity, atelectasis versus infiltrate. .",
+    "patient_id": "297",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 237
+  },
+  {
+    "uid": "151",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\151_IM-0331-2001.dcm.png",
+    "report": "The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal. No active disease.",
+    "patient_id": "151",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 238
+  },
+  {
+    "uid": "480",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\480_IM-2104-1001.dcm.png",
+    "report": "Heart size, mediastinal silhouette, pulmonary vascularity are within normal limits. There is no focal air space consolidation to suggest acute pneumonia or active tuberculous infection. No pleural effusion or pneumothorax.",
+    "patient_id": "480",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 239
+  },
+  {
+    "uid": "374",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\374_IM-1868-2001.dcm.png",
+    "report": "Cardiomegaly. Left lung clear. Large right effusion. Compressive atelectasis or infiltrate in the right base",
+    "patient_id": "374",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 240
+  },
+  {
+    "uid": "57",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\57_IM-2170-1001-0002.dcm.png",
+    "report": "The tracheostomy tube tip is 5 cm above the carina. There are prominent diffuse bilateral interstitial opacities, stable from prior radiographs. There is no focal airspace consolidation. No pleural effusion. No pneumothorax. Heart size is within normal limits. There are mild degenerative changes of the spine. 1. No focal airspace consolidation. 2. Prominent bilateral interstitial opacities, stable from prior radiographs.",
+    "patient_id": "57",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 241
+  },
+  {
+    "uid": "412",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\412_IM-2056-2001.dcm.png",
+    "report": "Bilateral emphysematous again noted and lower lobe fibrotic changes. Postsurgical changes of the chest including CABG procedure, stable. Stable valve artifact. There are no focal areas of consolidation. No large pleural effusions. No evidence of pneumothorax. Degenerative changes noted of the visualized thoracic spine. Nodular right lower lobe opacity, XXXX nipple XXXX. Contour abnormality of the posterior aspect of the right 7th rib again noted, stable. 1. No acute cardiopulmonary abnormality. 2. Stable bilateral emphysematous and lower lobe fibrotic changes.",
+    "patient_id": "412",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 242
+  },
+  {
+    "uid": "186",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\186_IM-0558-1001.dcm.png",
+    "report": "Cardiac size, mediastinal contour, and pulmonary vascularity are within normal limits. No focal consolidation, suspicious pulmonary opacity, pleural effusion, or pneumothorax. The visualized osseous structures appear intact. No evidence of abnormal radiodense foreign bodies. No acute cardiopulmonary abnormalities. No evidence of abnormal radiodense foreign bodies.",
+    "patient_id": "186",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 243
+  },
+  {
+    "uid": "250",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\250_IM-1025-2001.dcm.png",
+    "report": "The lungs are clear. There is no focal airspace consolidation. No pleural effusion or pneumothorax. Heart size and mediastinal contour are normal. There are minimal degenerative changes of the spine. No evidence of active disease.",
+    "patient_id": "250",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 244
+  },
+  {
+    "uid": "33",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\33_IM-1576-13013.dcm.png",
+    "report": "Cardiac and mediastinal contours are within normal limits. The lungs are clear. Left axillary surgical clips. Bony structures are intact. No active pulmonary disease.",
+    "patient_id": "33",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 245
+  },
+  {
+    "uid": "430",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\430_IM-2071-2001.dcm.png",
+    "report": "Lungs are clear. No focal infiltrate or effusion. No pneumothorax. Heart and mediastinal contours within normal limits. Visualized osseous structures intact. No acute cardiopulmonary disease.",
+    "patient_id": "430",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 246
+  },
+  {
+    "uid": "133",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\133_IM-0212-2001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. The lungs are clear. No acute disease.",
+    "patient_id": "133",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 247
+  },
+  {
+    "uid": "215",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\215_IM-0769-2001.dcm.png",
+    "report": "Stable cardiomegaly. XXXX sternotomy XXXX are intact. No pneumothorax or pleural effusion. XXXX calcific density in the left mid to upper lung XXXX represents old granulomatous disease. No focal consolidation. Stable moderate thoracic levoscoliosis and mild thoracolumbar dextroscoliosis. 1. Stable cardiomegaly with no focal airspace disease. 2. Stable moderate thoracic levoscoliosis and mild thoracolumbar dextroscoliosis. .",
+    "patient_id": "215",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 248
+  },
+  {
+    "uid": "157",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\157_IM-0372-1001.dcm.png",
+    "report": "In the interval, bibasilar interstitial infiltrates and pulmonary venous engorgement have resolved. Heart size is now normal. No XXXX infiltrates. Chest. Resolving pulmonary interstitial edema and pulmonary venous hypertension.",
+    "patient_id": "157",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 249
+  },
+  {
+    "uid": "251",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\251_IM-1032-3001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is unremarkable. Mild hyperinflation is noted. There are granulomatous sequela. No acute infiltrate or significant pleural effusion are noted. The costophrenic XXXX are excluded. No acute disease.",
+    "patient_id": "251",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 250
+  },
+  {
+    "uid": "136",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\136_IM-0233-1002.dcm.png",
+    "report": "Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses. Normal chest",
+    "patient_id": "136",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 251
+  },
+  {
+    "uid": "46",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\46_IM-2090-1001.dcm.png",
+    "report": "No comparison chest x-XXXX. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified.",
+    "patient_id": "46",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 252
+  },
+  {
+    "uid": "272",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\272_IM-1182-1001.dcm.png",
+    "report": "The lungs are clear. No focal airspace consolidation. No pleural effusion or pneumothorax. Heart size and mediastinal contour are within normal limits. No evidence of active disease.",
+    "patient_id": "272",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 253
+  },
+  {
+    "uid": "463",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\463_IM-2091-2001.dcm.png",
+    "report": "There is a approximately 4 cm opacity with one XXXX margin and the other ill-defined in the lateral lower left lung is seen on the PA view. This is not definitely seen on the lateral view. There is no pneumothorax or pleural effusion. The cardiac silhouette is within normal limits. There are T-spine osteophytes. There is no pneumothorax or pleural effusion. There are calcified hilar lymph XXXX there Approximately 4.8 cm mass in the left lower hemithorax. This is favored to be arising from the chest wall and be pleural based. A CT of the chest is recommended for further evaluation. Critical result notification documented through Primordial.",
+    "patient_id": "463",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 254
+  },
+  {
+    "uid": "139",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\139_IM-0248-3003.dcm.png",
+    "report": "The cardiac silhouette is mildly enlarged. A lobulated opacity is identified superior to the heart, in the anterior mediastinum on the lateral view, possibly consistent with a tortuous/ectatic thoracic aorta versus an anterior mediastinal mass. The thoracic aorta is tortuous and calcified. No focal areas of pulmonary consolidation. The lungs are hyperexpanded with flattening of the bilateral hemidiaphragms. No pneumothorax or pleural effusion. Severe degenerative changes of the thoracic spine. 1. Lobulated anterior mediastinal opacity on the lateral view, possibly consistent with a tortuous/ectatic thoracic aorta versus an anterior mediastinal mass. Contrast-enhanced XXXX examination would XXXX to further evaluate if clinically indicated. 2. Mild cardiomegaly with findings of chronic obstructive pulmonary disease.",
+    "patient_id": "139",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 255
+  },
+  {
+    "uid": "462",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\462_IM-2090-2001.dcm.png",
+    "report": "Mild cardiomegaly. Mild unfolding of the thoracic aorta. No focal air space opacity. No pleural effusion or pneumothorax. Visualized osseous structures are unremarkable in appearance. 1. Mild cardiomegaly. 2. Otherwise, no acute cardiopulmonary abnormalities.",
+    "patient_id": "462",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 256
+  },
+  {
+    "uid": "374",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\374_IM-1868-1001.dcm.png",
+    "report": "Cardiomegaly. Left lung clear. Large right effusion. Compressive atelectasis or infiltrate in the right base",
+    "patient_id": "374",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 257
+  },
+  {
+    "uid": "497",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\497_IM-2114-1002.dcm.png",
+    "report": "Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses. Normal chest.",
+    "patient_id": "497",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 258
+  },
+  {
+    "uid": "77",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\77_IM-2315-1001-0002.dcm.png",
+    "report": "Stable XXXX silhouette. No pneumothorax. No focal consolidation. No large pleural effusion. Unchanged pleural thickening at the visualized lung apices. Mild osteopenia, degenerative changes. No fractures.",
+    "patient_id": "77",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 259
+  },
+  {
+    "uid": "107",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\107_IM-0049-1001.dcm.png",
+    "report": "The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Cardio mediastinal silhouette is unremarkable. Visualized osseous structures of the thorax are without acute abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "107",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 260
+  },
+  {
+    "uid": "230",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\230_IM-0880-0001-0001.dcm.png",
+    "report": "Stable cardiomediastinal silhouette. Stable lingular nodule, presumably granuloma . No pleural effusion, pneumothorax or interval airspace consolidation to suggest pneumonia.",
+    "patient_id": "230",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 261
+  },
+  {
+    "uid": "216",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\216_IM-0777-2001.dcm.png",
+    "report": "The cardiac silhouette is enlarged and has a globular appearance. Mild bibasilar dependent atelectasis. No pneumothorax or large pleural effusion. No acute bone abnormality. Cardiomegaly with globular appearance of the cardiac silhouette. Considerations would include pericardial effusion or dilated cardiomyopathy.",
+    "patient_id": "216",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 262
+  },
+  {
+    "uid": "201",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\201_IM-0660-3001.dcm.png",
+    "report": "The cardiomediastinal silhouette and pulmonary vasculature are within normal limits in size. There is minimal XXXX airspace opacity in the right middle lobe, XXXX atelectasis. The lungs are otherwise clear of focal airspace disease. There is no pneumothorax or pleural effusion. There is mild tortuosity of the thoracic aorta with atherosclerotic calcification of the aortic XXXX. There are moderate degenerative endplate changes in the thoracic spine. There are no acute bony findings. No acute cardiopulmonary findings. .",
+    "patient_id": "201",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 263
+  },
+  {
+    "uid": "167",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\167_IM-0441-1001.dcm.png",
+    "report": "Both lungs are clear and expanded. An old calcified granuloma is present in the left upper lobe. Heart and mediastinum normal. No active disease.",
+    "patient_id": "167",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 264
+  },
+  {
+    "uid": "501",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\501_IM-2120-2001.dcm.png",
+    "report": "1. There is minimal streaky opacity in the posterior lungs, possibly cyst, scarring, or pneumonia. 2. Heart size and pulmonary XXXX appear normal 3. Mediastinal contours are normal",
+    "patient_id": "501",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 265
+  },
+  {
+    "uid": "80",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\80_IM-2333-3001.dcm.png",
+    "report": "Heart size and mediastinal contour within normal limits. No focal airspace consolidation, pneumothorax, or large pleural effusion. No acute osseous abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "80",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 266
+  },
+  {
+    "uid": "101",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\101_IM-0011-4004.dcm.png",
+    "report": "The heart is again mildly enlarged. Mediastinal contours are stable. Patient is somewhat rotated. The lungs are hypoinflated with elevated left hemidiaphragm. XXXX XXXX opacities compatible with atelectasis. No large effusion is seen. There is no focal consolidation. Pulmonary vascularity is mildly accentuated. There are bilateral degenerative changes of the XXXX with probable chronic dislocation of the left humerus. Correlate clinically. 1. Mild stable cardiomegaly and central vascular congestion. 2. Low lung volumes with elevated left hemidiaphragm and basilar subsegmental atelectasis. 3. Extensive bilateral shoulder degenerative changes with subluxation/dislocation left shoulder, possibly chronic. Suggest clinical correlation.",
+    "patient_id": "101",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 267
+  },
+  {
+    "uid": "13",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\13_IM-0198-1001.dcm.png",
+    "report": "The cardiac silhouette is borderline enlarged. Otherwise, there is no focal opacity. Mediastinal contours are within normal limits. There is no large pleural effusion. No pneumothorax. Borderline enlargement of the cardiac silhouette without acute pulmonary disease.",
+    "patient_id": "13",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 268
+  },
+  {
+    "uid": "502",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\502_IM-2120-1001.dcm.png",
+    "report": "Chest. The trachea is midline. Negative for pneumothorax, pleural effusion or focal airspace consolidation. The heart size is normal. Abdomen. No pneumoperitoneum. There is a normal bowel XXXX pattern. Air and stool visible throughout the entire large colon including the rectum. No abnormally dilated small bowel loops. No evidence for intussusception or small bowel obstruction. No pathologic calcifications XXXX over the abdomen or pelvis. XXXX XXXX are without fracture or destructive lesion, though there are mild degenerative changes throughout the lumbar spine. Small hiatal hernia is not as well demonstrated on this exam. Chest. 1. No acute cardiopulmonary abnormality. Abdomen. 1. No acute intra-abdominal process. Negative for obstruction.",
+    "patient_id": "502",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 269
+  },
+  {
+    "uid": "239",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\239_IM-0944-1002.dcm.png",
+    "report": "Heart upper limits normal. Lungs are clear. No effusions. No nodules masses or infiltrates. No bony abnormalities.",
+    "patient_id": "239",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 270
+  },
+  {
+    "uid": "51",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\51_IM-2125-1001.dcm.png",
+    "report": "Heart size is normal and cardiomediastinal silhouette is normal. There are scattered calcified granulomas throughout both lung XXXX. Lungs are clear bilaterally otherwise. No bony or soft tissue abnormalities. No acute cardiopulmonary abnormality.",
+    "patient_id": "51",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 271
+  },
+  {
+    "uid": "80",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\80_IM-2333-1001.dcm.png",
+    "report": "Heart size and mediastinal contour within normal limits. No focal airspace consolidation, pneumothorax, or large pleural effusion. No acute osseous abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "80",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 272
+  },
+  {
+    "uid": "479",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\479_IM-2102-1001.dcm.png",
+    "report": "The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm. 1. No acute radiographic cardiopulmonary process.",
+    "patient_id": "479",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 273
+  },
+  {
+    "uid": "187",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\187_IM-0563-1001.dcm.png",
+    "report": "Normal heart size. Stable tortuous aorta. No pneumothorax, pleural effusion or suspicious focal airspace opacity. Prior granulomatous disease. Unchanged exam without acute abnormality.",
+    "patient_id": "187",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 274
+  },
+  {
+    "uid": "85",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\85_IM-2372-1001.dcm.png",
+    "report": "There are scattered calcified granulomas. No focal infiltrate. No pleural effusion or pneumothorax. Heart size and mediastinal contour are within normal limits. There are degenerative changes of the spine. No evidence of active disease.",
+    "patient_id": "85",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 275
+  },
+  {
+    "uid": "27",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\27_IM-1168-2002.dcm.png",
+    "report": "Lungs are overall hyperexpanded with flattening of the diaphragms. No focal consolidation. No pleural effusions or pneumothoraces. Heart and mediastinum of normal size and contour. Degenerative changes in the thoracic spine. Hyperexpanded but clear lungs.",
+    "patient_id": "27",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 276
+  },
+  {
+    "uid": "497",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\497_IM-2114-1001.dcm.png",
+    "report": "Heart size normal. Lungs are clear. XXXX are normal. No pneumonia, effusions, edema, pneumothorax, adenopathy, nodules or masses. Normal chest.",
+    "patient_id": "497",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 277
+  },
+  {
+    "uid": "54",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\54_IM-2145-1002.dcm.png",
+    "report": "The lungs are clear bilaterally. Specifically, no evidence of focal consolidation, pneumothorax, or pleural effusion.. Minimal right basilar subsegmental atelectasis noted. Cardio mediastinal silhouette is unremarkable. Tortuosity of the thoracic aorta noted. Scattered calcified granulomas are seen without evidence of active granulomatous/tuberculous process. Visualized osseous structures of the thorax are without acute abnormality. No acute cardiopulmonary abnormality.",
+    "patient_id": "54",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 278
+  },
+  {
+    "uid": "479",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\479_IM-2102-2001.dcm.png",
+    "report": "The heart size is normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm. 1. No acute radiographic cardiopulmonary process.",
+    "patient_id": "479",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 279
+  },
+  {
+    "uid": "46",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\46_IM-2090-3003.dcm.png",
+    "report": "No comparison chest x-XXXX. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified.",
+    "patient_id": "46",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 280
+  },
+  {
+    "uid": "22",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\22_IM-0810-2001.dcm.png",
+    "report": "The lungs are clear, and without focal air space opacity. The cardiomediastinal silhouette is normal in size and contour, and stable. There is no pneumothorax large pleural effusion. No acute cardiopulmonary abnormality.",
+    "patient_id": "22",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 281
+  },
+  {
+    "uid": "77",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\77_IM-2315-1001-0001.dcm.png",
+    "report": "Stable XXXX silhouette. No pneumothorax. No focal consolidation. No large pleural effusion. Unchanged pleural thickening at the visualized lung apices. Mild osteopenia, degenerative changes. No fractures.",
+    "patient_id": "77",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 282
+  },
+  {
+    "uid": "138",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\138_IM-0244-1001.dcm.png",
+    "report": "Cardiac and mediastinal contours are within normal limits. The lungs are clear. Bony structures are intact. No acute preoperative findings.",
+    "patient_id": "138",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 283
+  },
+  {
+    "uid": "340",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\340_IM-1644-4004.dcm.png",
+    "report": "Heart size moderately enlarged, stable mediastinal contours. Lateral view curvilinear densities over the heart suggestive of coronary artery stents. Diaphragm eventration. No focal alveolar consolidation, no definite pleural effusion seen. No typical findings of pulmonary edema. Cardiomegaly, no acute pulmonary findings",
+    "patient_id": "340",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 284
+  },
+  {
+    "uid": "359",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\359_IM-1768-2001.dcm.png",
+    "report": "Heart size is upper limits of normal. The mediastinal contour is within normal limits. The lungs are free of any focal infiltrates. There are no nodules or masses. No visible pneumothorax. No visible pleural fluid. The XXXX are grossly normal. There is no visible free intraperitoneal air under the diaphragm. 1. No acute radiographic cardiopulmonary process.",
+    "patient_id": "359",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 285
+  },
+  {
+    "uid": "396",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\396_IM-2024-2002.dcm.png",
+    "report": "The lungs are clear. There is no focal airspace consolidation. No pleural effusion or pneumothorax. Normal cardiomediastinal silhouette. There are minimal degenerative changes of the spine. No evidence of active disease.",
+    "patient_id": "396",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 286
+  },
+  {
+    "uid": "508",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\508_IM-2125-1001.dcm.png",
+    "report": "Normal heart size and mediastinal contours. No focal airspace consolidation. No pleural effusion or pneumothorax. Visualized osseous structures are unremarkable. No acute cardiopulmonary abnormality.",
+    "patient_id": "508",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 287
+  },
+  {
+    "uid": "219",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\219_IM-0799-2001.dcm.png",
+    "report": "Cardiac and mediastinal contours are within normal limits. The lungs are clear. Bony structures are intact. No x-XXXX evidence of pulmonary metastatic disease. Stable appearance of the chest.",
+    "patient_id": "219",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 288
+  },
+  {
+    "uid": "462",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\462_IM-2090-1001.dcm.png",
+    "report": "Mild cardiomegaly. Mild unfolding of the thoracic aorta. No focal air space opacity. No pleural effusion or pneumothorax. Visualized osseous structures are unremarkable in appearance. 1. Mild cardiomegaly. 2. Otherwise, no acute cardiopulmonary abnormalities.",
+    "patient_id": "462",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 289
+  },
+  {
+    "uid": "338",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\338_IM-1628-2001.dcm.png",
+    "report": "The heart, pulmonary XXXX and mediastinum are within normal limits. There is no pleural effusion or pneumothorax. There is no focal air space opacity to suggest a pneumonia. The patient was shielded. No acute cardiopulmonary disease.",
+    "patient_id": "338",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 290
+  },
+  {
+    "uid": "1",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\1_IM-0001-4001.dcm.png",
+    "report": "The cardiac silhouette and mediastinum size are within normal limits. There is no pulmonary edema. There is no focal consolidation. There are no XXXX of a pleural effusion. There is no evidence of pneumothorax. Normal chest x-XXXX.",
+    "patient_id": "1",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 291
+  },
+  {
+    "uid": "108",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\108_IM-0056-1001.dcm.png",
+    "report": "The heart is normal in size. The mediastinum is Within normal limits the lungs are hypoinflated. There is mild increase in perihilar markings XXXX related to patient's history bronchitis. No acute infiltrate or pleural effusion are seen. Low lung volumes with increased lung markings particularly in the left perihilar region XXXX related to history of bronchitis. No acute infiltrate.",
+    "patient_id": "108",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 292
+  },
+  {
+    "uid": "86",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\86_IM-2380-1001.dcm.png",
+    "report": "Heart size is within normal limits. No focal airspace consolidations. No pneumothorax or pleural effusion. No acute cardiopulmonary findings.",
+    "patient_id": "86",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 293
+  },
+  {
+    "uid": "62",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\62_IM-2202-12012.dcm.png",
+    "report": "Status post XXXX sternotomy and CABG. Heart size is normal. Coronary vascular stent. The lungs are clear. There are no focal air space consolidations. No pleural effusions or pneumothoraces. The hilar and mediastinal contours are stable. Calcified mediastinal lymph XXXX. Normal pulmonary vascularity. Degenerative changes of the spine. No acute abnormality. .",
+    "patient_id": "62",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 294
+  },
+  {
+    "uid": "45",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\45_IM-2081-1001.dcm.png",
+    "report": "Stable cardiomegaly with vascular prominence without overt edema. No focal airspace disease. No large pleural effusion or pneumothorax. The XXXX are intact. Stable cardiomegaly without overt pulmonary edema.",
+    "patient_id": "45",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 295
+  },
+  {
+    "uid": "520",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\520_IM-2131-1001.dcm.png",
+    "report": "No pneumothorax, pleural effusion or airspace consolidation. Cardiomediastinal size is within normal limits. Pulmonary vasculature is normal. Old rib fractures, healed. Stable increased density overlying the lower mediastinum, unchanged, is XXXX due to hiatal hernia seen on XXXX examination. No acute cardiopulmonary abnormality. .",
+    "patient_id": "520",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 296
+  },
+  {
+    "uid": "290",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\290_IM-1303-2001.dcm.png",
+    "report": "The lungs are clear. There are multiple surgical XXXX seen near the apical regions and lower cervical region bilaterally. The heart and mediastinum are normal. There is a screw in the right shoulder. The soft tissues are normal. 1. No active disease. 2. There are numerous small surgical clips seen overlying the upper thorax bilaterally and the lower cervical region of uncertain significance.",
+    "patient_id": "290",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 297
+  },
+  {
+    "uid": "239",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\239_IM-0944-1001.dcm.png",
+    "report": "Heart upper limits normal. Lungs are clear. No effusions. No nodules masses or infiltrates. No bony abnormalities.",
+    "patient_id": "239",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 298
+  },
+  {
+    "uid": "430",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\430_IM-2071-1001.dcm.png",
+    "report": "Lungs are clear. No focal infiltrate or effusion. No pneumothorax. Heart and mediastinal contours within normal limits. Visualized osseous structures intact. No acute cardiopulmonary disease.",
+    "patient_id": "430",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 299
+  },
+  {
+    "uid": "228",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\228_IM-0866-3001.dcm.png",
+    "report": "Heart size, mediastinal contour, and pulmonary vascularity are within normal limits. No focal consolidation, suspicious pulmonary opacity, large pleural effusion, or pneumothorax is identified. Visualized osseous structures appear intact. Surgical XXXX is noted in the right upper quadrant. Subcutaneous emphysema seen along the neck bilaterally, right lateral upper abdomen, and left chest. 1. No acute cardiopulmonary abnormality. 2. Subcutaneous emphysema of the neck, left lateral chest, and right lateral abdominal soft tissues noted. .",
+    "patient_id": "228",
+    "modality": "xray_text",
+    "label": 1,
+    "sample_id": 300
+  },
+  {
+    "uid": "97",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\97_IM-2460-3003.dcm.png",
+    "report": "The cardiac contours are normal. The lungs are clear. Thoracic spondylosis. No acute process.",
+    "patient_id": "97",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 301
+  },
+  {
+    "uid": "151",
+    "path": "e:\\开发区\\crs\\shuju\\images\\images_normalized\\151_IM-0331-1001.dcm.png",
+    "report": "The heart and lungs have XXXX XXXX in the interval. Both lungs are clear and expanded. Heart and mediastinum normal. No active disease.",
+    "patient_id": "151",
+    "modality": "xray_text",
+    "label": 0,
+    "sample_id": 302
+  }
+]

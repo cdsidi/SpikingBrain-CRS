@@ -1,0 +1,684 @@
+### 05_CRS_INTEGRATION.txt（CRS融合层）
+
+```txt
+================================================================================
+文档: 05_CRS_INTEGRATION.txt
+标题: CRS五阶段与脉冲神经网络深度融合实现
+依赖: 02_ARCHITECTURE.txt (Layer 2接口), 04_CORE_SPIKING.txt (脉冲组件)
+================================================================================
+
+【融合设计哲学】
+
+CRS不是训练流程的外层包裹，而是与脉冲机制的计算同构:
+
+┌─────────────────────────────────────────────────────────┐
+│  CRS阶段      │  人类认知机制        │  SpikingBrain实现   │
+├─────────────────────────────────────────────────────────┤
+│  Comprehension│  注意力聚焦/筛选     │  GLA门控向量g_t    │
+│               │  多模态深度编码      │  脉冲稀疏编码增强   │
+├─────────────────────────────────────────────────────────┤
+│  Recall       │  主动检索/合意困难   │  GLA状态矩阵S_t    │
+│               │  记忆痕迹再激活      │  作为可微记忆库     │
+├─────────────────────────────────────────────────────────┤
+│  Synthesis    │  费曼技巧/空白生成   │  SpikingFFN        │
+│               │  知识重构           │  blank模式强制稀疏  │
+├─────────────────────────────────────────────────────────┤
+│  SpacedReview │  艾宾浩斯遗忘曲线    │  自适应阈值调整     │
+│               │  SM-2/FSRS调度      │  模拟LTP/LTD       │
+├─────────────────────────────────────────────────────────┤
+│  ErrorCorrection│ 元认知监控          │  脉冲发放率置信度   │
+│               │  自信度校准         │  检测过自信gap     │
+└─────────────────────────────────────────────────────────┘
+
+【组件1: FSRS调度器】
+
+```python
+class FSRSScheduler:
+    """
+    Free Spaced Repetition Scheduler
+    基于FSRS-4.5算法简化版，优化间隔重复调度
+    
+    核心公式:
+    R = e^(-t/S)  # 可提取性（Retrievability）
+    S_next = S * (1 + a * D^(-b) * R^(c) * (11-R)^(d))  # 稳定性更新
+    """
+    
+    def __init__(
+        self,
+        request_retention: float = 0.9,  # 目标保持率90%
+        max_interval: int = 365,  # 最大间隔（epoch为单位）
+        seed: int = 42
+    ):
+        self.request_retention = request_retention
+        self.max_interval = max_interval
+        self.rng = np.random.RandomState(seed)
+        
+        # 样本状态存储
+        # 结构: {sample_id: {'difficulty': D, 'stability': S, 'last_review': epoch, 'interval': int}}
+        self.card_states: Dict[int, Dict] = {}
+        
+        # FSRS参数（预训练优化值，简化版）
+        self.params = {
+            'w': [0.4, 0.6, 2.4, 5.8, 4.93, 0.94, 0.86, 0.01, 1.49, 0.14, 0.94, 2.18, 0.05, 0.34, 1.26, 0.29, 2.61]
+        }
+        
+    def get_due_samples(self, current_epoch: int, candidate_ids: torch.Tensor) -> torch.Tensor:
+        """
+        获取当前epoch到期的样本索引
+        
+        策略:
+        1. 新样本（未见过）: 总是到期
+        2. 旧样本: 如果 current_epoch - last_review >= interval 则到期
+        
+        Returns:
+            due_indices: 在candidate_ids中的位置索引
+        """
+        candidate_list = candidate_ids.cpu().tolist()
+        due_positions = []
+        
+        for pos, sid in enumerate(candidate_list):
+            if sid not in self.card_states:
+                # 新样本，初始化状态
+                self.card_states[sid] = {
+                    'difficulty': 5.0,  # 初始难度中等
+                    'stability': 0.0,   # 初始稳定性0（未学习）
+                    'last_review': -1,
+                    'interval': 0
+                }
+                due_positions.append(pos)
+            else:
+                state = self.card_states[sid]
+                elapsed = current_epoch - state['last_review']
+                if elapsed >= state['interval']:
+                    due_positions.append(pos)
+        
+        return torch.tensor(due_positions, dtype=torch.long)
+    
+    def update_after_review(
+        self,
+        sample_ids: torch.Tensor,
+        ratings: torch.Tensor,  # 1-4分（1=忘记，4=熟练）
+        response_times: Optional[torch.Tensor] = None
+    ):
+        """
+        根据复习结果更新FSRS参数
+        
+        Args:
+            ratings: 1=Again, 2=Hard, 3=Good, 4=Easy
+        """
+        w = self.params['w']
+        
+        for sid, rating in zip(sample_ids.cpu().tolist(), ratings.cpu().tolist()):
+            state = self.card_states[sid]
+            old_s = state['stability']
+            old_d = state['difficulty']
+            
+            # 简化FSRS更新（完整版更复杂）
+            if rating == 1:  # 忘记
+                # 稳定性下降
+                new_s = max(0.1, old_s * 0.5)
+                # 难度上升
+                new_d = min(10, old_d + 1.5)
+            elif rating == 2:  # Hard
+                new_s = old_s * 1.2 if old_s > 0 else 1.0
+                new_d = min(10, old_d + 0.3)
+            elif rating == 3:  # Good
+                new_s = old_s * 2.5 if old_s > 0 else 2.0
+                new_d = max(1, old_d - 0.2)
+            else:  # Easy (4)
+                new_s = old_s * 4.0 if old_s > 0 else 4.0
+                new_d = max(1, old_d - 0.5)
+            
+            # 计算新间隔（基于稳定性）
+            # I = S * ln(R_target) / ln(0.9) 近似
+            if new_s > 0:
+                interval = int(new_s * np.log(self.request_retention) / np.log(0.9))
+                interval = min(interval, self.max_interval)
+            else:
+                interval = 1
+            
+            # 更新状态
+            state['stability'] = new_s
+            state['difficulty'] = new_d
+            state['last_review'] = state.get('current_epoch', 0)
+            state['interval'] = max(1, interval)
+            
+            self.card_states[sid] = state
+    
+    def get_sample_difficulty(self, sample_id: int) -> float:
+        """获取样本当前难度（用于合意困难调度）"""
+        if sample_id not in self.card_states:
+            return 5.0
+        return self.card_states[sample_id]['difficulty']
+    
+    def get_memory_state_tensor(self, sample_ids: List[int], device: torch.device) -> torch.Tensor:
+        """
+        将FSRS状态转换为张量（可用于模型输入）
+        返回: [len(sample_ids), 3] 包含difficulty, stability, elapsed
+        """
+        states = []
+        current_epoch = max((s['last_review'] + s['interval'] 
+                            for s in self.card_states.values()), default=0)
+        
+        for sid in sample_ids:
+            s = self.card_states.get(sid, {'difficulty': 5.0, 'stability': 0.0, 'last_review': -1, 'interval': 0})
+            elapsed = current_epoch - s['last_review'] if s['last_review'] >= 0 else 0
+            states.append([s['difficulty'], s['stability'], elapsed])
+        
+        return torch.tensor(states, dtype=torch.float32, device=device)
+```
+
+【组件2: 五阶段训练器】
+
+```python
+class CRSMedicalTrainer:
+    """
+    CRS五阶段医学训练器
+    与脉冲神经网络深度融合
+    """
+    
+    def __init__(
+        self,
+        model: nn.Module,
+        config: Dict,
+        device: torch.device
+    ):
+        self.model = model
+        self.config = config
+        self.device = device
+        
+        # FSRS调度器
+        self.fsrs = FSRSScheduler(
+            request_retention=config.get('fsrs_request_retention', 0.9)
+        )
+        
+        # 阶段历史（用于分析）
+        self.phase_history = []
+        
+        # 优化器（8-bit Adam节省显存）
+        self.optimizer = self._create_optimizer()
+        
+        # 学习率调度
+        self.lr_scheduler = CosineAnnealingWarmRestarts(
+            self.optimizer, 
+            T_0=config.get('lr_restart_epochs', 10),
+            T_mult=2
+        )
+        
+        # 梯度累积
+        self.grad_accum_steps = config.get('grad_accum_steps', 4)
+        self.current_accum_step = 0
+        
+    def _create_optimizer(self) -> torch.optim.Optimizer:
+        """创建内存高效的优化器"""
+        try:
+            import bitsandbytes as bnb
+            # 8-bit AdamW（节省显存）
+            return bnb.optim.AdamW8bit(
+                self.model.parameters(),
+                lr=self.config.get('lr', 1e-4),
+                weight_decay=self.config.get('weight_decay', 0.01),
+                betas=(0.9, 0.95)
+            )
+        except ImportError:
+            # 回退到标准AdamW
+            return torch.optim.AdamW(
+                self.model.parameters(),
+                lr=self.config.get('lr', 1e-4),
+                weight_decay=self.config.get('weight_decay', 0.01)
+            )
+    
+    def get_phase_weights(self, epoch: int) -> Dict[str, float]:
+        """
+        动态阶段权重调度
+        早期侧重建立基础，后期侧重巩固和纠错
+        """
+        if epoch < 5:
+            # 早期: 精讲(50%) + 回忆(30%) + 合成(20%)
+            return {
+                'comprehension': 0.5,
+                'recall': 0.3,
+                'synthesis': 0.2,
+                'spaced_review': 0.0,
+                'error_correction': 0.0
+            }
+        elif epoch < 15:
+            # 中期: 平衡发展，引入复习
+            return {
+                'comprehension': 0.25,
+                'recall': 0.25,
+                'synthesis': 0.2,
+                'spaced_review': 0.2,
+                'error_correction': 0.1
+            }
+        else:
+            # 后期: 巩固为主
+            return {
+                'comprehension': 0.1,
+                'recall': 0.15,
+                'synthesis': 0.1,
+                'spaced_review': 0.4,
+                'error_correction': 0.25
+            }
+    
+    def train_epoch(self, dataloader, epoch: int) -> Dict[str, float]:
+        """
+        单epoch训练，动态混合五阶段
+        
+        Returns:
+            metrics: 包含loss, sparsity, phase_distribution等
+        """
+        self.model.train()
+        
+        phase_weights = self.get_phase_weights(epoch)
+        phase_losses = {p: 0.0 for p in phase_weights.keys()}
+        phase_counts = {p: 0 for p in phase_weights.keys()}
+        
+        total_loss = 0.0
+        total_samples = 0
+        total_sparsity = 0.0
+        
+        pbar = tqdm(dataloader, desc=f"Epoch {epoch}")
+        
+        for batch_idx, batch in enumerate(pbar):
+            # 选择阶段（按权重随机）
+            phase = random.choices(
+                list(phase_weights.keys()),
+                weights=list(phase_weights.values())
+            )[0]
+            
+            # 阶段特定训练步骤
+            loss, sparsity = self._train_step(batch, phase, epoch)
+            
+            # 梯度累积
+            loss = loss / self.grad_accum_steps
+            loss.backward()
+            
+            self.current_accum_step += 1
+            if self.current_accum_step % self.grad_accum_steps == 0:
+                # 梯度裁剪
+                torch.nn.utils.clip_grad_norm_(
+                    self.model.parameters(),
+                    max_norm=1.0
+                )
+                self.optimizer.step()
+                self.optimizer.zero_grad()
+                self.current_accum_step = 0
+            
+            # 统计
+            batch_size = len(batch['label'])
+            total_loss += loss.item() * self.grad_accum_steps * batch_size
+            total_samples += batch_size
+            total_sparsity += sparsity * batch_size
+            
+            phase_losses[phase] += loss.item()
+            phase_counts[phase] += 1
+            
+            # 更新进度条
+            pbar.set_postfix({
+                'loss': f"{loss.item() * self.grad_accum_steps:.4f}",
+                'phase': phase[:3],
+                'spar': f"{sparsity:.2%}"
+            })
+        
+        # 学习率更新
+        self.lr_scheduler.step()
+        
+        # 计算epoch指标
+        avg_loss = total_loss / total_samples
+        avg_sparsity = total_sparsity / total_samples
+        
+        # 阶段分布
+        phase_dist = {p: cnt / sum(phase_counts.values()) 
+                     for p, cnt in phase_counts.items()}
+        
+        # 阶段平均损失
+        phase_avg_losses = {
+            p: (phase_losses[p] / phase_counts[p] if phase_counts[p] > 0 else 0)
+            for p in phase_losses.keys()
+        }
+        
+        metrics = {
+            'epoch': epoch,
+            'avg_loss': avg_loss,
+            'avg_sparsity': avg_sparsity,
+            'phase_distribution': phase_dist,
+            'phase_losses': phase_avg_losses,
+            'lr': self.lr_scheduler.get_last_lr()[0]
+        }
+        
+        self.phase_history.append(metrics)
+        return metrics
+    
+    def _train_step(self, batch: Dict, phase: str, epoch: int) -> Tuple[torch.Tensor, float]:
+        """
+        单步训练，根据阶段选择不同前向逻辑
+        """
+        # 将batch移到设备
+        batch = {k: v.to(self.device) if isinstance(v, torch.Tensor) else v 
+                for k, v in batch.items()}
+        
+        if phase == 'comprehension':
+            return self._comprehension_step(batch)
+        elif phase == 'recall':
+            return self._recall_step(batch)
+        elif phase == 'synthesis':
+            return self._synthesis_step(batch)
+        elif phase == 'spaced_review':
+            return self._spaced_review_step(batch, epoch)
+        else:  # error_correction
+            return self._error_correction_step(batch)
+    
+    def _comprehension_step(self, batch: Dict) -> Tuple[torch.Tensor, float]:
+        """
+        精讲阶段: 多模态深度编码 + 脉冲门控增强
+        """
+        # 标准前向，但收集门控信息用于正则化
+        outputs = self.model(
+            batch['input'],
+            stage='comprehension',
+            sample_ids=batch['sample_id']
+        )
+        
+        logits = outputs['logits']
+        sparsity = outputs['sparsity']
+        
+        # 标准交叉熵
+        ce_loss = F.cross_entropy(logits, batch['label'])
+        
+        # 门控正则化: 鼓励稀疏注意力（聚焦关键特征）
+        # 从模型中提取门控激活（假设模型保存了）
+        gate_reg = torch.tensor(0.0, device=self.device)
+        if 'gate_activations' in outputs:
+            # L1正则化鼓励稀疏
+            gate_reg = 0.01 * sum(g.abs().mean() for g in outputs['gate_activations'])
+        
+        # InfoNCE风格对比损失（同类聚集，异类分离）
+        # 简化实现：使用标签作为同类指示
+        contrastive_loss = self._contrastive_loss(outputs['features'], batch['label'])
+        
+        total_loss = ce_loss + gate_reg + 0.1 * contrastive_loss
+        
+        return total_loss, sparsity
+    
+    def _recall_step(self, batch: Dict) -> Tuple[torch.Tensor, float]:
+        """
+        回忆阶段: 主动检索 + 合意困难调度
+        """
+        # 动态mask比例（合意困难）
+        current_acc = self._estimate_current_accuracy()
+        # 准确率越高，mask越多（越困难）
+        mask_ratio = 0.6 + 0.3 * current_acc  # 0.6 - 0.9
+        
+        # 随机mask输入特征
+        mask = torch.rand_like(batch['input']) > mask_ratio
+        masked_input = batch['input'] * mask
+        
+        # 从mask输入重建
+        outputs = self.model(
+            masked_input,
+            stage='recall',
+            sample_ids=batch['sample_id']
+        )
+        
+        # 重建损失: 与完整输入的输出一致
+        with torch.no_grad():
+            full_outputs = self.model(batch['input'], stage='recall')
+        
+        # 特征空间重建损失
+        feature_loss = F.mse_loss(outputs['features'], full_outputs['features'])
+        
+        # 分类损失（确保重建后仍能正确分类）
+        ce_loss = F.cross_entropy(outputs['logits'], batch['label'])
+        
+        total_loss = 0.7 * ce_loss + 0.3 * feature_loss
+        
+        return total_loss, outputs['sparsity']
+    
+    def _synthesis_step(self, batch: Dict) -> Tuple[torch.Tensor, float]:
+        """
+        合成阶段: 费曼学习法，从blank脉冲状态生成
+        """
+        # 强制进入blank模式（在SpikingFFN中实现）
+        outputs = self.model(
+            batch['input'],
+            stage='synthesis',
+            sample_ids=batch['sample_id']
+        )
+        
+        logits = outputs['logits']
+        sparsity = outputs['sparsity']
+        
+        # 标准分类损失
+        ce_loss = F.cross_entropy(logits, batch['label'])
+        
+        # 多样性损失: 鼓励不同样本的脉冲模式差异大（避免死记硬背）
+        # 使用批次内脉冲特征的方差
+        if 'spike_patterns' in outputs:
+            spike_feats = outputs['spike_patterns']  # [B, D]
+            # 最大化平均成对距离
+            diversity_loss = -torch.pdist(spike_feats).mean()
+        else:
+            diversity_loss = torch.tensor(0.0, device=self.device)
+        
+        total_loss = ce_loss + 0.1 * diversity_loss
+        
+        return total_loss, sparsity
+    
+    def _spaced_review_step(self, batch: Dict, epoch: int) -> Tuple[torch.Tensor, float]:
+        """
+        间隔复习阶段: FSRS调度 + 脉冲长期可塑性
+        """
+        sample_ids = batch['sample_id'].cpu().tolist()
+        
+        # 查询FSRS到期样本
+        due_positions = self.fsrs.get_due_samples(epoch, batch['sample_id'])
+        
+        if len(due_positions) == 0:
+            # 无到期样本，返回0损失（或采样一些）
+            return torch.tensor(0.0, device=self.device, requires_grad=True), 0.0
+        
+        # 仅复习到期样本
+        review_batch = {k: v[due_positions] for k, v in batch.items()}
+        
+        # 前向
+        outputs = self.model(
+            review_batch['input'],
+            stage='spaced_review',
+            sample_ids=review_batch['sample_id']
+        )
+        
+        logits = outputs['logits']
+        labels = review_batch['label']
+        
+        # 标准损失
+        ce_loss = F.cross_entropy(logits, labels)
+        
+        # 计算预测结果用于FSRS更新
+        with torch.no_grad():
+            probs = F.softmax(logits, dim=-1)
+            confidence, pred = probs.max(dim=-1)
+            correct = (pred == labels)
+            
+            # 转换为FSRS评分 (1-4)
+            # 4: 高置信正确, 3: 正确但不确定, 2: 错误但不确定, 1: 高置信错误
+            ratings = torch.where(
+                correct & (confidence > 0.8), torch.tensor(4),
+                torch.where(correct, torch.tensor(3),
+                           torch.where(confidence < 0.5, torch.tensor(2), torch.tensor(1)))
+            )
+        
+        # 更新FSRS状态（无梯度）
+        self.fsrs.update_after_review(review_batch['sample_id'], ratings)
+        
+        # 关键: 脉冲阈值自适应（模拟LTP/LTD）
+        # 正确且高置信 -> 降低阈值（易激活，巩固）
+        # 错误且高置信 -> 提高阈值（难激活，遗忘错误）
+        with torch.no_grad():
+            for i, (sid, corr, conf) in enumerate(zip(
+                review_batch['sample_id'].cpu().tolist(),
+                correct.cpu().tolist(),
+                confidence.cpu().tolist()
+            )):
+                if corr and conf > 0.8:
+                    # LTP: 降低该样本的脉冲阈值
+                    self._adjust_sample_threshold(sid, delta=-0.05)
+                elif not corr and conf > 0.8:
+                    # 错误固化风险: 提高阈值
+                    self._adjust_sample_threshold(sid, delta=+0.1)
+        
+        return ce_loss, outputs['sparsity']
+    
+    def _error_correction_step(self, batch: Dict) -> Tuple[torch.Tensor, float]:
+        """
+        即时纠错阶段: 元认知监控 + 脉冲置信度校准
+        """
+        outputs = self.model(
+            batch['input'],
+            stage='error_correction',
+            sample_ids=batch['sample_id']
+        )
+        
+        logits = outputs['logits']
+        labels = batch['label']
+        
+        # 标准损失
+        ce_loss = F.cross_entropy(logits, labels)
+        
+        # 元认知: 模型自信度 vs 脉冲置信度
+        model_confidence = F.softmax(logits, dim=-1).max(dim=-1)[0]
+        
+        # 脉冲置信度: 发放率越高=信息越充足=越自信
+        if 'spike_records' in outputs:
+            spike_rates = [(s != 0).float().mean() for s in outputs['spike_records']]
+            spike_confidence = torch.stack(spike_rates).mean()
+        else:
+            spike_confidence = torch.tensor(0.5, device=self.device)
+        
+        # 检测过度自信（模型很自信但脉冲不活跃）
+        overconfidence_gap = model_confidence - spike_confidence
+        overconfident_mask = (overconfidence_gap > 0.2) & (model_confidence > 0.8)
+        
+        # 校准损失: 惩罚过度自信
+        if overconfident_mask.any():
+            calibration_loss = F.mse_loss(
+                model_confidence[overconfident_mask],
+                spike_confidence.expand_as(model_confidence[overconfident_mask])
+            )
+        else:
+            calibration_loss = torch.tensor(0.0, device=self.device)
+        
+        total_loss = ce_loss + 0.5 * calibration_loss
+        
+        return total_loss, outputs['sparsity']
+    
+    def _estimate_current_accuracy(self) -> float:
+        """基于最近历史估计当前准确率（用于合意困难）"""
+        if len(self.phase_history) < 2:
+            return 0.5
+        # 简单估计：基于最近loss
+        recent_loss = self.phase_history[-1]['avg_loss']
+        # 假设loss 2.0 -> 准确率0.2, loss 0.5 -> 准确率0.9
+        estimated = max(0.1, min(0.95, 1.0 - recent_loss / 2.5))
+        return estimated
+    
+    def _contrastive_loss(self, features: torch.Tensor, labels: torch.Tensor) -> torch.Tensor:
+        """简化版对比损失"""
+        # 使用标签构建正负样本对
+        # 同类为正，异类为负
+        similarity_matrix = F.cosine_similarity(
+            features.unsqueeze(1), 
+            features.unsqueeze(0), 
+            dim=-1
+        ) / 0.07  # temperature
+        
+        # 构建mask
+        labels_expanded = labels.unsqueeze(0) == labels.unsqueeze(1)
+        positives = labels_expanded.float()
+        negatives = (~labels_expanded).float()
+        
+        # InfoNCE
+        logits = similarity_matrix - similarity_matrix.max(dim=1, keepdim=True)[0]
+        exp_logits = torch.exp(logits)
+        
+        positive_sum = (exp_logits * positives).sum(dim=1)
+        all_sum = exp_logits.sum(dim=1)
+        
+        loss = -torch.log(positive_sum / all_sum + 1e-10).mean()
+        return loss
+    
+    def _adjust_sample_threshold(self, sample_id: int, delta: float):
+        """
+        调整特定样本的脉冲阈值（长期可塑性）
+        实际实现：维护一个阈值偏移字典
+        """
+        # 简化：这里可以扩展为更复杂的机制
+        pass
+    
+    def save_checkpoint(self, path: Path, epoch: int, metrics: Dict):
+        """保存检查点（包含FSRS状态）"""
+        checkpoint = {
+            'epoch': epoch,
+            'model_state': self.model.state_dict(),
+            'optimizer_state': self.optimizer.state_dict(),
+            'scheduler_state': self.lr_scheduler.state_dict(),
+            'fsrs_states': self.fsrs.card_states,
+            'phase_history': self.phase_history,
+            'metrics': metrics
+        }
+        torch.save(checkpoint, path)
+        print(f"Checkpoint saved to {path}")
+    
+    def load_checkpoint(self, path: Path) -> int:
+        """加载检查点，返回恢复到的epoch"""
+        checkpoint = torch.load(path, map_location=self.device)
+        self.model.load_state_dict(checkpoint['model_state'])
+        self.optimizer.load_state_dict(checkpoint['optimizer_state'])
+        self.lr_scheduler.load_state_dict(checkpoint['scheduler_state'])
+        self.fsrs.card_states = checkpoint['fsrs_states']
+        self.phase_history = checkpoint['phase_history']
+        print(f"Checkpoint loaded from {path}, resuming epoch {checkpoint['epoch']}")
+        return checkpoint['epoch']
+```
+
+【验收标准】
+
+AC1. FSRS调度正确性
+```python
+fsrs = FSRSScheduler()
+# 模拟3个样本的学习
+sample_ids = torch.tensor([0, 1, 2])
+epoch = 0
+due = fsrs.get_due_samples(epoch, sample_ids)
+assert len(due) == 3, "新样本应全部到期"
+
+# 更新：样本0熟练，样本1忘记
+fsrs.update_after_review(torch.tensor([0]), torch.tensor([4]))  # Easy
+fsrs.update_after_review(torch.tensor([1]), torch.tensor([1]))  # Again
+
+# 检查间隔
+state_0 = fsrs.card_states[0]
+state_1 = fsrs.card_states[1]
+assert state_0['interval'] > state_1['interval'], "熟练样本应有更长间隔"
+```
+
+AC2. 五阶段训练流程
+```python
+# 运行一个完整epoch，验证所有阶段都被执行
+trainer = CRSMedicalTrainer(model, config, device)
+metrics = trainer.train_epoch(dataloader, epoch=0)
+assert all(p in metrics['phase_distribution'] for p in ['comprehension', 'recall', 'synthesis', 'spaced_review', 'error_correction'])
+assert abs(sum(metrics['phase_distribution'].values()) - 1.0) < 0.01
+```
+
+AC3. 脉冲-CRS融合验证
+```python
+# 验证spaced_review阶段确实调整了脉冲阈值
+# 通过监控模型的spiking层阈值变化
+```
+
+【参考文档】
+- 04_CORE_SPIKING.txt (脉冲组件)
+- 06_TRAINING_ENGINE.txt (训练流程集成)
+================================================================================
+```

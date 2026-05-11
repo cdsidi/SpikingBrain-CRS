@@ -1,0 +1,13 @@
+### 10_ABLATION_FRAMEWORK.txt（消融框架）
+
+```txt
+关键内容:
+- 8组消融变体自动生成
+- 组件移除机制（装饰器实现）
+- 消融结果聚合分析
+- 贡献度瀑布图生成
+
+核心接口:
+class AblationStudy
+class ComponentMask（上下文管理器）
+```
